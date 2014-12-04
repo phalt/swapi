@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 
-from django.shortcuts import response
+from django.shortcuts import render_to_response
 
 def index(request):
-    return response('index.html')
+    return render_to_response('index.html', {})
