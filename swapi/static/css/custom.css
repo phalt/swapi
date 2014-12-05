@@ -11,6 +11,10 @@
     padding-top: 34px;
 }
 
+.pad_bot {
+    padding-bottom: 34px;
+}
+
 .subscribe_btn {
     margin-left: -100px!;
 }
