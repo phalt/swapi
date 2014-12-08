@@ -56,7 +56,7 @@ USE_L10N = True
 USE_TZ = True
 
 
-if debug is False:
+if DEBUG is False:
 
     DATABASES['default'] =  dj_database_url.config()
 
