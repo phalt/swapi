@@ -33,10 +33,11 @@ class PeopleViewSet(viewsets.ReadOnlyModelViewSet):
     def retrieve(self, request, *args, **kwargs):
         if not settings.DEBUG:
             keen.add_event(
-                "people_detail_hit",
+                "detail_hit",
                 {
                     "url": request.get_full_path(),
-                    "type": "detail"
+                    "type": "detail",
+                    "resource": "people"
 
                 }
             )
@@ -45,10 +46,11 @@ class PeopleViewSet(viewsets.ReadOnlyModelViewSet):
     def list(self, request, *args, **kwargs):
         if not settings.DEBUG:
             keen.add_event(
-                "people_list_hit",
+                "list_hit",
                 {
                     "url": request.get_full_path(),
-                    "type": "list"
+                    "type": "list",
+                    "resource": "people"
 
                 }
             )
@@ -63,10 +65,11 @@ class PlanetViewSet(viewsets.ReadOnlyModelViewSet):
     def retrieve(self, request, *args, **kwargs):
         if not settings.DEBUG:
             keen.add_event(
-                "planet_detail_hit",
+                "detail_hit",
                 {
                     "url": request.get_full_path(),
-                    "type": "detail"
+                    "type": "detail",
+                    "resource": "planet"
 
                 }
             )
@@ -75,10 +78,11 @@ class PlanetViewSet(viewsets.ReadOnlyModelViewSet):
     def list(self, request, *args, **kwargs):
         if not settings.DEBUG:
             keen.add_event(
-                "planet_list_hit",
+                "list_hit",
                 {
                     "url": request.get_full_path(),
-                    "type": "list"
+                    "type": "list",
+                    "resource": "planet"
 
                 }
             )
@@ -93,10 +97,11 @@ class FilmViewSet(viewsets.ReadOnlyModelViewSet):
     def retrieve(self, request, *args, **kwargs):
         if not settings.DEBUG:
             keen.add_event(
-                "film_detail_hit",
+                "detail_hit",
                 {
                     "url": request.get_full_path(),
-                    "type": "detail"
+                    "type": "detail",
+                    "resource": "film"
 
                 }
             )
@@ -105,10 +110,11 @@ class FilmViewSet(viewsets.ReadOnlyModelViewSet):
     def list(self, request, *args, **kwargs):
         if not settings.DEBUG:
             keen.add_event(
-                "film_list_hit",
+                "list_hit",
                 {
                     "url": request.get_full_path(),
-                    "type": "list"
+                    "type": "list",
+                    "resource": "film"
 
                 }
             )
@@ -123,10 +129,11 @@ class SpeciesViewSet(viewsets.ReadOnlyModelViewSet):
     def retrieve(self, request, *args, **kwargs):
         if not settings.DEBUG:
             keen.add_event(
-                "species_detail_hit",
+                "detail_hit",
                 {
                     "url": request.get_full_path(),
-                    "type": "detail"
+                    "type": "detail",
+                    "resource": "species"
 
                 }
             )
@@ -135,10 +142,11 @@ class SpeciesViewSet(viewsets.ReadOnlyModelViewSet):
     def list(self, request, *args, **kwargs):
         if not settings.DEBUG:
             keen.add_event(
-                "species_list_hit",
+                "list_hit",
                 {
                     "url": request.get_full_path(),
-                    "type": "list"
+                    "type": "list",
+                    "resource": "species"
 
                 }
             )
@@ -153,10 +161,11 @@ class VehicleViewSet(viewsets.ReadOnlyModelViewSet):
     def retrieve(self, request, *args, **kwargs):
         if not settings.DEBUG:
             keen.add_event(
-                "vehicle_detail_hit",
+                "detail_hit",
                 {
                     "url": request.get_full_path(),
-                    "type": "detail"
+                    "type": "detail",
+                    "resource": "vehicle"
 
                 }
             )
@@ -165,10 +174,11 @@ class VehicleViewSet(viewsets.ReadOnlyModelViewSet):
     def list(self, request, *args, **kwargs):
         if not settings.DEBUG:
             keen.add_event(
-                "vehicle_list_hit",
+                "list_hit",
                 {
                     "url": request.get_full_path(),
-                    "type": "list"
+                    "type": "list",
+                    "resource": "vehicle"
 
                 }
             )
@@ -183,10 +193,11 @@ class StarshipViewSet(viewsets.ReadOnlyModelViewSet):
     def retrieve(self, request, *args, **kwargs):
         if not settings.DEBUG:
             keen.add_event(
-                "starshi_detail_hit",
+                "detail_hit",
                 {
                     "url": request.get_full_path(),
-                    "type": "detail"
+                    "type": "detail",
+                    "resource": "starship"
 
                 }
             )
@@ -195,10 +206,11 @@ class StarshipViewSet(viewsets.ReadOnlyModelViewSet):
     def list(self, request, *args, **kwargs):
         if not settings.DEBUG:
             keen.add_event(
-                "starship_list_hit",
+                "list_hit",
                 {
                     "url": request.get_full_path(),
-                    "type": "list"
+                    "type": "list",
+                    "resource": "starship"
 
                 }
             )
