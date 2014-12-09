@@ -78,4 +78,33 @@ TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates'),
 )
 
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    }
+}
+
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+
+# REST Framework
+
+REST_FRAMEWORK = {
+    "DEFAULT_RENDER_CLASSES": (
+        'rest_framework.renderers.JSONRenderer',
+    ),
+    'PAGINATE_BY': 10,
+    'DEFAULT_THROTTLE_CLASSES': (
+        'rest_framework.throttling.AnonRateThrottle',
+    ),
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '10000/day',
+    }
+}
+
+# Keen.io
+
+KEEN_PROJECT_ID = os.environ.get('KEEN_PROJECT_ID', '')
+KEEN_WRITE_KEY = os.environ.get('KEEN_WRITE_KEY', '')
+KEEN_READ_KEY = os.environ.get('KEEN_READ_KEY', '')
+KEEN_CELERY = False
