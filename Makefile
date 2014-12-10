@@ -18,5 +18,15 @@ serve:
 	python manage.py runserver
 
 
+dump_data:
+	python manage.py dumpdata resources.planet > resources/fixtures/planets.json --indent 4
+	python manage.py dumpdata resources.people > resources/fixtures/people.json --indent 4
+	python manage.py dumpdata resources.species > resources/fixtures/species.json --indent 4
+	python manage.py dumpdata resources.starship > resources/fixtures/starships.json --indent 4
+	python manage.py dumpdata resources.vehicle > resources/fixtures/vehicles.json --indent 4
+	python manage.py dumpdata resources.transport > resources/fixtures/transport.json --indent 4
+	python manage.py dumpdata resources.film > resources/fixtures/films.json --indent 4
+
+
 drop_db:
 	python manage.py flush
