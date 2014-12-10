@@ -1,0 +1,12 @@
+[
+{
+    "fields": {
+        "vehicle_class": "Starfighter",
+        "pilots": [
+            1
+        ]
+    },
+    "model": "resources.vehicle",
+    "pk": 1
+}
+]

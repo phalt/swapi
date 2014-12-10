@@ -1,0 +1,42 @@
+[
+{
+    "fields": {
+        "edited": "2014-12-10T13:59:11.806Z",
+        "consumables": "1 week",
+        "name": "X-Wing",
+        "created": "2014-12-10T13:59:11.806Z",
+        "cargo_capacity": "110 kg",
+        "passengers": "0",
+        "max_atmosphering_speed": "1,050 km/h",
+        "crew": "1",
+        "length": "12.5 m",
+        "pilots": [
+            1
+        ],
+        "model": "T-65 X-wing",
+        "cost_in_credits": "149,999",
+        "manufacturer": "Incom corporation"
+    },
+    "model": "resources.transport",
+    "pk": 1
+},
+{
+    "fields": {
+        "edited": "2014-12-10T14:20:33.369Z",
+        "consumables": "1 year",
+        "name": "Tantive IV",
+        "created": "2014-12-10T14:20:33.369Z",
+        "cargo_capacity": "3,000,000 kg",
+        "passengers": "600",
+        "max_atmosphering_speed": "950 km/h",
+        "crew": "30-165",
+        "length": "150 m",
+        "pilots": [],
+        "model": "CR90 corvette",
+        "cost_in_credits": "3,500,000",
+        "manufacturer": "Corellian Engineering Corporation"
+    },
+    "model": "resources.transport",
+    "pk": 2
+}
+]

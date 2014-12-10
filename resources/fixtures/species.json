@@ -1,0 +1,23 @@
+[
+{
+    "fields": {
+        "edited": "2014-12-10T13:52:11.567Z",
+        "classification": "Mammal",
+        "name": "Human",
+        "designation": "Sentient",
+        "created": "2014-12-10T13:52:11.567Z",
+        "eye_colors": "Brown, Blue, Green, Hazel, Grey, Amber",
+        "people": [
+            1
+        ],
+        "skin_colors": "Caucasian, Black, Asian, Hispanic",
+        "language": "Galactic Basic",
+        "hair_colors": "Blonde, Brown, Black, Red",
+        "homeworld": 9,
+        "average_lifespan": "120 standard years",
+        "average_height": "1.8 m"
+    },
+    "model": "resources.species",
+    "pk": 1
+}
+]

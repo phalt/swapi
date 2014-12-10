@@ -1,0 +1,325 @@
+[
+{
+    "fields": {
+        "edited": "2014-12-10T11:39:32.931Z",
+        "climate": "Arid",
+        "surface_water": "1%",
+        "name": "Tatooine",
+        "diameter": "10,465 lm",
+        "rotation_period": "23 hours",
+        "created": "2014-12-09T13:50:49.641Z",
+        "terrain": "Dessert",
+        "gravity": "1 standard",
+        "orbital_period": "304 days",
+        "population": "80,000-200,000"
+    },
+    "model": "resources.planet",
+    "pk": 1
+},
+{
+    "fields": {
+        "edited": "2014-12-10T11:39:46.271Z",
+        "climate": "Temperate",
+        "surface_water": "40%",
+        "name": "Alderaan",
+        "diameter": "12,500 Km",
+        "rotation_period": "24 hours",
+        "created": "2014-12-10T11:35:48.479Z",
+        "terrain": "Grasslands, Mountains",
+        "gravity": "1 standard",
+        "orbital_period": "364 days",
+        "population": "2,000,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 2
+},
+{
+    "fields": {
+        "edited": "2014-12-10T11:40:01.945Z",
+        "climate": "Temperate, Tropical",
+        "surface_water": "8%",
+        "name": "Yavin IV",
+        "diameter": "10,200 Km",
+        "rotation_period": "24 hours",
+        "created": "2014-12-10T11:37:19.144Z",
+        "terrain": "Jungle, Rainforests",
+        "gravity": "1 standard",
+        "orbital_period": "4,818 days",
+        "population": "0-1,000"
+    },
+    "model": "resources.planet",
+    "pk": 3
+},
+{
+    "fields": {
+        "edited": "2014-12-10T11:40:11.292Z",
+        "climate": "Frozen",
+        "surface_water": "100%",
+        "name": "Hoth",
+        "diameter": "7,200 km",
+        "rotation_period": "23 hours",
+        "created": "2014-12-10T11:39:13.934Z",
+        "terrain": "Tundra, Ice caves, Mountain ranges",
+        "gravity": "1.1 standard",
+        "orbital_period": "549 days",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 4
+},
+{
+    "fields": {
+        "edited": "2014-12-10T11:42:22.590Z",
+        "climate": "Murky",
+        "surface_water": "8%",
+        "name": "Dagobah",
+        "diameter": "8,900 km",
+        "rotation_period": "23 hours",
+        "created": "2014-12-10T11:42:22.590Z",
+        "terrain": "Swamp, Jungles",
+        "gravity": "N/A",
+        "orbital_period": "341 days",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 5
+},
+{
+    "fields": {
+        "edited": "2014-12-10T11:43:55.240Z",
+        "climate": "Temperate",
+        "surface_water": "0%",
+        "name": "Bespin",
+        "diameter": "118,000 km",
+        "rotation_period": "12 hours",
+        "created": "2014-12-10T11:43:55.240Z",
+        "terrain": "Gas Giant",
+        "gravity": "1.5 (surface), 1 standard (Cloud City)",
+        "orbital_period": "5,110 days",
+        "population": "6,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 6
+},
+{
+    "fields": {
+        "edited": "2014-12-10T11:50:29.349Z",
+        "climate": "Temperate",
+        "surface_water": "8%",
+        "name": "Endor",
+        "diameter": "4,900 km",
+        "rotation_period": "18 hours",
+        "created": "2014-12-10T11:50:29.349Z",
+        "terrain": "Forests, Mountains, Lakes",
+        "gravity": "0.85 standard",
+        "orbital_period": "402 days",
+        "population": "30,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 7
+},
+{
+    "fields": {
+        "edited": "2014-12-10T11:52:31.067Z",
+        "climate": "Temperate",
+        "surface_water": "12%",
+        "name": "Naboo",
+        "diameter": "12,120 km",
+        "rotation_period": "26 hours",
+        "created": "2014-12-10T11:52:31.066Z",
+        "terrain": "Grassy hills, Swamps, Forests, Mountains",
+        "gravity": "1 standard",
+        "orbital_period": "312 days",
+        "population": "4,500,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 8
+},
+{
+    "fields": {
+        "edited": "2014-12-10T11:54:13.921Z",
+        "climate": "Temperate",
+        "surface_water": "unknown",
+        "name": "Coruscant",
+        "diameter": "12,240 km",
+        "rotation_period": "24 hours",
+        "created": "2014-12-10T11:54:13.921Z",
+        "terrain": "Cityscape, Mountains",
+        "gravity": "1 standard",
+        "orbital_period": "368 days",
+        "population": "1,000,000,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 9
+},
+{
+    "fields": {
+        "edited": "2014-12-10T12:45:06.577Z",
+        "climate": "Temperate",
+        "surface_water": "100%",
+        "name": "Kamino",
+        "diameter": "19,720 km",
+        "rotation_period": "27 hours",
+        "created": "2014-12-10T12:45:06.577Z",
+        "terrain": "Ocean",
+        "gravity": "1 standard",
+        "orbital_period": "463 days",
+        "population": "1,000,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 10
+},
+{
+    "fields": {
+        "edited": "2014-12-10T12:47:22.350Z",
+        "climate": "Temperate, Arid",
+        "surface_water": "5%",
+        "name": "Geonosis",
+        "diameter": "11,370 km",
+        "rotation_period": "30 hours",
+        "created": "2014-12-10T12:47:22.350Z",
+        "terrain": "Rock, Desert, Mountain, Barren",
+        "gravity": "0.9 standard",
+        "orbital_period": "256 days",
+        "population": "100,000,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 11
+},
+{
+    "fields": {
+        "edited": "2014-12-10T12:49:01.491Z",
+        "climate": "Temperate, Arid, Windy",
+        "surface_water": "0.9%",
+        "name": "Utapau",
+        "diameter": "12,900 km",
+        "rotation_period": "27 hours",
+        "created": "2014-12-10T12:49:01.491Z",
+        "terrain": "Scrublands, Savanna, Canyons, Sinkholes",
+        "gravity": "1 standard",
+        "orbital_period": "351 days",
+        "population": "95,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 12
+},
+{
+    "fields": {
+        "edited": "2014-12-10T12:50:16.526Z",
+        "climate": "Hot",
+        "surface_water": "0%",
+        "name": "Mustafar",
+        "diameter": "4,200 km",
+        "rotation_period": "36 hours",
+        "created": "2014-12-10T12:50:16.526Z",
+        "terrain": "Volcanoes, Lava rivers, Mountains, Caves",
+        "gravity": "1 standard",
+        "orbital_period": "412 days",
+        "population": "20,000"
+    },
+    "model": "resources.planet",
+    "pk": 13
+},
+{
+    "fields": {
+        "edited": "2014-12-10T13:32:00.124Z",
+        "climate": "Tropical",
+        "surface_water": "60%",
+        "name": "Kashyyyk",
+        "diameter": "12,765 km",
+        "rotation_period": "26 hours",
+        "created": "2014-12-10T13:32:00.124Z",
+        "terrain": "Jungle, Forests, Lakes, Rivers",
+        "gravity": "1 standard",
+        "orbital_period": "381 local days",
+        "population": "45,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 14
+},
+{
+    "fields": {
+        "edited": "2014-12-10T13:33:46.405Z",
+        "climate": "Artificial Temperate ",
+        "surface_water": "0%",
+        "name": "Polis Massa",
+        "diameter": "unknown",
+        "rotation_period": "24 hours",
+        "created": "2014-12-10T13:33:46.405Z",
+        "terrain": "Airless asteroid",
+        "gravity": "0.56 standard",
+        "orbital_period": "590 days",
+        "population": "1,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 15
+},
+{
+    "fields": {
+        "edited": "2014-12-10T13:43:39.139Z",
+        "climate": "Frigid",
+        "surface_water": "unknown",
+        "name": "Mygeeto",
+        "diameter": "10,088 km",
+        "rotation_period": "12 hours",
+        "created": "2014-12-10T13:43:39.139Z",
+        "terrain": "Glaciers, Mountains, Ice Canyons",
+        "gravity": "1 standard",
+        "orbital_period": "167 days",
+        "population": "19,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 16
+},
+{
+    "fields": {
+        "edited": "2014-12-10T13:44:50.397Z",
+        "climate": "Hot, Humid",
+        "surface_water": "unknown",
+        "name": "Felucia",
+        "diameter": "9,100 km",
+        "rotation_period": "34 hours",
+        "created": "2014-12-10T13:44:50.397Z",
+        "terrain": "Fungus Forests",
+        "gravity": "0.75 standard",
+        "orbital_period": "231 days",
+        "population": "8,500,000"
+    },
+    "model": "resources.planet",
+    "pk": 17
+},
+{
+    "fields": {
+        "edited": "2014-12-10T13:46:28.704Z",
+        "climate": "Temperate, Moist",
+        "surface_water": "unknown",
+        "name": "Cato Neimoidia",
+        "diameter": "unknown",
+        "rotation_period": "25 hours",
+        "created": "2014-12-10T13:46:28.704Z",
+        "terrain": "Mountains, Fields, Forests, Rock Arches",
+        "gravity": "1 standard",
+        "orbital_period": "278 days",
+        "population": "10,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 18
+},
+{
+    "fields": {
+        "edited": "2014-12-10T13:47:46.874Z",
+        "climate": "Hot",
+        "surface_water": "unknown",
+        "name": "Saleucami",
+        "diameter": "14,920 km",
+        "rotation_period": "26 hours",
+        "created": "2014-12-10T13:47:46.874Z",
+        "terrain": "Caves, Desert, Mountains, Volcanoes",
+        "gravity": "unknown",
+        "orbital_period": "392 ays",
+        "population": "1,400,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 19
+}
+]

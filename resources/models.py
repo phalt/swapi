@@ -89,7 +89,11 @@ class Transport(DateTimeModel):
 
     consumables = models.CharField(max_length=40)
 
-    pilots = models.ManyToManyField(People, related_name="transport")
+    pilots = models.ManyToManyField(
+        People,
+        related_name="transport",
+        blank=True
+    )
 
 
 class Starship(Transport):
