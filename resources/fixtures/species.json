@@ -1,14 +1,15 @@
 [
 {
     "fields": {
-        "edited": "2014-12-10T13:52:11.567Z",
+        "edited": "2014-12-10T15:18:39.698Z",
         "classification": "Mammal",
         "name": "Human",
         "designation": "Sentient",
         "created": "2014-12-10T13:52:11.567Z",
         "eye_colors": "Brown, Blue, Green, Hazel, Grey, Amber",
         "people": [
-            1
+            1,
+            4
         ],
         "skin_colors": "Caucasian, Black, Asian, Hispanic",
         "language": "Galactic Basic",
@@ -19,5 +20,90 @@
     },
     "model": "resources.species",
     "pk": 1
+},
+{
+    "fields": {
+        "edited": "2014-12-10T15:16:16.259Z",
+        "classification": "Artificial",
+        "name": "Droid",
+        "designation": "Sentient",
+        "created": "2014-12-10T15:16:16.259Z",
+        "eye_colors": "n/a",
+        "people": [
+            2,
+            3
+        ],
+        "skin_colors": "n/a",
+        "language": "n/a",
+        "hair_colors": "n/a",
+        "homeworld": null,
+        "average_lifespan": "indefinite",
+        "average_height": "n/a"
+    },
+    "model": "resources.species",
+    "pk": 2
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:44:31.486Z",
+        "classification": "Mammal",
+        "name": "Wookie",
+        "designation": "Sentient",
+        "created": "2014-12-10T16:44:31.486Z",
+        "eye_colors": "blue, green, yellow, brown, golden, red",
+        "people": [
+            13
+        ],
+        "skin_colors": "gray",
+        "language": "Shyriiwook",
+        "hair_colors": "black, brown",
+        "homeworld": 14,
+        "average_lifespan": "400 years",
+        "average_height": "2.1m"
+    },
+    "model": "resources.species",
+    "pk": 3
+},
+{
+    "fields": {
+        "edited": "2014-12-10T17:05:26.471Z",
+        "classification": "Sentient",
+        "name": "Rodian",
+        "designation": "Reptilian",
+        "created": "2014-12-10T17:05:26.471Z",
+        "eye_colors": "black",
+        "people": [
+            15
+        ],
+        "skin_colors": "green, blue",
+        "language": "Galatic Basic",
+        "hair_colors": "n/a",
+        "homeworld": 23,
+        "average_lifespan": "unknown",
+        "average_height": "1.7m"
+    },
+    "model": "resources.species",
+    "pk": 4
+},
+{
+    "fields": {
+        "edited": "2014-12-10T17:12:50.410Z",
+        "classification": "Gastropod",
+        "name": "Hutt",
+        "designation": "Sentient",
+        "created": "2014-12-10T17:12:50.410Z",
+        "eye_colors": "yellow, red",
+        "people": [
+            16
+        ],
+        "skin_colors": "green, brown, tan",
+        "language": "Huttese",
+        "hair_colors": "n/a",
+        "homeworld": 24,
+        "average_lifespan": "1,000 years",
+        "average_height": "3m"
+    },
+    "model": "resources.species",
+    "pk": 5
 }
 ]

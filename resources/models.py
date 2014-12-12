@@ -133,7 +133,7 @@ class Species(DateTimeModel):
 
     average_lifespan = models.CharField(max_length=40)
 
-    homeworld = models.ForeignKey(Planet, blank=True)
+    homeworld = models.ForeignKey(Planet, blank=True, null=True)
 
     language = models.CharField(max_length=40)
 

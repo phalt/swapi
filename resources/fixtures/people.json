@@ -15,5 +15,311 @@
     },
     "model": "resources.people",
     "pk": 1
+},
+{
+    "fields": {
+        "edited": "2014-12-10T15:10:51.357Z",
+        "name": "C-3PO",
+        "created": "2014-12-10T15:10:51.357Z",
+        "gender": "n/a",
+        "skin_color": "Gold",
+        "hair_color": "n/a",
+        "height": "1.67 m",
+        "eye_color": "Yellow",
+        "mass": "75 kg",
+        "homeworld": 1,
+        "birth_year": "112 BBY"
+    },
+    "model": "resources.people",
+    "pk": 2
+},
+{
+    "fields": {
+        "edited": "2014-12-10T15:11:50.376Z",
+        "name": "R2-D2",
+        "created": "2014-12-10T15:11:50.376Z",
+        "gender": "n/a",
+        "skin_color": "White, Blue",
+        "hair_color": "n/a",
+        "height": "0.96 m",
+        "eye_color": "Red",
+        "mass": "32 kg",
+        "homeworld": 8,
+        "birth_year": "33 BBY"
+    },
+    "model": "resources.people",
+    "pk": 3
+},
+{
+    "fields": {
+        "edited": "2014-12-10T15:18:20.704Z",
+        "name": "Darth Vader",
+        "created": "2014-12-10T15:18:20.704Z",
+        "gender": "Male",
+        "skin_color": "white",
+        "hair_color": "none",
+        "height": "2.02 m",
+        "eye_color": "yellow",
+        "mass": "136 kg",
+        "homeworld": 1,
+        "birth_year": "41.9 BBY"
+    },
+    "model": "resources.people",
+    "pk": 4
+},
+{
+    "fields": {
+        "edited": "2014-12-10T15:20:09.791Z",
+        "name": "Leia Organa",
+        "created": "2014-12-10T15:20:09.791Z",
+        "gender": "female",
+        "skin_color": "light",
+        "hair_color": "brown",
+        "height": "1.5 m",
+        "eye_color": "brown",
+        "mass": "49 kg",
+        "homeworld": 2,
+        "birth_year": "19 BBY"
+    },
+    "model": "resources.people",
+    "pk": 5
+},
+{
+    "fields": {
+        "edited": "2014-12-10T15:52:14.024Z",
+        "name": "Owen Lars",
+        "created": "2014-12-10T15:52:14.024Z",
+        "gender": "male",
+        "skin_color": "light",
+        "hair_color": "brown, grey",
+        "height": "1.78 m",
+        "eye_color": "blue",
+        "mass": "120 kg",
+        "homeworld": 1,
+        "birth_year": "52 BBY"
+    },
+    "model": "resources.people",
+    "pk": 6
+},
+{
+    "fields": {
+        "edited": "2014-12-10T15:53:41.121Z",
+        "name": "Beru Whitesun lars",
+        "created": "2014-12-10T15:53:41.121Z",
+        "gender": "female",
+        "skin_color": "light",
+        "hair_color": "brown",
+        "height": "1.65 m",
+        "eye_color": "blue",
+        "mass": "75 kg",
+        "homeworld": 1,
+        "birth_year": "47 BBY"
+    },
+    "model": "resources.people",
+    "pk": 7
+},
+{
+    "fields": {
+        "edited": "2014-12-10T15:57:50.959Z",
+        "name": "R5-D4",
+        "created": "2014-12-10T15:57:50.959Z",
+        "gender": "n/a",
+        "skin_color": "white, red",
+        "hair_color": "n/a",
+        "height": "0.97 m",
+        "eye_color": "red",
+        "mass": "32 kg",
+        "homeworld": 1,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 8
+},
+{
+    "fields": {
+        "edited": "2014-12-10T15:59:50.509Z",
+        "name": "Biggs Darklighter",
+        "created": "2014-12-10T15:59:50.509Z",
+        "gender": "male",
+        "skin_color": "light",
+        "hair_color": "black",
+        "height": "1.83 m",
+        "eye_color": "brown",
+        "mass": "84 kg",
+        "homeworld": 1,
+        "birth_year": "24 BBY"
+    },
+    "model": "resources.people",
+    "pk": 9
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:16:29.192Z",
+        "name": "Obi-Wan Kenobi",
+        "created": "2014-12-10T16:16:29.192Z",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "auburn, white",
+        "height": "1.82m",
+        "eye_color": "blue-gray",
+        "mass": "77kg",
+        "homeworld": 20,
+        "birth_year": "57 BBY"
+    },
+    "model": "resources.people",
+    "pk": 10
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:20:44.310Z",
+        "name": "Anakin Skywalker",
+        "created": "2014-12-10T16:20:44.310Z",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "blond",
+        "height": "1.88m",
+        "eye_color": "blue",
+        "mass": "84kg",
+        "homeworld": 1,
+        "birth_year": "41.9 BBY"
+    },
+    "model": "resources.people",
+    "pk": 11
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:26:56.138Z",
+        "name": "Wilhuff Tarkin",
+        "created": "2014-12-10T16:26:56.138Z",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "auburn, grey",
+        "height": "1.8m",
+        "eye_color": "blue",
+        "mass": "unknown",
+        "homeworld": 21,
+        "birth_year": "64 BBY"
+    },
+    "model": "resources.people",
+    "pk": 12
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:42:45.066Z",
+        "name": "Chewbacca",
+        "created": "2014-12-10T16:42:45.066Z",
+        "gender": "male",
+        "skin_color": "unknown",
+        "hair_color": "brown",
+        "height": "2.28m",
+        "eye_color": "blue",
+        "mass": "112kg",
+        "homeworld": 14,
+        "birth_year": "200 BBY"
+    },
+    "model": "resources.people",
+    "pk": 13
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:49:14.582Z",
+        "name": "Han Solo",
+        "created": "2014-12-10T16:49:14.582Z",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "brown",
+        "height": "1.8m",
+        "eye_color": "brown",
+        "mass": "80kg",
+        "homeworld": 22,
+        "birth_year": "29 BBY"
+    },
+    "model": "resources.people",
+    "pk": 14
+},
+{
+    "fields": {
+        "edited": "2014-12-10T17:03:30.334Z",
+        "name": "Greedo",
+        "created": "2014-12-10T17:03:30.334Z",
+        "gender": "male",
+        "skin_color": "green",
+        "hair_color": "n/a",
+        "height": "1.73m",
+        "eye_color": "black",
+        "mass": "74kg",
+        "homeworld": 23,
+        "birth_year": "44 BBY"
+    },
+    "model": "resources.people",
+    "pk": 15
+},
+{
+    "fields": {
+        "edited": "2014-12-10T17:11:31.638Z",
+        "name": "Jabba Desilijic Tiure",
+        "created": "2014-12-10T17:11:31.638Z",
+        "gender": "Hermaphrodite",
+        "skin_color": "green-tan, brown",
+        "hair_color": "n/a",
+        "height": "1.75m",
+        "eye_color": "orange",
+        "mass": "1,358kg",
+        "homeworld": 24,
+        "birth_year": "600 BBY"
+    },
+    "model": "resources.people",
+    "pk": 16
+},
+{
+    "fields": {
+        "edited": "2014-12-10T17:15:14.945Z",
+        "name": "Boba Fett",
+        "created": "2014-12-10T17:15:14.945Z",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "black",
+        "height": "1.83m",
+        "eye_color": "brown",
+        "mass": "78.2kg",
+        "homeworld": 10,
+        "birth_year": "31.5 BBY"
+    },
+    "model": "resources.people",
+    "pk": 17
+},
+{
+    "fields": {
+        "edited": "2014-12-12T11:08:06.469Z",
+        "name": "Wedge Antilles",
+        "created": "2014-12-12T11:08:06.469Z",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "brown",
+        "height": "1.7m",
+        "eye_color": "hazel",
+        "mass": "77kg",
+        "homeworld": 22,
+        "birth_year": "21 BBY"
+    },
+    "model": "resources.people",
+    "pk": 18
+},
+{
+    "fields": {
+        "edited": "2014-12-12T11:16:56.569Z",
+        "name": "Jek Tono Porkins",
+        "created": "2014-12-12T11:16:56.569Z",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "brown",
+        "height": "1.8m",
+        "eye_color": "blue",
+        "mass": "110kg",
+        "homeworld": 26,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 19
 }
 ]

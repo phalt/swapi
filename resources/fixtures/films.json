@@ -2,11 +2,21 @@
 {
     "fields": {
         "starships": [
-            2
+            2,
+            3,
+            5,
+            9,
+            10,
+            11,
+            12,
+            13
         ],
-        "edited": "2014-12-10T14:23:31.880Z",
+        "edited": "2014-12-12T11:21:35.144Z",
         "vehicles": [
-            1
+            4,
+            6,
+            7,
+            8
         ],
         "planets": [
             1,
@@ -20,10 +30,31 @@
         "director": "George Lucas",
         "opening_crawl": "It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....",
         "characters": [
-            1
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
         ],
         "species": [
-            1
+            1,
+            2,
+            3,
+            4,
+            5
         ]
     },
     "model": "resources.film",

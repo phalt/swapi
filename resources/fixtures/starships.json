@@ -8,5 +8,84 @@
     },
     "model": "resources.starship",
     "pk": 2
+},
+{
+    "fields": {
+        "pilots": [],
+        "MGLT": "60 MGLT",
+        "starship_class": "Star Destroyer",
+        "hyperdrive_rating": "2.0"
+    },
+    "model": "resources.starship",
+    "pk": 3
+},
+{
+    "fields": {
+        "pilots": [],
+        "MGLT": "70 MGLT",
+        "starship_class": "landing craft",
+        "hyperdrive_rating": "1.0"
+    },
+    "model": "resources.starship",
+    "pk": 5
+},
+{
+    "fields": {
+        "pilots": [],
+        "MGLT": "10 MGLT",
+        "starship_class": "Deep Space Mobile Battlestation",
+        "hyperdrive_rating": "4.0"
+    },
+    "model": "resources.starship",
+    "pk": 9
+},
+{
+    "fields": {
+        "pilots": [
+            13,
+            14
+        ],
+        "MGLT": "75 MGLT",
+        "starship_class": "Light freighter",
+        "hyperdrive_rating": "0.5"
+    },
+    "model": "resources.starship",
+    "pk": 10
+},
+{
+    "fields": {
+        "pilots": [],
+        "MGLT": "80 MGLT",
+        "starship_class": "assault starfighter",
+        "hyperdrive_rating": "1.0"
+    },
+    "model": "resources.starship",
+    "pk": 11
+},
+{
+    "fields": {
+        "pilots": [
+            1,
+            18,
+            19
+        ],
+        "MGLT": "100 MGLT",
+        "starship_class": "Starfighter",
+        "hyperdrive_rating": "1.0"
+    },
+    "model": "resources.starship",
+    "pk": 12
+},
+{
+    "fields": {
+        "pilots": [
+            4
+        ],
+        "MGLT": "105 MGLT",
+        "starship_class": "Starfighter",
+        "hyperdrive_rating": "1.0"
+    },
+    "model": "resources.starship",
+    "pk": 13
 }
 ]

@@ -1,27 +1,6 @@
 [
 {
     "fields": {
-        "edited": "2014-12-10T13:59:11.806Z",
-        "consumables": "1 week",
-        "name": "X-Wing",
-        "created": "2014-12-10T13:59:11.806Z",
-        "cargo_capacity": "110 kg",
-        "passengers": "0",
-        "max_atmosphering_speed": "1,050 km/h",
-        "crew": "1",
-        "length": "12.5 m",
-        "pilots": [
-            1
-        ],
-        "model": "T-65 X-wing",
-        "cost_in_credits": "149,999",
-        "manufacturer": "Incom corporation"
-    },
-    "model": "resources.transport",
-    "pk": 1
-},
-{
-    "fields": {
         "edited": "2014-12-10T14:20:33.369Z",
         "consumables": "1 year",
         "name": "Tantive IV",
@@ -38,5 +17,228 @@
     },
     "model": "resources.transport",
     "pk": 2
+},
+{
+    "fields": {
+        "edited": "2014-12-11T16:58:44.429Z",
+        "consumables": "2 years",
+        "name": "Star Destroyer",
+        "created": "2014-12-10T15:08:19.848Z",
+        "cargo_capacity": "36,000,000 kg",
+        "passengers": "n/a",
+        "max_atmosphering_speed": "975 km/h",
+        "crew": "47,060",
+        "length": "1,600 m",
+        "pilots": [],
+        "model": "Imperial I-class Star Destroyer",
+        "cost_in_credits": "150,000,000",
+        "manufacturer": "Kuat Drive Yards"
+    },
+    "model": "resources.transport",
+    "pk": 3
+},
+{
+    "fields": {
+        "edited": "2014-12-10T15:36:25.724Z",
+        "consumables": "2 months",
+        "name": "Sand Crawler",
+        "created": "2014-12-10T15:36:25.724Z",
+        "cargo_capacity": "50,000 kg",
+        "passengers": "30",
+        "max_atmosphering_speed": "30 km/h",
+        "crew": "46",
+        "length": "36.8 meters",
+        "pilots": [],
+        "model": "Digger Crawler",
+        "cost_in_credits": "150,000",
+        "manufacturer": "Corellia Mining Corporation"
+    },
+    "model": "resources.transport",
+    "pk": 4
+},
+{
+    "fields": {
+        "edited": "2014-12-10T15:48:00.586Z",
+        "consumables": "1 month",
+        "name": "Sentinel-class landing craft",
+        "created": "2014-12-10T15:48:00.586Z",
+        "cargo_capacity": "180,000 kg",
+        "passengers": "75",
+        "max_atmosphering_speed": "1,000 km/h",
+        "crew": "5",
+        "length": "38 m",
+        "pilots": [],
+        "model": "Sentinel-class landing craft",
+        "cost_in_credits": "240,000",
+        "manufacturer": "Sienar Fleet Systems, Cyngus Spaceworks"
+    },
+    "model": "resources.transport",
+    "pk": 5
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:01:52.434Z",
+        "consumables": "0",
+        "name": "T-16 skyhopper",
+        "created": "2014-12-10T16:01:52.434Z",
+        "cargo_capacity": "50 kg",
+        "passengers": "1",
+        "max_atmosphering_speed": "1,200 km/h",
+        "crew": "1",
+        "length": "10.4 m",
+        "pilots": [
+            1,
+            9
+        ],
+        "model": "T-16 skyhopper",
+        "cost_in_credits": "14,500",
+        "manufacturer": "Incom Corporation"
+    },
+    "model": "resources.transport",
+    "pk": 6
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:13:52.586Z",
+        "consumables": "unknown",
+        "name": "X-34 landspeeder",
+        "created": "2014-12-10T16:13:52.586Z",
+        "cargo_capacity": "5kg",
+        "passengers": "1",
+        "max_atmosphering_speed": "250 km/h",
+        "crew": "1",
+        "length": "3.4 m",
+        "pilots": [
+            1
+        ],
+        "model": "X-34 landspeeder",
+        "cost_in_credits": "10,550",
+        "manufacturer": "SoroSuub Corporation"
+    },
+    "model": "resources.transport",
+    "pk": 7
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:33:52.860Z",
+        "consumables": "2 days",
+        "name": "TIE/LN starfighter",
+        "created": "2014-12-10T16:33:52.860Z",
+        "cargo_capacity": "65kg",
+        "passengers": "0",
+        "max_atmosphering_speed": "1,200km/h",
+        "crew": "1",
+        "length": "6.4m",
+        "pilots": [],
+        "model": "Twin Ion Engine/Ln Starfighter",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Sienar Fleet Systems"
+    },
+    "model": "resources.transport",
+    "pk": 8
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:36:50.509Z",
+        "consumables": "3 years",
+        "name": "Death Star",
+        "created": "2014-12-10T16:36:50.509Z",
+        "cargo_capacity": "1,000,000,000,000kg",
+        "passengers": "843,342",
+        "max_atmosphering_speed": "n/a",
+        "crew": "342,953",
+        "length": "120km",
+        "pilots": [],
+        "model": "DS-1 Orbital Battle Station",
+        "cost_in_credits": "1,000,000,000,000",
+        "manufacturer": "Imperial Department of Military Research, Sienar Fleet Systems"
+    },
+    "model": "resources.transport",
+    "pk": 9
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:59:45.094Z",
+        "consumables": "2 months",
+        "name": "Millennium Falcon",
+        "created": "2014-12-10T16:59:45.094Z",
+        "cargo_capacity": "100,000 kg",
+        "passengers": "6",
+        "max_atmosphering_speed": "1,050km/h",
+        "crew": "4",
+        "length": "34.37m",
+        "pilots": [
+            13,
+            14
+        ],
+        "model": "YT-1300 light freighter",
+        "cost_in_credits": "100,000",
+        "manufacturer": "Corellian Engineering Corporation"
+    },
+    "model": "resources.transport",
+    "pk": 10
+},
+{
+    "fields": {
+        "edited": "2014-12-12T11:00:39.817Z",
+        "consumables": "1 week",
+        "name": "Y-wing",
+        "created": "2014-12-12T11:00:39.817Z",
+        "cargo_capacity": "110kg",
+        "passengers": "0",
+        "max_atmosphering_speed": "1000km",
+        "crew": "2",
+        "length": "14m",
+        "pilots": [],
+        "model": "BTL Y-wing",
+        "cost_in_credits": "134,999",
+        "manufacturer": "Koensayr Manufacturing"
+    },
+    "model": "resources.transport",
+    "pk": 11
+},
+{
+    "fields": {
+        "edited": "2014-12-12T11:19:05.340Z",
+        "consumables": "1 week",
+        "name": "X-wing",
+        "created": "2014-12-12T11:19:05.340Z",
+        "cargo_capacity": "110kg",
+        "passengers": "0",
+        "max_atmosphering_speed": "1,050km/h",
+        "crew": "1",
+        "length": "12.5m",
+        "pilots": [
+            1,
+            18,
+            19
+        ],
+        "model": "T-65 X-wing",
+        "cost_in_credits": "149,999",
+        "manufacturer": "Incom Corporation"
+    },
+    "model": "resources.transport",
+    "pk": 12
+},
+{
+    "fields": {
+        "edited": "2014-12-12T11:21:32.991Z",
+        "consumables": "5 days",
+        "name": "TIE Advanced x1",
+        "created": "2014-12-12T11:21:32.991Z",
+        "cargo_capacity": "150kg",
+        "passengers": "0",
+        "max_atmosphering_speed": "1,200km/h",
+        "crew": "1",
+        "length": "9.2m",
+        "pilots": [
+            4
+        ],
+        "model": "Twin Ion Engine Advanced x1",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Sienar Fleet Systems"
+    },
+    "model": "resources.transport",
+    "pk": 13
 }
 ]

@@ -1,12 +1,39 @@
 [
 {
     "fields": {
-        "vehicle_class": "Starfighter",
+        "vehicle_class": "wheeled",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 4
+},
+{
+    "fields": {
+        "vehicle_class": "Repulsorcraft",
+        "pilots": [
+            1,
+            9
+        ]
+    },
+    "model": "resources.vehicle",
+    "pk": 6
+},
+{
+    "fields": {
+        "vehicle_class": "Repulsorcraft",
         "pilots": [
             1
         ]
     },
     "model": "resources.vehicle",
-    "pk": 1
+    "pk": 7
+},
+{
+    "fields": {
+        "vehicle_class": "Starfighter",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 8
 }
 ]

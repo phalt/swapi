@@ -321,5 +321,124 @@
     },
     "model": "resources.planet",
     "pk": 19
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:16:26.566Z",
+        "climate": "temperate",
+        "surface_water": "unknown",
+        "name": "Stewjon",
+        "diameter": "unknown",
+        "rotation_period": "unknown",
+        "created": "2014-12-10T16:16:26.566Z",
+        "terrain": "grass",
+        "gravity": "1 standard",
+        "orbital_period": "unknown",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 20
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:26:54.384Z",
+        "climate": "Polluted",
+        "surface_water": "unknown",
+        "name": "Eriadu",
+        "diameter": "13,490 km",
+        "rotation_period": "24 hours",
+        "created": "2014-12-10T16:26:54.384Z",
+        "terrain": "Cityscape",
+        "gravity": "1 standard",
+        "orbital_period": "360 days",
+        "population": "22,000,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 21
+},
+{
+    "fields": {
+        "edited": "2014-12-10T16:49:12.453Z",
+        "climate": "Temperate",
+        "surface_water": "70%",
+        "name": "Corellia",
+        "diameter": "11,000km",
+        "rotation_period": "25 hours",
+        "created": "2014-12-10T16:49:12.453Z",
+        "terrain": "Plains, Urban, Hills, Forests",
+        "gravity": "1 standard",
+        "orbital_period": "329 days",
+        "population": "3,000,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 22
+},
+{
+    "fields": {
+        "edited": "2014-12-10T17:03:28.110Z",
+        "climate": "Hot",
+        "surface_water": "60%",
+        "name": "Rodia",
+        "diameter": "7,549km",
+        "rotation_period": "29 hours",
+        "created": "2014-12-10T17:03:28.110Z",
+        "terrain": "Jungles, Oceans, Urban, Swamps",
+        "gravity": "1 standard",
+        "orbital_period": "305 days",
+        "population": "1,300,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 23
+},
+{
+    "fields": {
+        "edited": "2014-12-10T17:11:29.452Z",
+        "climate": "Temperate",
+        "surface_water": "unknown",
+        "name": "Nal Hutta",
+        "diameter": "12,150km",
+        "rotation_period": "87 hours",
+        "created": "2014-12-10T17:11:29.452Z",
+        "terrain": "Urban, Oceans, Swamps, Bogs",
+        "gravity": "1 standard",
+        "orbital_period": "413 days",
+        "population": "7,000,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 24
+},
+{
+    "fields": {
+        "edited": "2014-12-10T17:23:29.896Z",
+        "climate": "Temperate",
+        "surface_water": "unknown",
+        "name": "Dantooine",
+        "diameter": "9,830km",
+        "rotation_period": "25 hours",
+        "created": "2014-12-10T17:23:29.896Z",
+        "terrain": "Oceans, Savannas, Mountains, Grasslands",
+        "gravity": "1 standard",
+        "orbital_period": "378 days",
+        "population": "1,000"
+    },
+    "model": "resources.planet",
+    "pk": 25
+},
+{
+    "fields": {
+        "edited": "2014-12-12T11:16:55.078Z",
+        "climate": "Temperate",
+        "surface_water": "98%",
+        "name": "Bestine IV",
+        "diameter": "6,400km",
+        "rotation_period": "26 hours",
+        "created": "2014-12-12T11:16:55.078Z",
+        "terrain": "Rocky islands, Oceans",
+        "gravity": "unknown",
+        "orbital_period": "680 days",
+        "population": "62,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 26
 }
 ]
