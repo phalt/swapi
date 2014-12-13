@@ -89,12 +89,6 @@ class Transport(DateTimeModel):
 
     consumables = models.CharField(max_length=40)
 
-    pilots = models.ManyToManyField(
-        People,
-        related_name="transport",
-        blank=True
-    )
-
 
 class Starship(Transport):
     """ A starship is a transport with a hypderdrive """
@@ -105,11 +99,23 @@ class Starship(Transport):
 
     starship_class = models.CharField(max_length=40)
 
+    new_pilots = models.ManyToManyField(
+        People,
+        related_name="starships",
+        blank=True
+    )
+
 
 class Vehicle(Transport):
     """ A vehicle is anything without hyperdrive capability """
 
     vehicle_class = models.CharField(max_length=40)
+
+    new_pilots = models.ManyToManyField(
+        People,
+        related_name="vehicles",
+        blank=True
+    )
 
 
 class Species(DateTimeModel):
@@ -148,7 +154,7 @@ class Film(DateTimeModel):
 
     title = models.CharField(max_length=100)
 
-    episode_id = models.IntegerField(max_length=10)
+    episode_id = models.IntegerField()
 
     opening_crawl = models.TextField(max_length=1000)
 

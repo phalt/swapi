@@ -8,7 +8,7 @@ from .models import (
     Film,
     Species,
     Vehicle,
-    Starship
+    Starship,
 )
 
 
@@ -16,13 +16,12 @@ class PeopleSerializer(serializers.HyperlinkedModelSerializer):
 
     homeworld = serializers.HyperlinkedRelatedField(
         read_only=True,
-        view_name='planet-detail'
+        view_name="planet-detail"
     )
 
     class Meta:
         model = People
         fields = (
-            "id",
             "name",
             "height",
             "mass",
@@ -34,7 +33,8 @@ class PeopleSerializer(serializers.HyperlinkedModelSerializer):
             "homeworld",
             "films",
             "species",
-            "transport",
+            "vehicles",
+            "starships",
             "url",
         )
 
@@ -53,7 +53,8 @@ class PlanetSerializer(serializers.HyperlinkedModelSerializer):
             "terrain",
             "surface_water",
             "population",
-            "residents"
+            "residents",
+            "url"
         )
 
 
@@ -71,7 +72,8 @@ class FilmSerializer(serializers.HyperlinkedModelSerializer):
             "planets",
             "starships",
             "vehicles",
-            "species"
+            "species",
+            "url"
         )
 
 
@@ -95,7 +97,8 @@ class SpeciesSerializer(serializers.HyperlinkedModelSerializer):
             "average_lifespan",
             "homeworld",
             "language",
-            "people"
+            "people",
+            "url"
         )
 
 
@@ -121,7 +124,8 @@ class VehicleSerializer(serializers.HyperlinkedModelSerializer):
             "cargo_capacity",
             "consumables",
             "vehicle_class",
-            "pilots"
+            "pilots",
+            "url"
         )
 
 
@@ -130,7 +134,7 @@ class StarshipSerializer(serializers.HyperlinkedModelSerializer):
     pilots = serializers.HyperlinkedRelatedField(
         many=True,
         read_only=True,
-        view_name='people-detail'
+        view_name="people-detail"
     )
 
     class Meta:
@@ -148,7 +152,8 @@ class StarshipSerializer(serializers.HyperlinkedModelSerializer):
             "consumables",
             "hyperdrive_rating",
             "MGLT",
-            "starship_class"
-            "pilots"
+            "starship_class",
+            "pilots",
+            "url"
         )
 
