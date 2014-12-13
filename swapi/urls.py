@@ -6,7 +6,7 @@ admin.autodiscover()
 
 from rest_framework import routers
 
-from resources import views
+from resources import views, schemas
 
 router = routers.DefaultRouter()
 
@@ -19,7 +19,13 @@ router.register(r"starships", views.StarshipViewSet)
 
 
 urlpatterns = patterns('',
-    url(r'^api/', include(router.urls)),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'swapi.views.index'),
+    url(r'^api/people/schema$', 'resources.schemas.people'),
+    url(r'^api/planets/schema$', 'resources.schemas.planets'),
+    url(r'^api/films/schema$', 'resources.schemas.films'),
+    url(r'^api/species/schema$', 'resources.schemas.species'),
+    url(r'^api/vehicles/schema$', 'resources.schemas.vehicles'),
+    url(r'^api/starships/schema$', 'resources.schemas.starships'),
+    url(r'^api/', include(router.urls)),
 )

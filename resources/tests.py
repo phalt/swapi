@@ -29,25 +29,56 @@ class TestAllEndpoints(TestCase):
         return self.client.get(url)
 
     def test_api_root(self):
-        self.assertEqual(self.get_query("/api/").status_code, 200)
+        self.assertEqual(
+            self.get_query("/api/").status_code, 200)
 
     def test_people_root(self):
-        self.assertEqual(self.get_query("/api/people/").status_code, 200)
+        self.assertEqual(
+            self.get_query("/api/people/").status_code, 200)
+
+    def test_people_schema(self):
+        self.assertEqual(
+            self.get_query("/api/people/schema").status_code, 200)
 
     def test_planets_root(self):
-        self.assertEqual(self.get_query("/api/planets/").status_code, 200)
+        self.assertEqual(
+            self.get_query("/api/planets/").status_code, 200)
+
+    def test_planets_schema(self):
+        self.assertEqual(
+            self.get_query("/api/planets/schema").status_code, 200)
 
     def test_films_root(self):
-        self.assertEqual(self.get_query("/api/films/").status_code, 200)
+        self.assertEqual(
+            self.get_query("/api/films/").status_code, 200)
+
+    def test_films_schema(self):
+        self.assertEqual(
+            self.get_query("/api/films/schema").status_code, 200)
 
     def test_starships_root(self):
-        self.assertEqual(self.get_query("/api/starships/").status_code, 200)
+        self.assertEqual(
+            self.get_query("/api/starships/").status_code, 200)
+
+    def test_starship_schema(self):
+        self.assertEqual(
+            self.get_query("/api/starships/schema").status_code, 200)
 
     def test_vehicles_root(self):
-        self.assertEqual(self.get_query("/api/vehicles/").status_code, 200)
+        self.assertEqual(
+            self.get_query("/api/vehicles/").status_code, 200)
+
+    def test_vehicle_schema(self):
+        self.assertEqual(
+            self.get_query("/api/vehicles/schema").status_code, 200)
 
     def test_species_root(self):
-        self.assertEqual(self.get_query("/api/species/").status_code, 200)
+        self.assertEqual(
+            self.get_query("/api/species/").status_code, 200)
+
+    def test_species_schema(self):
+        self.assertEqual(
+            self.get_query("/api/species/schema").status_code, 200)
 
     def test_people_detail(self):
         response = self.get_query("/api/people/1/")

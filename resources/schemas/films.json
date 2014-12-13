@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "Film",
+  "description": "A Star Wars film",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The title of this film."
+    },
+    "episode_id": {
+      "type": "integer",
+      "description": "The episode number of this film."
+    },
+    "opening_crawl": {
+      "type": "string",
+      "description": "The opening crawl text at the beginning of this film."
+    },
+    "director": {
+      "type": "string",
+      "description": "The director of this film."
+    },
+    "producer": {
+      "type": "string",
+      "description": "The producer(s) of this film."
+    },
+    "characters": {
+      "type": "array",
+      "description": "The people resources featured within this film."
+    },
+    "planets": {
+      "type": "array",
+      "description": "The planet resources featured within this film."
+    },
+    "starships": {
+      "type": "array",
+      "description": "The starship resources featured within this film."
+    },
+    "vehicles": {
+      "type": "array",
+      "description": "The vehicle resources featured within this film."
+    },
+    "species": {
+      "type": "array",
+      "description": "The species resources featured within this film."
+    },
+    "url": {
+      "type": "string",
+      "description": "The url of this resource"
+    }
+  },
+  "required": [
+    "title",
+    "episode_id",
+    "opening_crawl",
+    "director",
+    "producer",
+    "characters",
+    "planets",
+    "starships",
+    "vehicles",
+    "species",
+    "url"
+  ]
+}
