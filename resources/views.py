@@ -31,7 +31,7 @@ class PeopleViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = PeopleSerializer
 
     def retrieve(self, request, *args, **kwargs):
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "detail_hit",
                 {
@@ -44,7 +44,7 @@ class PeopleViewSet(viewsets.ReadOnlyModelViewSet):
         return super(PeopleViewSet, self).retrieve(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "list_hit",
                 {
@@ -63,7 +63,7 @@ class PlanetViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = PlanetSerializer
 
     def retrieve(self, request, *args, **kwargs):
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "detail_hit",
                 {
@@ -76,7 +76,7 @@ class PlanetViewSet(viewsets.ReadOnlyModelViewSet):
         return super(PlanetViewSet, self).retrieve(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "list_hit",
                 {
@@ -95,7 +95,7 @@ class FilmViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = FilmSerializer
 
     def retrieve(self, request, *args, **kwargs):
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "detail_hit",
                 {
@@ -108,7 +108,7 @@ class FilmViewSet(viewsets.ReadOnlyModelViewSet):
         return super(FilmViewSet, self).retrieve(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "list_hit",
                 {
@@ -127,7 +127,7 @@ class SpeciesViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = SpeciesSerializer
 
     def retrieve(self, request, *args, **kwargs):
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "detail_hit",
                 {
@@ -140,7 +140,7 @@ class SpeciesViewSet(viewsets.ReadOnlyModelViewSet):
         return super(SpeciesViewSet, self).retrieve(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "list_hit",
                 {
@@ -159,7 +159,7 @@ class VehicleViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = VehicleSerializer
 
     def retrieve(self, request, *args, **kwargs):
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "detail_hit",
                 {
@@ -172,7 +172,7 @@ class VehicleViewSet(viewsets.ReadOnlyModelViewSet):
         return super(VehicleViewSet, self).retrieve(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "list_hit",
                 {
@@ -191,7 +191,7 @@ class StarshipViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = StarshipSerializer
 
     def retrieve(self, request, *args, **kwargs):
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "detail_hit",
                 {
@@ -204,7 +204,7 @@ class StarshipViewSet(viewsets.ReadOnlyModelViewSet):
         return super(StarshipViewSet, self).retrieve(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "list_hit",
                 {

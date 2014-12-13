@@ -9,6 +9,7 @@ SECRET_KEY = os.environ.get(
 )
 
 DEBUG = os.environ.get(bool('DEBUG'), True)
+KEEN_DEBUG = os.environ.get(bool('DEBUG'), True)
 
 TEMPLATE_DEBUG = True
 

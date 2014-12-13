@@ -14,7 +14,7 @@ class JSONResponse():
         with open('resources/schemas/{0}.json'.format(resource)) as f:
             data = json.loads(f.read())
         self.data = data
-        if not settings.DEBUG:
+        if not settings.KEEN_DEBUG:
             keen.add_event(
                 "schema_hit",
                 {
