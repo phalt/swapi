@@ -10,10 +10,7 @@
 {
     "fields": {
         "vehicle_class": "Repulsorcraft",
-        "pilots": [
-            1,
-            9
-        ]
+        "pilots": []
     },
     "model": "resources.vehicle",
     "pk": 6
@@ -21,9 +18,7 @@
 {
     "fields": {
         "vehicle_class": "Repulsorcraft",
-        "pilots": [
-            1
-        ]
+        "pilots": []
     },
     "model": "resources.vehicle",
     "pk": 7

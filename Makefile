@@ -30,3 +30,7 @@ dump_data:
 
 drop_db:
 	python manage.py flush
+
+
+test:
+	python manage.py test

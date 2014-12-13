@@ -99,7 +99,7 @@ class Starship(Transport):
 
     starship_class = models.CharField(max_length=40)
 
-    new_pilots = models.ManyToManyField(
+    pilots = models.ManyToManyField(
         People,
         related_name="starships",
         blank=True
@@ -111,7 +111,7 @@ class Vehicle(Transport):
 
     vehicle_class = models.CharField(max_length=40)
 
-    new_pilots = models.ManyToManyField(
+    pilots = models.ManyToManyField(
         People,
         related_name="vehicles",
         blank=True
