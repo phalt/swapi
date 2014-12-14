@@ -119,6 +119,7 @@ class Vehicle(Transport):
 
 
 class Species(DateTimeModel):
+    "A species is a type of alien or person"
 
     def __unicode__(self):
         return self.name
