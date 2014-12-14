@@ -18,3 +18,10 @@ def index(request):
             "hits": hits
         }
     )
+
+
+def documentation(request):
+    return render_to_response("documentation.html")
+
+def about(request):
+    return render_to_response("about.html")

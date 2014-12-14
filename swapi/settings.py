@@ -9,6 +9,7 @@ SECRET_KEY = os.environ.get(
 )
 
 DEBUG = os.environ.get(bool('DEBUG'), True)
+# Because test settings will trigger KEEN.io hits
 KEEN_DEBUG = os.environ.get(bool('DEBUG'), True)
 
 TEMPLATE_DEBUG = True
@@ -17,7 +18,8 @@ ALLOWED_HOSTS = []
 
 CUSTOM_APPS = (
     'resources',
-    'rest_framework'
+    'rest_framework',
+    'markdown_deux'
 )
 
 INSTALLED_APPS = (

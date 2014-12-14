@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block mainbody %}
+<div class="row">
+<div class="col-sm-2 col-lg-2 col-md-2">
+</div>
+<div class="col-lg-8 col-md-8 col-sm-8">
+    <h1 class="center">Documentation</h1>
+{% load markdown_deux_tags %}
+{% markdown %}
+    {% include "docs.md" %}
+{% endmarkdown %}
+</div>
+<div class="col-sm-2 col-lg-2 col-md-2">
+</div>
+</div>
+{% endblock mainbody %}

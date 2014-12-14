@@ -16,16 +16,27 @@
     </script>
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-        <div class="navbar-brand">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://swapi.co" data-text="SWAPI - the Star Wars API " data-via="phalt_" data-related="phalt_">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </div>
-        </div>
-      </div>
+    <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-brand" href="#"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://swapi.co" data-text="SWAPI - the Star Wars API " data-via="phalt_" data-related="phalt_">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
     </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/documentation">Documentation</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
     <div class="container-fluid" style="margin-top: 60px;">
       <div class="row center yellow">
         <div class="jumbotron">
@@ -33,104 +44,8 @@
             <p class="lead">The Star Wars API</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-3">
-        </div>
-        <div class="col-lg-6 center">
-          <p>All the Star Wars data you've ever wanted:</p>
-          <p><b>Planets, Spaceships, Vehicles, People, Films and Species</b></p>
-          <p>From all six Star Wars films</p>
-          <p><h4>Over {{ hits }} requests made!</h4></p>
-        </div>
-        <div class="col-lg-3">
-        </div>
-      </div>
-              {% block mainbody %}
+        {% block mainbody %}
         {% endblock mainbody %}
-      <div class="row pad_top">
-        <div class="col-lg-2 col-md-2 col-sm-2">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <h4>Have you ever wanted to know who piloted an X-Wing in Star Wars?</h4>
-          <p><pre>HTTP GET http://swapi.co/api/vehicles/1</pre></p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-3">
-          <h4>Response</h4>
-          <pre class="pre-scrollable"><code>HTTP/1.1 200 OK
-...
-
-{
-  "vehicle_id": "1",
-  "name": "T-65 X-wing",
-  "common_name": "X-wing",
-  "pilots" : [
-    {
-      "name": "Luke Skywalker",
-      "people_id": "1",
-      "url": "/people/1",
-    },
-    {
-      "name": "Wedge Antilles",
-      "people_id": "34",
-      "url": "/people/34",
-    }
-  ],
-  ...
-}</code></pre>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-2">
-        </div>
-      </div>
-<div class="row pad_top">
-        <div class="col-lg-2 col-md-2 col-sm-2">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <h4>Which of the films was that planet in again?</h4>
-          <p><pre>HTTP GET http://swapi.co/api/planets/7</pre></p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <h4>Response</h4>
-          <pre class="pre-scrollable"><code>HTTP/1.1 200 OK
-...
-
-{
-  "planet_id": "7",
-  "name": Mustafar,
-  ...
-  "films": [
-    {
-      "film_id": "6",
-      "title" "Revenge of the Sith",
-      "episode_id": "3",
-        "url": "/films/6"
-    }
-  ],
-  ...
-}</code></pre>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-2">
-        </div>
-      </div>
-      <div class="row pad_bot">
-        <div class="col-lg-3">
-        </div>
-        <div class="col-lg-6 center">
-          <h4>All of this and more, coming soon (sooner than episode VII, we promise)</h4>
-        </div>
-        <div class="col-lg-3">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 footer">
-          <p><a href="http://phalt.co?ref=swapi" target="_blank">&copy; Paul Hallett 2014</a>
-          <span class="pull-right">
-            <a href="https://twitter.com/phalt_" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow me on twitter</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-          <iframe src="http://ghbtns.com/github-btn.html?user=phalt&type=follow"
-      allowtransparency="false" frameborder="0" scrolling="0" width="132" height="20"></iframe></span></p>
-          </div>
-      </div>
-    </div>
     {% block scripts %}
     {% endblock scripts %}
     <script>
