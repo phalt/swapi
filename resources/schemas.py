@@ -27,7 +27,10 @@ class JSONResponse():
 
     @property
     def response(self):
-        return HttpResponse(json.dumps(self.data), content_type="application/json")
+        return HttpResponse(
+            json.dumps(self.data),
+            content_type="application/json"
+        )
 
 
 def people(request):
