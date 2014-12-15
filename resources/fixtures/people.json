@@ -273,23 +273,6 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T17:15:14.945Z",
-        "name": "Boba Fett",
-        "created": "2014-12-10T17:15:14.945Z",
-        "gender": "male",
-        "skin_color": "fair",
-        "hair_color": "black",
-        "height": "1.83m",
-        "eye_color": "brown",
-        "mass": "78.2kg",
-        "homeworld": 10,
-        "birth_year": "31.5 BBY"
-    },
-    "model": "resources.people",
-    "pk": 17
-},
-{
-    "fields": {
         "edited": "2014-12-12T11:08:06.469Z",
         "name": "Wedge Antilles",
         "created": "2014-12-12T11:08:06.469Z",
@@ -321,5 +304,124 @@
     },
     "model": "resources.people",
     "pk": 19
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:26:01.042Z",
+        "name": "Yoda",
+        "created": "2014-12-15T12:26:01.042Z",
+        "gender": "male",
+        "skin_color": "green",
+        "hair_color": "white",
+        "height": "0.66m",
+        "eye_color": "brown",
+        "mass": "17kg",
+        "homeworld": 28,
+        "birth_year": "896BBY"
+    },
+    "model": "resources.people",
+    "pk": 20
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:48:05.972Z",
+        "name": "Palpatine",
+        "created": "2014-12-15T12:48:05.971Z",
+        "gender": "male",
+        "skin_color": "pale",
+        "hair_color": "grey",
+        "height": "1.7m",
+        "eye_color": "yellow",
+        "mass": "75kg",
+        "homeworld": 8,
+        "birth_year": "82BBY"
+    },
+    "model": "resources.people",
+    "pk": 21
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:49:32.457Z",
+        "name": "Boba Fett",
+        "created": "2014-12-15T12:49:32.457Z",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "black",
+        "height": "1.83",
+        "eye_color": "brown",
+        "mass": "78.2kg",
+        "homeworld": 10,
+        "birth_year": "31.5BBY"
+    },
+    "model": "resources.people",
+    "pk": 22
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:51:10.076Z",
+        "name": "IG-88",
+        "created": "2014-12-15T12:51:10.076Z",
+        "gender": "none",
+        "skin_color": "metal",
+        "hair_color": "none",
+        "height": "2m",
+        "eye_color": "red",
+        "mass": "140kg",
+        "homeworld": 28,
+        "birth_year": "15BBY"
+    },
+    "model": "resources.people",
+    "pk": 23
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:53:49.297Z",
+        "name": "Bossk",
+        "created": "2014-12-15T12:53:49.297Z",
+        "gender": "male",
+        "skin_color": "green",
+        "hair_color": "none",
+        "height": "1.9m",
+        "eye_color": "red",
+        "mass": "113kg",
+        "homeworld": 29,
+        "birth_year": "53BBY"
+    },
+    "model": "resources.people",
+    "pk": 24
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:56:32.683Z",
+        "name": "Lando Calrissian",
+        "created": "2014-12-15T12:56:32.683Z",
+        "gender": "male",
+        "skin_color": "dark",
+        "hair_color": "black",
+        "height": "1.77m",
+        "eye_color": "brown",
+        "mass": "79kg",
+        "homeworld": 30,
+        "birth_year": "31BBY"
+    },
+    "model": "resources.people",
+    "pk": 25
+},
+{
+    "fields": {
+        "edited": "2014-12-15T13:01:57.178Z",
+        "name": "Lobot",
+        "created": "2014-12-15T13:01:57.178Z",
+        "gender": "male",
+        "skin_color": "light",
+        "hair_color": "none",
+        "height": "1.75m",
+        "eye_color": "blue",
+        "mass": "79kg",
+        "homeworld": 6,
+        "birth_year": "37BBY"
+    },
+    "model": "resources.people",
+    "pk": 26
 }
 ]

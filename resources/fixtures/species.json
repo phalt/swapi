@@ -1,15 +1,21 @@
 [
 {
     "fields": {
-        "edited": "2014-12-10T15:18:39.698Z",
+        "edited": "2014-12-15T13:08:46.517Z",
         "classification": "Mammal",
         "name": "Human",
         "designation": "Sentient",
         "created": "2014-12-10T13:52:11.567Z",
         "eye_colors": "Brown, Blue, Green, Hazel, Grey, Amber",
         "people": [
-            1,
-            4
+            11,
+            12,
+            14,
+            18,
+            19,
+            21,
+            25,
+            26
         ],
         "skin_colors": "Caucasian, Black, Asian, Hispanic",
         "language": "Galactic Basic",
@@ -23,7 +29,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T15:16:16.259Z",
+        "edited": "2014-12-15T13:08:11.657Z",
         "classification": "Artificial",
         "name": "Droid",
         "designation": "Sentient",
@@ -31,7 +37,9 @@
         "eye_colors": "n/a",
         "people": [
             2,
-            3
+            3,
+            8,
+            23
         ],
         "skin_colors": "n/a",
         "language": "n/a",
@@ -105,5 +113,47 @@
     },
     "model": "resources.species",
     "pk": 5
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:27:22.877Z",
+        "classification": "Mammal",
+        "name": "Yoda's species",
+        "designation": "Sentient",
+        "created": "2014-12-15T12:27:22.877Z",
+        "eye_colors": "brown, green, yellow",
+        "people": [
+            20
+        ],
+        "skin_colors": "green, yellow",
+        "language": "Galactic basic",
+        "hair_colors": "brown, white",
+        "homeworld": 28,
+        "average_lifespan": "900 years",
+        "average_height": "0.66m"
+    },
+    "model": "resources.species",
+    "pk": 6
+},
+{
+    "fields": {
+        "edited": "2014-12-15T13:07:47.704Z",
+        "classification": "Reptile",
+        "name": "Trandoshan",
+        "designation": "Sentient",
+        "created": "2014-12-15T13:07:47.704Z",
+        "eye_colors": "yellow, orange",
+        "people": [
+            24
+        ],
+        "skin_colors": "brown, green",
+        "language": "Dosh",
+        "hair_colors": "none",
+        "homeworld": 29,
+        "average_lifespan": "unknown",
+        "average_height": "2m"
+    },
+    "model": "resources.species",
+    "pk": 7
 }
 ]

@@ -440,5 +440,73 @@
     },
     "model": "resources.planet",
     "pk": 26
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:23:41.661Z",
+        "climate": "Temperate",
+        "surface_water": "10%",
+        "name": "Ord Mantell",
+        "diameter": "14,050km",
+        "rotation_period": "26 hours",
+        "created": "2014-12-15T12:23:41.661Z",
+        "terrain": "Plains, Seas, Mesas",
+        "gravity": "1 standard",
+        "orbital_period": "334 local days",
+        "population": "4,000,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 27
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:25:59.570Z",
+        "climate": "n/a",
+        "surface_water": "n/a",
+        "name": "unknown",
+        "diameter": "n/a",
+        "rotation_period": "n/a",
+        "created": "2014-12-15T12:25:59.569Z",
+        "terrain": "n/a",
+        "gravity": "n/a",
+        "orbital_period": "n/a",
+        "population": "n/a"
+    },
+    "model": "resources.planet",
+    "pk": 28
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:53:47.695Z",
+        "climate": "Arid",
+        "surface_water": "unknown",
+        "name": "Trandosha",
+        "diameter": "unknown",
+        "rotation_period": "25 hours",
+        "created": "2014-12-15T12:53:47.695Z",
+        "terrain": "Mountains, Seas, Grasslands, Deserts",
+        "gravity": "0.62 standard",
+        "orbital_period": "371 days",
+        "population": "42,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 29
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:56:31.121Z",
+        "climate": "Arid",
+        "surface_water": "unknown",
+        "name": "Socorro",
+        "diameter": "unknown",
+        "rotation_period": "20 hours",
+        "created": "2014-12-15T12:56:31.121Z",
+        "terrain": "Deserts, Mountains",
+        "gravity": "1 standard",
+        "orbital_period": "326 days",
+        "population": "300,000,000"
+    },
+    "model": "resources.planet",
+    "pk": 30
 }
 ]

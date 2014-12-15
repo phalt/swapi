@@ -43,7 +43,8 @@
     "fields": {
         "pilots": [
             13,
-            14
+            14,
+            25
         ],
         "MGLT": "75 MGLT",
         "starship_class": "Light freighter",
@@ -88,5 +89,61 @@
     },
     "model": "resources.starship",
     "pk": 13
+},
+{
+    "fields": {
+        "pilots": [],
+        "MGLT": "40 MGLT",
+        "starship_class": "Star dreadnought",
+        "hyperdrive_rating": "2.0"
+    },
+    "model": "resources.starship",
+    "pk": 15
+},
+{
+    "fields": {
+        "pilots": [],
+        "MGLT": "20 MGLT",
+        "starship_class": "Medium transport",
+        "hyperdrive_rating": "4.0"
+    },
+    "model": "resources.starship",
+    "pk": 17
+},
+{
+    "fields": {
+        "pilots": [
+            22
+        ],
+        "MGLT": "70 MGLT",
+        "starship_class": "Patrol craft",
+        "hyperdrive_rating": "3.0"
+    },
+    "model": "resources.starship",
+    "pk": 21
+},
+{
+    "fields": {
+        "pilots": [
+            1,
+            13,
+            14
+        ],
+        "MGLT": "50 MGLT",
+        "starship_class": "Armed government transport",
+        "hyperdrive_rating": "1.0"
+    },
+    "model": "resources.starship",
+    "pk": 22
+},
+{
+    "fields": {
+        "pilots": [],
+        "MGLT": "40 MGLT",
+        "starship_class": "Escort ship",
+        "hyperdrive_rating": "2.0"
+    },
+    "model": "resources.starship",
+    "pk": 23
 }
 ]

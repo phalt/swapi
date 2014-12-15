@@ -30,5 +30,50 @@
     },
     "model": "resources.vehicle",
     "pk": 8
+},
+{
+    "fields": {
+        "vehicle_class": "airspeeder",
+        "pilots": [
+            1,
+            18
+        ]
+    },
+    "model": "resources.vehicle",
+    "pk": 14
+},
+{
+    "fields": {
+        "vehicle_class": "space/planetary bomber",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 16
+},
+{
+    "fields": {
+        "vehicle_class": "Assault walker",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 18
+},
+{
+    "fields": {
+        "vehicle_class": "Walker",
+        "pilots": [
+            13
+        ]
+    },
+    "model": "resources.vehicle",
+    "pk": 19
+},
+{
+    "fields": {
+        "vehicle_class": "repulsorcraft",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 20
 }
 ]

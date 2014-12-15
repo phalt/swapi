@@ -145,7 +145,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-13T14:45:13.637Z",
+        "edited": "2014-12-15T13:02:26.751Z",
         "consumables": "2 months",
         "name": "Millennium Falcon",
         "created": "2014-12-10T16:59:45.094Z",
@@ -214,5 +214,185 @@
     },
     "model": "resources.transport",
     "pk": 13
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:22:12.000Z",
+        "consumables": "none",
+        "name": "Snowspeeder",
+        "created": "2014-12-15T12:22:12.000Z",
+        "cargo_capacity": "10kg",
+        "passengers": "0",
+        "max_atmosphering_speed": "650km/h",
+        "crew": "2",
+        "length": "4.5m",
+        "model": "t-47 airspeeder",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Incom corporation"
+    },
+    "model": "resources.transport",
+    "pk": 14
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:31:42.547Z",
+        "consumables": "6 years",
+        "name": "Executor",
+        "created": "2014-12-15T12:31:42.547Z",
+        "cargo_capacity": "250,000,000kg",
+        "passengers": "38,000",
+        "max_atmosphering_speed": "n/a",
+        "crew": "279,144",
+        "length": "19,000m",
+        "model": "Executor-class star dreadnought",
+        "cost_in_credits": "1,143,350,000",
+        "manufacturer": "Kuat Drive Yards, Fondor Shipyards"
+    },
+    "model": "resources.transport",
+    "pk": 15
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:33:15.838Z",
+        "consumables": "2 days",
+        "name": "TIE bomber",
+        "created": "2014-12-15T12:33:15.838Z",
+        "cargo_capacity": "none",
+        "passengers": "0",
+        "max_atmosphering_speed": "850km/h",
+        "crew": "1",
+        "length": "7.8m",
+        "model": "TIE/sa bomber",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Sienar Fleet Systems"
+    },
+    "model": "resources.transport",
+    "pk": 16
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:34:52.264Z",
+        "consumables": "6 months",
+        "name": "Rebel transport",
+        "created": "2014-12-15T12:34:52.264Z",
+        "cargo_capacity": "19,000,000kg",
+        "passengers": "90",
+        "max_atmosphering_speed": "650km/h",
+        "crew": "6",
+        "length": "90m",
+        "model": "GR-75 medium transport",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Gallofree Yards, Inc."
+    },
+    "model": "resources.transport",
+    "pk": 17
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:38:25.937Z",
+        "consumables": "unknown",
+        "name": "AT-AT",
+        "created": "2014-12-15T12:38:25.937Z",
+        "cargo_capacity": "1,000kg",
+        "passengers": "40",
+        "max_atmosphering_speed": "60km/h",
+        "crew": "5",
+        "length": "20m",
+        "model": "All Terrain Armored Transport",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research"
+    },
+    "model": "resources.transport",
+    "pk": 18
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:46:42.384Z",
+        "consumables": "none",
+        "name": "AT-ST",
+        "created": "2014-12-15T12:46:42.384Z",
+        "cargo_capacity": "200kg",
+        "passengers": "0",
+        "max_atmosphering_speed": "90km/h",
+        "crew": "2",
+        "length": "2m",
+        "model": "All Terrain Scout Transport",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research"
+    },
+    "model": "resources.transport",
+    "pk": 19
+},
+{
+    "fields": {
+        "edited": "2014-12-15T12:58:50.530Z",
+        "consumables": "1 day",
+        "name": "Storm IV Twin-Pod cloud car",
+        "created": "2014-12-15T12:58:50.530Z",
+        "cargo_capacity": "10kg",
+        "passengers": "0",
+        "max_atmosphering_speed": "1500km/h",
+        "crew": "2",
+        "length": "7m",
+        "model": "Storm IV Twin-Pod",
+        "cost_in_credits": "75,000",
+        "manufacturer": "Bespin Motors"
+    },
+    "model": "resources.transport",
+    "pk": 20
+},
+{
+    "fields": {
+        "edited": "2014-12-15T13:00:56.332Z",
+        "consumables": "1 month",
+        "name": "Slave 1",
+        "created": "2014-12-15T13:00:56.332Z",
+        "cargo_capacity": "70,000kg",
+        "passengers": "6",
+        "max_atmosphering_speed": "1,000km/h",
+        "crew": "1",
+        "length": "21.5m",
+        "model": "Firespray-31-class patrol and attack",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Kuat Systems Engineering"
+    },
+    "model": "resources.transport",
+    "pk": 21
+},
+{
+    "fields": {
+        "edited": "2014-12-15T13:04:47.235Z",
+        "consumables": "2 months",
+        "name": "Imperial shuttle",
+        "created": "2014-12-15T13:04:47.235Z",
+        "cargo_capacity": "80,000kg",
+        "passengers": "20",
+        "max_atmosphering_speed": "850km/h",
+        "crew": "6",
+        "length": "20m",
+        "model": "Lambda-class T-4a shuttle",
+        "cost_in_credits": "240,000",
+        "manufacturer": "Sienar Fleet Systems"
+    },
+    "model": "resources.transport",
+    "pk": 22
+},
+{
+    "fields": {
+        "edited": "2014-12-15T13:06:30.813Z",
+        "consumables": "2 years",
+        "name": "EF76 Nebulon-B escort frigate",
+        "created": "2014-12-15T13:06:30.813Z",
+        "cargo_capacity": "6,000,000kg",
+        "passengers": "75",
+        "max_atmosphering_speed": "800km/h",
+        "crew": "854",
+        "length": "300m",
+        "model": "EF76 Nebulon-B escort frigate",
+        "cost_in_credits": "8,500,000",
+        "manufacturer": "Kuat Drive Yards"
+    },
+    "model": "resources.transport",
+    "pk": 23
 }
 ]
