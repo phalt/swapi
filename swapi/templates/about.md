@@ -17,7 +17,7 @@ Comparing the data from Star Wars has never been easier. Here are some examples 
 
     import swapi
     for planet in swapi.get_all("planets").order_by("diameter"):
-        print planet.name
+        print(planet.name)
 
 
 *View the people who have piloted more than one starship*:
@@ -25,7 +25,7 @@ Comparing the data from Star Wars has never been easier. Here are some examples 
     import swapi
     for people in swapi.get_all("people"):
         if len(people.starships) > 1:
-            print people.name
+            print(people.name)
 
 *Discover if Jar Jar Binks ruined a film just by being in it*:
 
@@ -33,7 +33,14 @@ Comparing the data from Star Wars has never been easier. Here are some examples 
     pm = swapi.get_film(episode_id=1)
     jj = swapi.get_person(name="Jar Jar Binks")
     if jj.id in pm.characters:
-        print "Why George, why."
+        print("Why George, why.")
+
+
+## What are the features?
+
+We're using [Django](https://djangoproject.com) and [Django REST Framework](https://django-rest-framework.org) to serve a [RESTish](https://en.wikipedia.org/wiki/REST) API to you.
+
+The data is all formatted in [JSON](http://json.org) and we also support [JSON Schema](http://jsonschema.net) for programmatically understanding the attributes of each resource.
 
 ## Why did you build this?
 

@@ -60,6 +60,10 @@ Swapi has rate limiting to prevent malicious abuse (as if anyone would abuse Sta
 
 Swapi is a **completely open API**. No authenitcation is required to query and get data. This also means that we've limited what you can do to just **GET**-ing the data. If you find a mistake in the code, then [tweet the author](https://twitter.com/phalt_) or [email him](mailto:paulandrewhallett@gmail.com).
 
+<a name="schema"></a>
+###JSON Schema
+
+All resources support [JSON Schema](https://jsonschema.net). Making a request to ```/api/<resource>/schema``` will give you the details of that resource. This will allow you to programmatically inspect the attributes of that resource and their types.
 
 #Resources
 - - -
@@ -89,22 +93,28 @@ The Root resource provides information on all avaiable resources within the API.
 **Attributes:**
 
 - ```films``` *string*
--- The URL root for ```Film``` resources
+-- The URL root for Film resources
 - ```people``` *string*
--- The URL root for ```People``` resources
+-- The URL root for People resources
 - ```planets``` *string*
--- The URL root for ```People``` resources
+-- The URL root for Planet resources
 - ```species``` *string*
--- The URL root for ```Species``` resources
+-- The URL root for Species resources
 - ```starships``` *string*
--- The URL root for ```Starships``` resources
+-- The URL root for Starships resources
 - ```vehicles``` *string*
--- The URL root for ```Vehicles``` resources
+-- The URL root for Vehicles resources
 
 <a name="people"></a>
 ###People
 
-A ```People``` resource is an individual person or character within the Star Wars universe.
+A People resource is an individual person or character within the Star Wars universe.
+
+**Endpoints**
+
+- ```/people/``` -- get all the people resources
+- ```/people/<id>/``` -- get a specific people resource
+- ```/people/schema/``` -- view the JSON schema for this resource
 
 **Example request:**
 
@@ -128,6 +138,8 @@ A ```People``` resource is an individual person or character within the Star War
         "mass": "77 Kg",
         "name": "Luke Skywalker",
         "skin_color": "Fair",
+        "created": "2014-12-09T13:50:51.644000Z",
+        "edited": "2014-12-10T13:52:43.172000Z",
         "species": [],
         "starships": [
             "http://localhost:8000/api/starships/12/",
@@ -136,6 +148,7 @@ A ```People``` resource is an individual person or character within the Star War
         "url": "http://localhost:8000/api/people/1/",
         "vehicles": [
             "http://localhost:8000/api/vehicles/14/"
+            ...
         ]
     }
 
@@ -155,8 +168,6 @@ A ```People``` resource is an individual person or character within the Star War
 -- the mass of the person in kilograms.
 - ```skin_color``` *string*
 -- the skin color of this person.
-- ```url``` *string*
--- the hypermedia URL of this resource.
 - ```films``` *array*
 -- An array of film resource URLs that this person has been in.
 - ```species``` *array*
@@ -165,3 +176,9 @@ A ```People``` resource is an individual person or character within the Star War
 -- An array of starship resource URLs that this person has piloted.
 - ```vehicles``` *array*
 -- An array of vehicle resource URLs that this person has piloted.
+- ```url``` *string*
+-- the hypermedia URL of this resource.
+- ```created``` *string*
+-- the ISO 8601 date format of the time that this resource was created
+- ```edited``` *string*
+-- the ISO 8601 date format of the time that this resource was edited
