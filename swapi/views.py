@@ -7,6 +7,8 @@ from django.conf import settings
 from keen.client import KeenClient
 import stripe
 
+from resources.utils import get_resource_stats
+
 def index(request):
 
     keen = KeenClient(
@@ -28,11 +30,12 @@ def documentation(request):
 
 def about(request):
     stripe_key = settings.STRIPE_KEYS['publishable']
+
+    data = get_resource_stats()
+    data['stripe_key'] = stripe_key
     return render_to_response(
         "about.html",
-        {
-            'stripe_key': stripe_key
-        }
+        data
     )
 
 @csrf_exempt

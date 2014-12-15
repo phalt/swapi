@@ -1,11 +1,11 @@
 [
 {
     "fields": {
-        "edited": "2014-12-10T11:39:32.931Z",
+        "edited": "2014-12-15T13:48:16.167Z",
         "climate": "Arid",
         "surface_water": "1%",
         "name": "Tatooine",
-        "diameter": "10,465 lm",
+        "diameter": "10,465",
         "rotation_period": "23 hours",
         "created": "2014-12-09T13:50:49.641Z",
         "terrain": "Dessert",
@@ -18,11 +18,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T11:39:46.271Z",
+        "edited": "2014-12-15T13:48:11.565Z",
         "climate": "Temperate",
         "surface_water": "40%",
         "name": "Alderaan",
-        "diameter": "12,500 Km",
+        "diameter": "12,500",
         "rotation_period": "24 hours",
         "created": "2014-12-10T11:35:48.479Z",
         "terrain": "Grasslands, Mountains",
@@ -35,11 +35,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T11:40:01.945Z",
+        "edited": "2014-12-15T13:48:07.094Z",
         "climate": "Temperate, Tropical",
         "surface_water": "8%",
         "name": "Yavin IV",
-        "diameter": "10,200 Km",
+        "diameter": "10,200",
         "rotation_period": "24 hours",
         "created": "2014-12-10T11:37:19.144Z",
         "terrain": "Jungle, Rainforests",
@@ -52,11 +52,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T11:40:11.292Z",
+        "edited": "2014-12-15T13:48:02.215Z",
         "climate": "Frozen",
         "surface_water": "100%",
         "name": "Hoth",
-        "diameter": "7,200 km",
+        "diameter": "7,200",
         "rotation_period": "23 hours",
         "created": "2014-12-10T11:39:13.934Z",
         "terrain": "Tundra, Ice caves, Mountain ranges",
@@ -69,11 +69,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T11:42:22.590Z",
+        "edited": "2014-12-15T13:47:54.333Z",
         "climate": "Murky",
         "surface_water": "8%",
         "name": "Dagobah",
-        "diameter": "8,900 km",
+        "diameter": "8,900",
         "rotation_period": "23 hours",
         "created": "2014-12-10T11:42:22.590Z",
         "terrain": "Swamp, Jungles",
@@ -86,11 +86,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T11:43:55.240Z",
+        "edited": "2014-12-15T13:47:49.497Z",
         "climate": "Temperate",
         "surface_water": "0%",
         "name": "Bespin",
-        "diameter": "118,000 km",
+        "diameter": "118,000",
         "rotation_period": "12 hours",
         "created": "2014-12-10T11:43:55.240Z",
         "terrain": "Gas Giant",
@@ -103,11 +103,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T11:50:29.349Z",
+        "edited": "2014-12-15T13:47:43.550Z",
         "climate": "Temperate",
         "surface_water": "8%",
         "name": "Endor",
-        "diameter": "4,900 km",
+        "diameter": "4,900",
         "rotation_period": "18 hours",
         "created": "2014-12-10T11:50:29.349Z",
         "terrain": "Forests, Mountains, Lakes",
@@ -120,11 +120,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T11:52:31.067Z",
+        "edited": "2014-12-15T13:47:38.961Z",
         "climate": "Temperate",
         "surface_water": "12%",
         "name": "Naboo",
-        "diameter": "12,120 km",
+        "diameter": "12,120",
         "rotation_period": "26 hours",
         "created": "2014-12-10T11:52:31.066Z",
         "terrain": "Grassy hills, Swamps, Forests, Mountains",
@@ -137,11 +137,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T11:54:13.921Z",
+        "edited": "2014-12-15T13:47:30.488Z",
         "climate": "Temperate",
         "surface_water": "unknown",
         "name": "Coruscant",
-        "diameter": "12,240 km",
+        "diameter": "12,240",
         "rotation_period": "24 hours",
         "created": "2014-12-10T11:54:13.921Z",
         "terrain": "Cityscape, Mountains",
@@ -154,11 +154,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T12:45:06.577Z",
+        "edited": "2014-12-15T13:47:25.494Z",
         "climate": "Temperate",
         "surface_water": "100%",
         "name": "Kamino",
-        "diameter": "19,720 km",
+        "diameter": "19,720",
         "rotation_period": "27 hours",
         "created": "2014-12-10T12:45:06.577Z",
         "terrain": "Ocean",
@@ -171,11 +171,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T12:47:22.350Z",
+        "edited": "2014-12-15T13:47:20.280Z",
         "climate": "Temperate, Arid",
         "surface_water": "5%",
         "name": "Geonosis",
-        "diameter": "11,370 km",
+        "diameter": "11,370",
         "rotation_period": "30 hours",
         "created": "2014-12-10T12:47:22.350Z",
         "terrain": "Rock, Desert, Mountain, Barren",
@@ -188,11 +188,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T12:49:01.491Z",
+        "edited": "2014-12-15T13:47:10.879Z",
         "climate": "Temperate, Arid, Windy",
         "surface_water": "0.9%",
         "name": "Utapau",
-        "diameter": "12,900 km",
+        "diameter": "12,900",
         "rotation_period": "27 hours",
         "created": "2014-12-10T12:49:01.491Z",
         "terrain": "Scrublands, Savanna, Canyons, Sinkholes",
@@ -205,11 +205,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T12:50:16.526Z",
+        "edited": "2014-12-15T13:47:01.892Z",
         "climate": "Hot",
         "surface_water": "0%",
         "name": "Mustafar",
-        "diameter": "4,200 km",
+        "diameter": "4,200",
         "rotation_period": "36 hours",
         "created": "2014-12-10T12:50:16.526Z",
         "terrain": "Volcanoes, Lava rivers, Mountains, Caves",
@@ -222,11 +222,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T13:32:00.124Z",
+        "edited": "2014-12-15T13:46:57.262Z",
         "climate": "Tropical",
         "surface_water": "60%",
         "name": "Kashyyyk",
-        "diameter": "12,765 km",
+        "diameter": "12,765",
         "rotation_period": "26 hours",
         "created": "2014-12-10T13:32:00.124Z",
         "terrain": "Jungle, Forests, Lakes, Rivers",
@@ -239,11 +239,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T13:33:46.405Z",
+        "edited": "2014-12-15T13:46:52.399Z",
         "climate": "Artificial Temperate ",
         "surface_water": "0%",
         "name": "Polis Massa",
-        "diameter": "unknown",
+        "diameter": "0",
         "rotation_period": "24 hours",
         "created": "2014-12-10T13:33:46.405Z",
         "terrain": "Airless asteroid",
@@ -256,11 +256,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T13:43:39.139Z",
+        "edited": "2014-12-15T13:46:47.715Z",
         "climate": "Frigid",
         "surface_water": "unknown",
         "name": "Mygeeto",
-        "diameter": "10,088 km",
+        "diameter": "10,088",
         "rotation_period": "12 hours",
         "created": "2014-12-10T13:43:39.139Z",
         "terrain": "Glaciers, Mountains, Ice Canyons",
@@ -273,11 +273,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T13:44:50.397Z",
+        "edited": "2014-12-15T13:46:32.458Z",
         "climate": "Hot, Humid",
         "surface_water": "unknown",
         "name": "Felucia",
-        "diameter": "9,100 km",
+        "diameter": "9,100",
         "rotation_period": "34 hours",
         "created": "2014-12-10T13:44:50.397Z",
         "terrain": "Fungus Forests",
@@ -290,11 +290,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T13:46:28.704Z",
+        "edited": "2014-12-15T13:46:27.830Z",
         "climate": "Temperate, Moist",
         "surface_water": "unknown",
         "name": "Cato Neimoidia",
-        "diameter": "unknown",
+        "diameter": "0",
         "rotation_period": "25 hours",
         "created": "2014-12-10T13:46:28.704Z",
         "terrain": "Mountains, Fields, Forests, Rock Arches",
@@ -307,11 +307,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T13:47:46.874Z",
+        "edited": "2014-12-15T13:46:22.553Z",
         "climate": "Hot",
         "surface_water": "unknown",
         "name": "Saleucami",
-        "diameter": "14,920 km",
+        "diameter": "14,920",
         "rotation_period": "26 hours",
         "created": "2014-12-10T13:47:46.874Z",
         "terrain": "Caves, Desert, Mountains, Volcanoes",
@@ -324,11 +324,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T16:16:26.566Z",
+        "edited": "2014-12-15T13:46:16.811Z",
         "climate": "temperate",
         "surface_water": "unknown",
         "name": "Stewjon",
-        "diameter": "unknown",
+        "diameter": "0",
         "rotation_period": "unknown",
         "created": "2014-12-10T16:16:26.566Z",
         "terrain": "grass",
@@ -341,11 +341,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T16:26:54.384Z",
+        "edited": "2014-12-15T13:46:09.691Z",
         "climate": "Polluted",
         "surface_water": "unknown",
         "name": "Eriadu",
-        "diameter": "13,490 km",
+        "diameter": "13,490",
         "rotation_period": "24 hours",
         "created": "2014-12-10T16:26:54.384Z",
         "terrain": "Cityscape",
@@ -358,11 +358,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T16:49:12.453Z",
+        "edited": "2014-12-15T13:46:04.944Z",
         "climate": "Temperate",
         "surface_water": "70%",
         "name": "Corellia",
-        "diameter": "11,000km",
+        "diameter": "11,000",
         "rotation_period": "25 hours",
         "created": "2014-12-10T16:49:12.453Z",
         "terrain": "Plains, Urban, Hills, Forests",
@@ -375,11 +375,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T17:03:28.110Z",
+        "edited": "2014-12-15T13:46:00.719Z",
         "climate": "Hot",
         "surface_water": "60%",
         "name": "Rodia",
-        "diameter": "7,549km",
+        "diameter": "7,549",
         "rotation_period": "29 hours",
         "created": "2014-12-10T17:03:28.110Z",
         "terrain": "Jungles, Oceans, Urban, Swamps",
@@ -392,11 +392,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T17:11:29.452Z",
+        "edited": "2014-12-15T13:45:56.472Z",
         "climate": "Temperate",
         "surface_water": "unknown",
         "name": "Nal Hutta",
-        "diameter": "12,150km",
+        "diameter": "12,150",
         "rotation_period": "87 hours",
         "created": "2014-12-10T17:11:29.452Z",
         "terrain": "Urban, Oceans, Swamps, Bogs",
@@ -409,11 +409,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T17:23:29.896Z",
+        "edited": "2014-12-15T13:45:52.678Z",
         "climate": "Temperate",
         "surface_water": "unknown",
         "name": "Dantooine",
-        "diameter": "9,830km",
+        "diameter": "9,830",
         "rotation_period": "25 hours",
         "created": "2014-12-10T17:23:29.896Z",
         "terrain": "Oceans, Savannas, Mountains, Grasslands",
@@ -426,11 +426,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-12T11:16:55.078Z",
+        "edited": "2014-12-15T13:45:48.708Z",
         "climate": "Temperate",
         "surface_water": "98%",
         "name": "Bestine IV",
-        "diameter": "6,400km",
+        "diameter": "6,400",
         "rotation_period": "26 hours",
         "created": "2014-12-12T11:16:55.078Z",
         "terrain": "Rocky islands, Oceans",
@@ -443,11 +443,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-15T12:23:41.661Z",
+        "edited": "2014-12-15T13:45:44.289Z",
         "climate": "Temperate",
         "surface_water": "10%",
         "name": "Ord Mantell",
-        "diameter": "14,050km",
+        "diameter": "14,050",
         "rotation_period": "26 hours",
         "created": "2014-12-15T12:23:41.661Z",
         "terrain": "Plains, Seas, Mesas",
@@ -460,28 +460,28 @@
 },
 {
     "fields": {
-        "edited": "2014-12-15T12:25:59.570Z",
-        "climate": "n/a",
-        "surface_water": "n/a",
+        "edited": "2014-12-15T13:45:39.410Z",
+        "climate": "unknown",
+        "surface_water": "unknown",
         "name": "unknown",
-        "diameter": "n/a",
-        "rotation_period": "n/a",
+        "diameter": "0",
+        "rotation_period": "0",
         "created": "2014-12-15T12:25:59.569Z",
-        "terrain": "n/a",
-        "gravity": "n/a",
-        "orbital_period": "n/a",
-        "population": "n/a"
+        "terrain": "unknown",
+        "gravity": "unknown",
+        "orbital_period": "0",
+        "population": "unknown"
     },
     "model": "resources.planet",
     "pk": 28
 },
 {
     "fields": {
-        "edited": "2014-12-15T12:53:47.695Z",
+        "edited": "2014-12-15T13:45:11.076Z",
         "climate": "Arid",
         "surface_water": "unknown",
         "name": "Trandosha",
-        "diameter": "unknown",
+        "diameter": "0",
         "rotation_period": "25 hours",
         "created": "2014-12-15T12:53:47.695Z",
         "terrain": "Mountains, Seas, Grasslands, Deserts",
@@ -494,11 +494,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-15T12:56:31.121Z",
+        "edited": "2014-12-15T13:45:07.334Z",
         "climate": "Arid",
         "surface_water": "unknown",
         "name": "Socorro",
-        "diameter": "unknown",
+        "diameter": "0",
         "rotation_period": "20 hours",
         "created": "2014-12-15T12:56:31.121Z",
         "terrain": "Deserts, Mountains",

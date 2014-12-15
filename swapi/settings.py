@@ -90,6 +90,17 @@ CACHES = {
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
+# Markdown
+
+MARKDOWN_DEUX_STYLES = {
+    "default": {
+        "extras": {
+            "code-friendly": None,
+        },
+        "safe_mode": False,
+    },
+}
+
 # REST Framework
 
 REST_FRAMEWORK = {
