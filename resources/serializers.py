@@ -35,6 +35,8 @@ class PeopleSerializer(serializers.HyperlinkedModelSerializer):
             "species",
             "vehicles",
             "starships",
+            "created",
+            "edited",
             "url",
         )
 
@@ -54,6 +56,8 @@ class PlanetSerializer(serializers.HyperlinkedModelSerializer):
             "surface_water",
             "population",
             "residents",
+            "created",
+            "edited",
             "url"
         )
 
@@ -73,6 +77,8 @@ class FilmSerializer(serializers.HyperlinkedModelSerializer):
             "starships",
             "vehicles",
             "species",
+            "created",
+            "edited",
             "url"
         )
 
@@ -98,6 +104,8 @@ class SpeciesSerializer(serializers.HyperlinkedModelSerializer):
             "homeworld",
             "language",
             "people",
+            "created",
+            "edited",
             "url"
         )
 
@@ -125,6 +133,8 @@ class VehicleSerializer(serializers.HyperlinkedModelSerializer):
             "consumables",
             "vehicle_class",
             "pilots",
+            "created",
+            "edited",
             "url"
         )
 
@@ -154,6 +164,8 @@ class StarshipSerializer(serializers.HyperlinkedModelSerializer):
             "MGLT",
             "starship_class",
             "pilots",
+            "created",
+            "edited",
             "url"
         )
 
