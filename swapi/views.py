@@ -50,11 +50,14 @@ def stripe_donation(request):
         card=request.POST.get('stripeToken', '')
     )
 
-    charge = stripe.Charge.create(
-        customer=customer.id,
-        amount=amount,
-        currency='usd',
-        description='SWAPI donation'
-    )
+    try:
+        charge = stripe.Charge.create(
+            customer=customer.id,
+            amount=amount,
+            currency='usd',
+            description='SWAPI donation'
+        )
+    except:
+        pass
 
     return render_to_response('about.html')

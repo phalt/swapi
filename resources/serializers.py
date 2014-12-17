@@ -105,6 +105,7 @@ class SpeciesSerializer(serializers.HyperlinkedModelSerializer):
             "homeworld",
             "language",
             "people",
+            "films",
             "created",
             "edited",
             "url"
@@ -134,6 +135,7 @@ class VehicleSerializer(serializers.HyperlinkedModelSerializer):
             "consumables",
             "vehicle_class",
             "pilots",
+            "films",
             "created",
             "edited",
             "url"
@@ -165,6 +167,7 @@ class StarshipSerializer(serializers.HyperlinkedModelSerializer):
             "MGLT",
             "starship_class",
             "pilots",
+            "films",
             "created",
             "edited",
             "url"
