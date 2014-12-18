@@ -44,7 +44,8 @@
         "pilots": [
             13,
             14,
-            25
+            25,
+            31
         ],
         "MGLT": "75 MGLT",
         "starship_class": "Light freighter",
@@ -145,5 +146,37 @@
     },
     "model": "resources.starship",
     "pk": 23
+},
+{
+    "fields": {
+        "pilots": [],
+        "MGLT": "60",
+        "starship_class": "Star Cruiser",
+        "hyperdrive_rating": "1.0"
+    },
+    "model": "resources.starship",
+    "pk": 27
+},
+{
+    "fields": {
+        "pilots": [
+            29
+        ],
+        "MGLT": "120",
+        "starship_class": "Starfighter",
+        "hyperdrive_rating": "1.0"
+    },
+    "model": "resources.starship",
+    "pk": 28
+},
+{
+    "fields": {
+        "pilots": [],
+        "MGLT": "91",
+        "starship_class": "Assault Starfighter",
+        "hyperdrive_rating": "2.0"
+    },
+    "model": "resources.starship",
+    "pk": 29
 }
 ]

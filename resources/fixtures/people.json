@@ -423,5 +423,90 @@
     },
     "model": "resources.people",
     "pk": 26
+},
+{
+    "fields": {
+        "edited": "2014-12-18T11:07:50.584Z",
+        "name": "Ackbar",
+        "created": "2014-12-18T11:07:50.584Z",
+        "gender": "Male",
+        "skin_color": "brown mottle",
+        "hair_color": "none",
+        "height": "1.8",
+        "eye_color": "orange",
+        "mass": "83",
+        "homeworld": 31,
+        "birth_year": "41BBY"
+    },
+    "model": "resources.people",
+    "pk": 27
+},
+{
+    "fields": {
+        "edited": "2014-12-18T11:12:38.895Z",
+        "name": "Mon Mothma",
+        "created": "2014-12-18T11:12:38.895Z",
+        "gender": "Female",
+        "skin_color": "Fair",
+        "hair_color": "Auburn",
+        "height": "1.5",
+        "eye_color": "Blue",
+        "mass": "unknown",
+        "homeworld": 32,
+        "birth_year": "48BBY"
+    },
+    "model": "resources.people",
+    "pk": 28
+},
+{
+    "fields": {
+        "edited": "2014-12-18T11:16:33.020Z",
+        "name": "Arvel Crynyd",
+        "created": "2014-12-18T11:16:33.020Z",
+        "gender": "Male",
+        "skin_color": "Fair",
+        "hair_color": "Brown",
+        "height": "unknown",
+        "eye_color": "Brown",
+        "mass": "unknown",
+        "homeworld": 28,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 29
+},
+{
+    "fields": {
+        "edited": "2014-12-18T11:21:58.954Z",
+        "name": "Wicket Systri Warrick",
+        "created": "2014-12-18T11:21:58.954Z",
+        "gender": "male",
+        "skin_color": "Brown",
+        "hair_color": "Brown",
+        "height": "0.8",
+        "eye_color": "Brown",
+        "mass": "20",
+        "homeworld": 7,
+        "birth_year": "8BBY"
+    },
+    "model": "resources.people",
+    "pk": 30
+},
+{
+    "fields": {
+        "edited": "2014-12-18T11:26:18.542Z",
+        "name": "Nien Nunb",
+        "created": "2014-12-18T11:26:18.541Z",
+        "gender": "male",
+        "skin_color": "Grey",
+        "hair_color": "none",
+        "height": "1.6",
+        "eye_color": "Black",
+        "mass": "68",
+        "homeworld": 33,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 31
 }
 ]

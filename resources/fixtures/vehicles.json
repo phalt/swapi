@@ -75,5 +75,40 @@
     },
     "model": "resources.vehicle",
     "pk": 20
+},
+{
+    "fields": {
+        "vehicle_class": "Sail barge",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 24
+},
+{
+    "fields": {
+        "vehicle_class": "repulsorcraft cargo skiff",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 25
+},
+{
+    "fields": {
+        "vehicle_class": "starfighter",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 26
+},
+{
+    "fields": {
+        "vehicle_class": "Speeder",
+        "pilots": [
+            1,
+            5
+        ]
+    },
+    "model": "resources.vehicle",
+    "pk": 30
 }
 ]

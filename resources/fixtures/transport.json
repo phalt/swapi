@@ -145,7 +145,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-15T13:02:26.751Z",
+        "edited": "2014-12-18T11:27:02.384Z",
         "consumables": "2 months",
         "name": "Millennium Falcon",
         "created": "2014-12-10T16:59:45.094Z",
@@ -394,5 +394,131 @@
     },
     "model": "resources.transport",
     "pk": 23
+},
+{
+    "fields": {
+        "edited": "2014-12-18T10:44:14.217Z",
+        "consumables": "Live food tanks",
+        "name": "Sail barge",
+        "created": "2014-12-18T10:44:14.217Z",
+        "cargo_capacity": "2,000,000",
+        "passengers": "500",
+        "max_atmosphering_speed": "100",
+        "crew": "26",
+        "length": "30",
+        "model": "Modified Luxury Sail Barge",
+        "cost_in_credits": "285,000",
+        "manufacturer": "Ubrikkian Industries Custom Vehicle Division"
+    },
+    "model": "resources.transport",
+    "pk": 24
+},
+{
+    "fields": {
+        "edited": "2014-12-18T10:48:03.208Z",
+        "consumables": "1 day",
+        "name": "Bantha-II cargo skiff",
+        "created": "2014-12-18T10:48:03.208Z",
+        "cargo_capacity": "135,000",
+        "passengers": "16",
+        "max_atmosphering_speed": "250",
+        "crew": "5",
+        "length": "9.5",
+        "model": "Bantha-II",
+        "cost_in_credits": "8,000",
+        "manufacturer": "Ubrikkian Industries"
+    },
+    "model": "resources.transport",
+    "pk": 25
+},
+{
+    "fields": {
+        "edited": "2014-12-18T10:50:28.226Z",
+        "consumables": "2 days",
+        "name": "TIE/IN interceptor",
+        "created": "2014-12-18T10:50:28.225Z",
+        "cargo_capacity": "75",
+        "passengers": "0",
+        "max_atmosphering_speed": "1,250",
+        "crew": "1",
+        "length": "9.6",
+        "model": "Twin Ion Engine Interceptor",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Sienar Fleet Systems"
+    },
+    "model": "resources.transport",
+    "pk": 26
+},
+{
+    "fields": {
+        "edited": "2014-12-18T10:54:57.804Z",
+        "consumables": "2 years",
+        "name": "Calamari Cruiser",
+        "created": "2014-12-18T10:54:57.804Z",
+        "cargo_capacity": "unknown",
+        "passengers": "1200",
+        "max_atmosphering_speed": "n/a",
+        "crew": "5400",
+        "length": "1200",
+        "model": "MC80 Liberty type Star Cruiser",
+        "cost_in_credits": "104000000",
+        "manufacturer": "Mon Calamari shipyards"
+    },
+    "model": "resources.transport",
+    "pk": 27
+},
+{
+    "fields": {
+        "edited": "2014-12-18T11:16:34.542Z",
+        "consumables": "1 week",
+        "name": "A-wing",
+        "created": "2014-12-18T11:16:34.542Z",
+        "cargo_capacity": "40",
+        "passengers": "0",
+        "max_atmosphering_speed": "1300",
+        "crew": "1",
+        "length": "9.6",
+        "model": "RZ-1 A-wing Interceptor",
+        "cost_in_credits": "175000",
+        "manufacturer": "Alliance Underground Engineering, Incom Corporation"
+    },
+    "model": "resources.transport",
+    "pk": 28
+},
+{
+    "fields": {
+        "edited": "2014-12-18T11:18:04.763Z",
+        "consumables": "1 week",
+        "name": "B-wing",
+        "created": "2014-12-18T11:18:04.763Z",
+        "cargo_capacity": "45",
+        "passengers": "0",
+        "max_atmosphering_speed": "950",
+        "crew": "1",
+        "length": "16.9",
+        "model": "A/SF-01 B-wing starfighter",
+        "cost_in_credits": "220000",
+        "manufacturer": "Slayn & Korpil"
+    },
+    "model": "resources.transport",
+    "pk": 29
+},
+{
+    "fields": {
+        "edited": "2014-12-18T11:20:04.625Z",
+        "consumables": "1 day",
+        "name": "Imperial Speeder Bike",
+        "created": "2014-12-18T11:20:04.625Z",
+        "cargo_capacity": "4",
+        "passengers": "1",
+        "max_atmosphering_speed": "360",
+        "crew": "1",
+        "length": "3",
+        "model": "74-Z speeder bike",
+        "cost_in_credits": "8000",
+        "manufacturer": "Aratech Repulsor Company"
+    },
+    "model": "resources.transport",
+    "pk": 30
 }
 ]

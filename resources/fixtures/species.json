@@ -1,21 +1,31 @@
 [
 {
     "fields": {
-        "edited": "2014-12-15T13:08:46.517Z",
+        "edited": "2014-12-18T11:27:31.311Z",
         "classification": "Mammal",
         "name": "Human",
         "designation": "Sentient",
         "created": "2014-12-10T13:52:11.567Z",
         "eye_colors": "Brown, Blue, Green, Hazel, Grey, Amber",
         "people": [
+            1,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
             11,
             12,
             14,
             18,
             19,
             21,
+            22,
             25,
-            26
+            26,
+            28,
+            29
         ],
         "skin_colors": "Caucasian, Black, Asian, Hispanic",
         "language": "Galactic Basic",
@@ -155,5 +165,68 @@
     },
     "model": "resources.species",
     "pk": 7
+},
+{
+    "fields": {
+        "edited": "2014-12-18T11:09:52.263Z",
+        "classification": "Amphibian",
+        "name": "Mon Calamari",
+        "designation": "Sentient",
+        "created": "2014-12-18T11:09:52.263Z",
+        "eye_colors": "Yellow",
+        "people": [
+            27
+        ],
+        "skin_colors": "Red, Blue, Brown, Magenta",
+        "language": "Mon Calamarian",
+        "hair_colors": "none",
+        "homeworld": 31,
+        "average_lifespan": "unknown",
+        "average_height": "1.6"
+    },
+    "model": "resources.species",
+    "pk": 8
+},
+{
+    "fields": {
+        "edited": "2014-12-18T11:22:00.285Z",
+        "classification": "Mammal",
+        "name": "Ewok",
+        "designation": "Sentient",
+        "created": "2014-12-18T11:22:00.285Z",
+        "eye_colors": "Orange, Brown",
+        "people": [
+            30
+        ],
+        "skin_colors": "Brown",
+        "language": "Ewokese",
+        "hair_colors": "White, Brown, Black",
+        "homeworld": 7,
+        "average_lifespan": "unknown",
+        "average_height": "1"
+    },
+    "model": "resources.species",
+    "pk": 9
+},
+{
+    "fields": {
+        "edited": "2014-12-18T11:26:20.103Z",
+        "classification": "Mammal",
+        "name": "Sullustan",
+        "designation": "Sentient",
+        "created": "2014-12-18T11:26:20.103Z",
+        "eye_colors": "Black",
+        "people": [
+            31
+        ],
+        "skin_colors": "Pale",
+        "language": "Sullutese",
+        "hair_colors": "none",
+        "homeworld": 33,
+        "average_lifespan": "unknown",
+        "average_height": "1.8"
+    },
+    "model": "resources.species",
+    "pk": 10
 }
 ]
