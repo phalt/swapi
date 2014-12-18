@@ -573,3 +573,13 @@ A Planet resource is a large mass, planet or planetoid in the Star Wars Universe
 -- the ISO 8601 date format of the time that this resource was created.
 - ```edited``` *string*
 -- the ISO 8601 date format of the time that this resource was edited.
+
+#Helper libraries
+- - -
+
+There are a bunch of helper libraries available for consuming the Star Wars API in a native programming language.
+
+<a name="python"></a>
+##Python
+
+- [swapi-python](https://github.com/phalt/swapi-python) is built by the author of swapi.

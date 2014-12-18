@@ -10,7 +10,7 @@ We've formatted this data in **JSON** and exposed it to you in a **RESTish** imp
 
 ## What can you use this for?
 
-Comparing the data from Star Wars has never been easier. Here are some examples using the [Python helper library](/documentation#python_helper)
+Comparing the data from Star Wars has never been easier. Here are some examples using the [Python helper library](/documentation#python)
 
 *List the planets in order of size*:
 
