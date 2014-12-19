@@ -520,5 +520,185 @@
     },
     "model": "resources.transport",
     "pk": 30
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:01:31.488Z",
+        "consumables": "unknown",
+        "name": "Republic Cruiser",
+        "created": "2014-12-19T17:01:31.488Z",
+        "cargo_capacity": "unknown",
+        "passengers": "16",
+        "max_atmosphering_speed": "900",
+        "crew": "9",
+        "length": "115",
+        "model": "Consular-class cruiser",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Corellian Engineering Corporation"
+    },
+    "model": "resources.transport",
+    "pk": 31
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:04:06.323Z",
+        "consumables": "500 days",
+        "name": "Droid control ship",
+        "created": "2014-12-19T17:04:06.323Z",
+        "cargo_capacity": "4000000000",
+        "passengers": "139000",
+        "max_atmosphering_speed": "n/a",
+        "crew": "175",
+        "length": "3170",
+        "model": "Lucrehulk-class Droid Control Ship",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Hoersch-Kessel Drive, Inc."
+    },
+    "model": "resources.transport",
+    "pk": 32
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:09:53.584Z",
+        "consumables": "none",
+        "name": "Vulture Droid",
+        "created": "2014-12-19T17:09:53.584Z",
+        "cargo_capacity": "0",
+        "passengers": "0",
+        "max_atmosphering_speed": "1200",
+        "crew": "0",
+        "length": "3.5",
+        "model": "Vulture-class droid starfighter",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Haor Chall Engineering, Baktoid Armor Workshop"
+    },
+    "model": "resources.transport",
+    "pk": 33
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:12:04.400Z",
+        "consumables": "unknown",
+        "name": "Multi-Troop Transport",
+        "created": "2014-12-19T17:12:04.400Z",
+        "cargo_capacity": "12000",
+        "passengers": "112",
+        "max_atmosphering_speed": "35",
+        "crew": "4",
+        "length": "31",
+        "model": "Multi-Troop Transport",
+        "cost_in_credits": "138000",
+        "manufacturer": "Baktoid Armor Workshop"
+    },
+    "model": "resources.transport",
+    "pk": 34
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:13:29.799Z",
+        "consumables": "unknown",
+        "name": "Armored Assault Tank",
+        "created": "2014-12-19T17:13:29.799Z",
+        "cargo_capacity": "unknown",
+        "passengers": "6",
+        "max_atmosphering_speed": "55",
+        "crew": "4",
+        "length": "9.75",
+        "model": "Armoured Assault Tank",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Baktoid Armor Workshop"
+    },
+    "model": "resources.transport",
+    "pk": 35
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:15:09.511Z",
+        "consumables": "none",
+        "name": "Single Trooper Aerial Platform",
+        "created": "2014-12-19T17:15:09.511Z",
+        "cargo_capacity": "none",
+        "passengers": "0",
+        "max_atmosphering_speed": "400",
+        "crew": "1",
+        "length": "2",
+        "model": "Single Trooper Aerial Platform",
+        "cost_in_credits": "2500",
+        "manufacturer": "Baktoid Armor Workshop"
+    },
+    "model": "resources.transport",
+    "pk": 36
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:20:36.373Z",
+        "consumables": "1 day",
+        "name": "C-9979 landing craft",
+        "created": "2014-12-19T17:20:36.373Z",
+        "cargo_capacity": "1800000",
+        "passengers": "284",
+        "max_atmosphering_speed": "587",
+        "crew": "140",
+        "length": "210",
+        "model": "C-9979 landing craft",
+        "cost_in_credits": "200000",
+        "manufacturer": "Haor Chall Engineering"
+    },
+    "model": "resources.transport",
+    "pk": 37
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:37:37.924Z",
+        "consumables": "unknown",
+        "name": "Tribubble bongo",
+        "created": "2014-12-19T17:37:37.924Z",
+        "cargo_capacity": "1600",
+        "passengers": "2",
+        "max_atmosphering_speed": "85",
+        "crew": "1",
+        "length": "15",
+        "model": "Tribubble bongo",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Otoh Gunga Bongameken Cooperative"
+    },
+    "model": "resources.transport",
+    "pk": 38
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:39:17.582Z",
+        "consumables": "7 days",
+        "name": "Naboo fighter",
+        "created": "2014-12-19T17:39:17.582Z",
+        "cargo_capacity": "65",
+        "passengers": "0",
+        "max_atmosphering_speed": "1100",
+        "crew": "1",
+        "length": "11",
+        "model": "N-1 starfighter",
+        "cost_in_credits": "200000",
+        "manufacturer": "Theed Palace Space Vessel Engineering Corps"
+    },
+    "model": "resources.transport",
+    "pk": 39
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:45:03.506Z",
+        "consumables": "unknown",
+        "name": "Naboo Royal Starship",
+        "created": "2014-12-19T17:45:03.506Z",
+        "cargo_capacity": "unknown",
+        "passengers": "unknown",
+        "max_atmosphering_speed": "920",
+        "crew": "8",
+        "length": "76",
+        "model": "J-type 327 Nubian royal starship",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Theed Palace Space Vessel Engineering Corps, Nubia Star Drives"
+    },
+    "model": "resources.transport",
+    "pk": 40
 }
 ]

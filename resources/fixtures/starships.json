@@ -178,5 +178,49 @@
     },
     "model": "resources.starship",
     "pk": 29
+},
+{
+    "fields": {
+        "pilots": [],
+        "MGLT": "unknown",
+        "starship_class": "Space cruiser",
+        "hyperdrive_rating": "2.0"
+    },
+    "model": "resources.starship",
+    "pk": 31
+},
+{
+    "fields": {
+        "pilots": [],
+        "MGLT": "unknown",
+        "starship_class": "Droid control ship",
+        "hyperdrive_rating": "2.0"
+    },
+    "model": "resources.starship",
+    "pk": 32
+},
+{
+    "fields": {
+        "pilots": [
+            11
+        ],
+        "MGLT": "unknown",
+        "starship_class": "Starfighter",
+        "hyperdrive_rating": "1.0"
+    },
+    "model": "resources.starship",
+    "pk": 39
+},
+{
+    "fields": {
+        "pilots": [
+            39
+        ],
+        "MGLT": "unknown",
+        "starship_class": "yacht",
+        "hyperdrive_rating": "1.8"
+    },
+    "model": "resources.starship",
+    "pk": 40
 }
 ]

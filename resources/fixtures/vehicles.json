@@ -110,5 +110,56 @@
     },
     "model": "resources.vehicle",
     "pk": 30
+},
+{
+    "fields": {
+        "vehicle_class": "Starfighter",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 33
+},
+{
+    "fields": {
+        "vehicle_class": "Repulsorcraft",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 34
+},
+{
+    "fields": {
+        "vehicle_class": "Repulsorcraft",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 35
+},
+{
+    "fields": {
+        "vehicle_class": "Repulsorcraft",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 36
+},
+{
+    "fields": {
+        "vehicle_class": "Landing craft",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 37
+},
+{
+    "fields": {
+        "vehicle_class": "submarine",
+        "pilots": [
+            10,
+            32
+        ]
+    },
+    "model": "resources.vehicle",
+    "pk": 38
 }
 ]

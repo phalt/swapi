@@ -1,11 +1,11 @@
 [
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.761Z",
+        "edited": "2014-12-18T19:04:25.507Z",
         "climate": "Arid",
         "surface_water": "1%",
         "name": "Tatooine",
-        "diameter": "10,465",
+        "diameter": "10465",
         "rotation_period": "23",
         "created": "2014-12-09T13:50:49.641Z",
         "terrain": "Dessert",
@@ -18,11 +18,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.765Z",
+        "edited": "2014-12-18T19:04:25.511Z",
         "climate": "Temperate",
         "surface_water": "40%",
         "name": "Alderaan",
-        "diameter": "12,500",
+        "diameter": "12500",
         "rotation_period": "24",
         "created": "2014-12-10T11:35:48.479Z",
         "terrain": "Grasslands, Mountains",
@@ -35,11 +35,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.766Z",
+        "edited": "2014-12-18T19:04:25.513Z",
         "climate": "Temperate, Tropical",
         "surface_water": "8%",
         "name": "Yavin IV",
-        "diameter": "10,200",
+        "diameter": "10200",
         "rotation_period": "24",
         "created": "2014-12-10T11:37:19.144Z",
         "terrain": "Jungle, Rainforests",
@@ -52,11 +52,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.768Z",
+        "edited": "2014-12-18T19:04:25.516Z",
         "climate": "Frozen",
         "surface_water": "100%",
         "name": "Hoth",
-        "diameter": "7,200",
+        "diameter": "7200",
         "rotation_period": "23",
         "created": "2014-12-10T11:39:13.934Z",
         "terrain": "Tundra, Ice caves, Mountain ranges",
@@ -69,11 +69,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.770Z",
+        "edited": "2014-12-18T19:04:25.518Z",
         "climate": "Murky",
         "surface_water": "8%",
         "name": "Dagobah",
-        "diameter": "8,900",
+        "diameter": "8900",
         "rotation_period": "23",
         "created": "2014-12-10T11:42:22.590Z",
         "terrain": "Swamp, Jungles",
@@ -86,11 +86,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.772Z",
+        "edited": "2014-12-18T19:04:25.520Z",
         "climate": "Temperate",
         "surface_water": "0%",
         "name": "Bespin",
-        "diameter": "118,000",
+        "diameter": "118000",
         "rotation_period": "12",
         "created": "2014-12-10T11:43:55.240Z",
         "terrain": "Gas Giant",
@@ -103,11 +103,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.774Z",
+        "edited": "2014-12-18T19:04:25.522Z",
         "climate": "Temperate",
         "surface_water": "8%",
         "name": "Endor",
-        "diameter": "4,900",
+        "diameter": "4900",
         "rotation_period": "18",
         "created": "2014-12-10T11:50:29.349Z",
         "terrain": "Forests, Mountains, Lakes",
@@ -120,11 +120,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.777Z",
+        "edited": "2014-12-18T19:04:25.524Z",
         "climate": "Temperate",
         "surface_water": "12%",
         "name": "Naboo",
-        "diameter": "12,120",
+        "diameter": "12120",
         "rotation_period": "26",
         "created": "2014-12-10T11:52:31.066Z",
         "terrain": "Grassy hills, Swamps, Forests, Mountains",
@@ -137,11 +137,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.779Z",
+        "edited": "2014-12-18T19:04:25.527Z",
         "climate": "Temperate",
         "surface_water": "unknown",
         "name": "Coruscant",
-        "diameter": "12,240",
+        "diameter": "12240",
         "rotation_period": "24",
         "created": "2014-12-10T11:54:13.921Z",
         "terrain": "Cityscape, Mountains",
@@ -154,11 +154,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.781Z",
+        "edited": "2014-12-18T19:04:25.529Z",
         "climate": "Temperate",
         "surface_water": "100%",
         "name": "Kamino",
-        "diameter": "19,720",
+        "diameter": "19720",
         "rotation_period": "27",
         "created": "2014-12-10T12:45:06.577Z",
         "terrain": "Ocean",
@@ -171,11 +171,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.782Z",
+        "edited": "2014-12-18T19:04:25.532Z",
         "climate": "Temperate, Arid",
         "surface_water": "5%",
         "name": "Geonosis",
-        "diameter": "11,370",
+        "diameter": "11370",
         "rotation_period": "30",
         "created": "2014-12-10T12:47:22.350Z",
         "terrain": "Rock, Desert, Mountain, Barren",
@@ -188,11 +188,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.784Z",
+        "edited": "2014-12-18T19:04:25.535Z",
         "climate": "Temperate, Arid, Windy",
         "surface_water": "0.9%",
         "name": "Utapau",
-        "diameter": "12,900",
+        "diameter": "12900",
         "rotation_period": "27",
         "created": "2014-12-10T12:49:01.491Z",
         "terrain": "Scrublands, Savanna, Canyons, Sinkholes",
@@ -205,11 +205,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.786Z",
+        "edited": "2014-12-18T19:04:25.537Z",
         "climate": "Hot",
         "surface_water": "0%",
         "name": "Mustafar",
-        "diameter": "4,200",
+        "diameter": "4200",
         "rotation_period": "36",
         "created": "2014-12-10T12:50:16.526Z",
         "terrain": "Volcanoes, Lava rivers, Mountains, Caves",
@@ -222,11 +222,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.788Z",
+        "edited": "2014-12-18T19:04:25.539Z",
         "climate": "Tropical",
         "surface_water": "60%",
         "name": "Kashyyyk",
-        "diameter": "12,765",
+        "diameter": "12765",
         "rotation_period": "26",
         "created": "2014-12-10T13:32:00.124Z",
         "terrain": "Jungle, Forests, Lakes, Rivers",
@@ -239,7 +239,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.790Z",
+        "edited": "2014-12-18T19:04:25.542Z",
         "climate": "Artificial Temperate ",
         "surface_water": "0%",
         "name": "Polis Massa",
@@ -256,11 +256,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.791Z",
+        "edited": "2014-12-18T19:04:25.544Z",
         "climate": "Frigid",
         "surface_water": "unknown",
         "name": "Mygeeto",
-        "diameter": "10,088",
+        "diameter": "10088",
         "rotation_period": "12",
         "created": "2014-12-10T13:43:39.139Z",
         "terrain": "Glaciers, Mountains, Ice Canyons",
@@ -273,11 +273,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.794Z",
+        "edited": "2014-12-18T19:04:25.546Z",
         "climate": "Hot, Humid",
         "surface_water": "unknown",
         "name": "Felucia",
-        "diameter": "9,100",
+        "diameter": "9100",
         "rotation_period": "34",
         "created": "2014-12-10T13:44:50.397Z",
         "terrain": "Fungus Forests",
@@ -290,7 +290,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.795Z",
+        "edited": "2014-12-18T19:04:25.548Z",
         "climate": "Temperate, Moist",
         "surface_water": "unknown",
         "name": "Cato Neimoidia",
@@ -307,11 +307,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.797Z",
+        "edited": "2014-12-18T19:04:25.550Z",
         "climate": "Hot",
         "surface_water": "unknown",
         "name": "Saleucami",
-        "diameter": "14,920",
+        "diameter": "14920",
         "rotation_period": "26",
         "created": "2014-12-10T13:47:46.874Z",
         "terrain": "Caves, Desert, Mountains, Volcanoes",
@@ -324,7 +324,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.799Z",
+        "edited": "2014-12-18T19:04:25.551Z",
         "climate": "temperate",
         "surface_water": "unknown",
         "name": "Stewjon",
@@ -341,11 +341,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.800Z",
+        "edited": "2014-12-18T19:04:25.553Z",
         "climate": "Polluted",
         "surface_water": "unknown",
         "name": "Eriadu",
-        "diameter": "13,490",
+        "diameter": "13490",
         "rotation_period": "24",
         "created": "2014-12-10T16:26:54.384Z",
         "terrain": "Cityscape",
@@ -358,11 +358,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.802Z",
+        "edited": "2014-12-18T19:04:25.555Z",
         "climate": "Temperate",
         "surface_water": "70%",
         "name": "Corellia",
-        "diameter": "11,000",
+        "diameter": "11000",
         "rotation_period": "25",
         "created": "2014-12-10T16:49:12.453Z",
         "terrain": "Plains, Urban, Hills, Forests",
@@ -375,11 +375,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.804Z",
+        "edited": "2014-12-18T19:04:25.556Z",
         "climate": "Hot",
         "surface_water": "60%",
         "name": "Rodia",
-        "diameter": "7,549",
+        "diameter": "7549",
         "rotation_period": "29",
         "created": "2014-12-10T17:03:28.110Z",
         "terrain": "Jungles, Oceans, Urban, Swamps",
@@ -392,11 +392,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.806Z",
+        "edited": "2014-12-18T19:04:25.558Z",
         "climate": "Temperate",
         "surface_water": "unknown",
         "name": "Nal Hutta",
-        "diameter": "12,150",
+        "diameter": "12150",
         "rotation_period": "87",
         "created": "2014-12-10T17:11:29.452Z",
         "terrain": "Urban, Oceans, Swamps, Bogs",
@@ -409,11 +409,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.807Z",
+        "edited": "2014-12-18T19:04:25.559Z",
         "climate": "Temperate",
         "surface_water": "unknown",
         "name": "Dantooine",
-        "diameter": "9,830",
+        "diameter": "9830",
         "rotation_period": "25",
         "created": "2014-12-10T17:23:29.896Z",
         "terrain": "Oceans, Savannas, Mountains, Grasslands",
@@ -426,11 +426,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.809Z",
+        "edited": "2014-12-18T19:04:25.561Z",
         "climate": "Temperate",
         "surface_water": "98%",
         "name": "Bestine IV",
-        "diameter": "6,400",
+        "diameter": "6400",
         "rotation_period": "26",
         "created": "2014-12-12T11:16:55.078Z",
         "terrain": "Rocky islands, Oceans",
@@ -443,11 +443,11 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.811Z",
+        "edited": "2014-12-18T19:04:25.563Z",
         "climate": "Temperate",
         "surface_water": "10%",
         "name": "Ord Mantell",
-        "diameter": "14,050",
+        "diameter": "14050",
         "rotation_period": "26",
         "created": "2014-12-15T12:23:41.661Z",
         "terrain": "Plains, Seas, Mesas",
@@ -460,7 +460,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.813Z",
+        "edited": "2014-12-18T19:04:25.566Z",
         "climate": "unknown",
         "surface_water": "unknown",
         "name": "unknown",
@@ -477,7 +477,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.815Z",
+        "edited": "2014-12-18T19:04:25.569Z",
         "climate": "Arid",
         "surface_water": "unknown",
         "name": "Trandosha",
@@ -494,7 +494,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.817Z",
+        "edited": "2014-12-18T19:04:25.570Z",
         "climate": "Arid",
         "surface_water": "unknown",
         "name": "Socorro",
@@ -511,7 +511,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.819Z",
+        "edited": "2014-12-18T19:04:25.573Z",
         "climate": "Temperate",
         "surface_water": "100",
         "name": "Mon Cala",
@@ -528,7 +528,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.820Z",
+        "edited": "2014-12-18T19:04:25.575Z",
         "climate": "Temperate",
         "surface_water": "40%",
         "name": "Chandrila",
@@ -545,7 +545,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:33:20.822Z",
+        "edited": "2014-12-18T19:04:25.577Z",
         "climate": "Superheated",
         "surface_water": "5%",
         "name": "Sullust",
@@ -559,5 +559,56 @@
     },
     "model": "resources.planet",
     "pk": 33
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:47:54.404Z",
+        "climate": "Temperate",
+        "surface_water": "unknown",
+        "name": "Toydaria",
+        "diameter": "7900",
+        "rotation_period": "21",
+        "created": "2014-12-19T17:47:54.403Z",
+        "terrain": "Swamps, lakes",
+        "gravity": "1",
+        "orbital_period": "184",
+        "population": "11000000"
+    },
+    "model": "resources.planet",
+    "pk": 34
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:52:13.106Z",
+        "climate": "Arid, Temperate, Tropical",
+        "surface_water": "unknown",
+        "name": "Malastare",
+        "diameter": "18880",
+        "rotation_period": "26",
+        "created": "2014-12-19T17:52:13.106Z",
+        "terrain": "Swamps, Deserts, Jungles, Mountains",
+        "gravity": "1.56",
+        "orbital_period": "201",
+        "population": "2000000000"
+    },
+    "model": "resources.planet",
+    "pk": 35
+},
+{
+    "fields": {
+        "edited": "2014-12-19T18:00:40.143Z",
+        "climate": "Temperate",
+        "surface_water": "unknown",
+        "name": "Dathomir",
+        "diameter": "10480",
+        "rotation_period": "24",
+        "created": "2014-12-19T18:00:40.142Z",
+        "terrain": "Forests, Deserts, Savannas",
+        "gravity": "0.9",
+        "orbital_period": "491",
+        "population": "5200"
+    },
+    "model": "resources.planet",
+    "pk": 36
 }
 ]

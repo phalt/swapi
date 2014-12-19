@@ -228,5 +228,91 @@
     },
     "model": "resources.species",
     "pk": 10
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:07:31.319Z",
+        "classification": "unknown",
+        "name": "Neimodian",
+        "designation": "sentient",
+        "created": "2014-12-19T17:07:31.319Z",
+        "eye_colors": "red, pink",
+        "people": [
+            33
+        ],
+        "skin_colors": "grey, green",
+        "language": "Neimoidia",
+        "hair_colors": "none",
+        "homeworld": 18,
+        "average_lifespan": "unknown",
+        "average_height": "180"
+    },
+    "model": "resources.species",
+    "pk": 11
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:33:56.226Z",
+        "classification": "Amphibian",
+        "name": "Gungan",
+        "designation": "Sentient",
+        "created": "2014-12-19T17:30:37.341Z",
+        "eye_colors": "orange",
+        "people": [
+            36,
+            37,
+            38
+        ],
+        "skin_colors": "brown, green",
+        "language": "Gungan basic",
+        "hair_colors": "none",
+        "homeworld": 8,
+        "average_lifespan": "unknown",
+        "average_height": "190"
+    },
+    "model": "resources.species",
+    "pk": 12
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:48:56.893Z",
+        "classification": "Mammal",
+        "name": "Toydarian",
+        "designation": "Sentient",
+        "created": "2014-12-19T17:48:56.893Z",
+        "eye_colors": "yellow",
+        "people": [
+            40
+        ],
+        "skin_colors": "blue, green, grey",
+        "language": "Toydarian",
+        "hair_colors": "none",
+        "homeworld": 34,
+        "average_lifespan": "91",
+        "average_height": "120"
+    },
+    "model": "resources.species",
+    "pk": 13
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:53:11.214Z",
+        "classification": "Mammal",
+        "name": "Dug",
+        "designation": "Sentient",
+        "created": "2014-12-19T17:53:11.214Z",
+        "eye_colors": "yellow, blue",
+        "people": [
+            41
+        ],
+        "skin_colors": "brown, purple, grey, red",
+        "language": "Dugese",
+        "hair_colors": "none",
+        "homeworld": 35,
+        "average_lifespan": "unknown",
+        "average_height": "100"
+    },
+    "model": "resources.species",
+    "pk": 14
 }
 ]

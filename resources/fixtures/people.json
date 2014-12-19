@@ -508,5 +508,226 @@
     },
     "model": "resources.people",
     "pk": 31
+},
+{
+    "fields": {
+        "edited": "2014-12-19T16:54:53.618Z",
+        "name": "Qui-Gon Jinn",
+        "created": "2014-12-19T16:54:53.618Z",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "brown",
+        "height": "193",
+        "eye_color": "blue",
+        "mass": "89",
+        "homeworld": 28,
+        "birth_year": "92BBY"
+    },
+    "model": "resources.people",
+    "pk": 32
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:05:57.357Z",
+        "name": "Nute Gunray",
+        "created": "2014-12-19T17:05:57.357Z",
+        "gender": "male",
+        "skin_color": "mottled green",
+        "hair_color": "none",
+        "height": "191",
+        "eye_color": "red",
+        "mass": "90",
+        "homeworld": 18,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 33
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:21:45.915Z",
+        "name": "Finis Valorum",
+        "created": "2014-12-19T17:21:45.915Z",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "blond",
+        "height": "170",
+        "eye_color": "blue",
+        "mass": "unknown",
+        "homeworld": 9,
+        "birth_year": "91 BBY"
+    },
+    "model": "resources.people",
+    "pk": 34
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:28:26.926Z",
+        "name": "Padm\u00e9 Amidala",
+        "created": "2014-12-19T17:28:26.926Z",
+        "gender": "female",
+        "skin_color": "light",
+        "hair_color": "brown",
+        "height": "185",
+        "eye_color": "brown",
+        "mass": "45",
+        "homeworld": 8,
+        "birth_year": "46 BBY"
+    },
+    "model": "resources.people",
+    "pk": 35
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:29:32.489Z",
+        "name": "Jar Jar Binks",
+        "created": "2014-12-19T17:29:32.489Z",
+        "gender": "male",
+        "skin_color": "orange",
+        "hair_color": "none",
+        "height": "196",
+        "eye_color": "orange",
+        "mass": "66",
+        "homeworld": 8,
+        "birth_year": "52 BBY"
+    },
+    "model": "resources.people",
+    "pk": 36
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:32:56.741Z",
+        "name": "Roos Tarpals",
+        "created": "2014-12-19T17:32:56.741Z",
+        "gender": "male",
+        "skin_color": "grey",
+        "hair_color": "none",
+        "height": "224",
+        "eye_color": "orange",
+        "mass": "82",
+        "homeworld": 8,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 37
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:33:38.909Z",
+        "name": "Rugor Nass",
+        "created": "2014-12-19T17:33:38.909Z",
+        "gender": "male",
+        "skin_color": "green",
+        "hair_color": "none",
+        "height": "206",
+        "eye_color": "orange",
+        "mass": "unknown",
+        "homeworld": 8,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 38
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:45:01.522Z",
+        "name": "Ric Oli\u00e9",
+        "created": "2014-12-19T17:45:01.522Z",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "brown",
+        "height": "183",
+        "eye_color": "blue",
+        "mass": "unknown",
+        "homeworld": 8,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 39
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:48:54.647Z",
+        "name": "Watto",
+        "created": "2014-12-19T17:48:54.647Z",
+        "gender": "male",
+        "skin_color": "blue, grey",
+        "hair_color": "black",
+        "height": "137",
+        "eye_color": "yellow",
+        "mass": "unknown",
+        "homeworld": 34,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 40
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:53:02.586Z",
+        "name": "Sebulba",
+        "created": "2014-12-19T17:53:02.586Z",
+        "gender": "male",
+        "skin_color": "grey, red",
+        "hair_color": "none",
+        "height": "112",
+        "eye_color": "orange",
+        "mass": "40",
+        "homeworld": 35,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 41
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:55:43.348Z",
+        "name": "Quarsh Panaka",
+        "created": "2014-12-19T17:55:43.348Z",
+        "gender": "male",
+        "skin_color": "dark",
+        "hair_color": "black",
+        "height": "183",
+        "eye_color": "brown",
+        "mass": "unknown",
+        "homeworld": 8,
+        "birth_year": "62 BBY"
+    },
+    "model": "resources.people",
+    "pk": 42
+},
+{
+    "fields": {
+        "edited": "2014-12-19T17:57:41.191Z",
+        "name": "Shmi Skywalker",
+        "created": "2014-12-19T17:57:41.191Z",
+        "gender": "female",
+        "skin_color": "fair",
+        "hair_color": "black",
+        "height": "163",
+        "eye_color": "brown",
+        "mass": "unknown",
+        "homeworld": 1,
+        "birth_year": "72 BBY"
+    },
+    "model": "resources.people",
+    "pk": 43
+},
+{
+    "fields": {
+        "edited": "2014-12-19T18:00:41.929Z",
+        "name": "Darth Maul",
+        "created": "2014-12-19T18:00:41.929Z",
+        "gender": "male",
+        "skin_color": "red",
+        "hair_color": "none",
+        "height": "175",
+        "eye_color": "yellow",
+        "mass": "80",
+        "homeworld": 36,
+        "birth_year": "54 BBY"
+    },
+    "model": "resources.people",
+    "pk": 44
 }
 ]
