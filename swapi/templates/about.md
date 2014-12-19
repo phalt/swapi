@@ -30,10 +30,11 @@ Comparing the data from Star Wars has never been easier. Here are some examples 
 *Discover if Jar Jar Binks ruined a film just by being in it*:
 
     import swapi
-    pm = swapi.get_film(episode_id=1)
-    jj = swapi.get_person(name="Jar Jar Binks")
-    if jj.id in pm.characters:
-        print("Why George, why.")
+    pm = swapi.get_film(4)
+    jj = swapi.get_person(36)
+    for c in pm.get_characters():
+        if c.name == pm.name:
+            print("Why George, why.")
 
 
 ## What are the features?

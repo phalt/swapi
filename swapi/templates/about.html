@@ -18,11 +18,11 @@
 </div>
 <div class="col-sm-2 col-lg-2 col-md-2">
 <h4>Donate</h4>
-    <p>With small donations we can keep swapi running for free:</p>
+    <p>With small donations we can keep swapi running for free, please consider throwing me some beer money to say thank you. With every $10 I can keep the site up for another month!</p>
 <p><form action="/stripe/donation" method="POST">{% csrf_token %}
           <script
             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-            data-key="{{ stripe_key }}"
+            data-key="{{stripe_key}}"
             data-image="http://i.imgur.com/PqkJzx4s.png"
             data-name="swapi.co"
             data-description="Donate and keep swapi alive!"

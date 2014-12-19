@@ -13,108 +13,116 @@
         </div>
       </div>
 <div class="row">
-    <div class="col-sm-3 col-lg-3 col-md-3">
+    <div class="col-sm-2 col-lg-2 col-md-2">
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-6">
-        <!-- Begin MailChimp Signup Form -->
-        <div id="mc_embed_signup" class="mc_embed_signup">
-        <form action="//phalt.us9.list-manage.com/subscribe/post?u=2de96655d2b8e91351dc2597d&amp;id=3de00b0046" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-horizontal" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-            <div class="form-group">
-            <h2>Coming soon! Sign up for early access</h2>
-        </div>
-        <div class="form-group">
-            <label for="mce-EMAIL">Email</label>
-            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
-        </div>
-            <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;"><input type="text" name="b_2de96655d2b8e91351dc2597d_3de00b0046" tabindex="-1" value=""></div>
-            <div class="form-group center">
-            <input type="submit" value="Remind me" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-default subscribe_btn">
-        </div>
+    <div class="col-lg-8 col-md-8 col-sm-8">
+      <h1 class="center">
+            Try it now!
+        </h1>
+        <div class="input-group">
+              <span class="input-group-addon">http://swapi.co/api/</span>
+              <input id="interactive" type="text" class="form-control" placeholder="people/1/">
+              <span class="input-group-btn"><button onClick="interactive_call();return false;" class="btn btn-primary">request</button></span>
             </div>
-        </form>
+        <small>Need a hint? try <a href="#" onClick="update('people/1/');return false;"><i>people/1/</i></a> or <a href="#" onClick="update('planets/3/');return false;"><i>planets/3/</i></a> or <a href="#" onClick="update('starships/9/');return false;"><i>starships/9/</i></a></small>
+        <p class="lead pad_top">Result:</p>
+        <div class="well">
+          <pre id="interactive_output" class="pre-scrollable">
+{
+      "name": "Luke Skywalker",
+      "height": "1.72 m",
+      "mass": "77 Kg",
+      "hair_color": "Blond",
+      "skin_color": "Caucasian",
+      "eye_color": "Blue",
+      "birth_year": "19 BBY",
+      "gender": "Male",
+      "homeworld": "http://localhost:8000/api/planets/1/",
+      "films": [
+          "http://localhost:8000/api/films/1/",
+          "http://localhost:8000/api/films/2/",
+          "http://localhost:8000/api/films/3/"
+      ],
+      "species": [
+          "http://localhost:8000/api/species/1/"
+      ],
+      "vehicles": [
+          "http://localhost:8000/api/vehicles/14/",
+          "http://localhost:8000/api/vehicles/30/"
+      ],
+      "starships": [
+          "http://localhost:8000/api/starships/12/",
+          "http://localhost:8000/api/starships/22/"
+      ],
+      "created": "2014-12-09T13:50:51.644000Z",
+      "edited": "2014-12-10T13:52:43.172000Z",
+      "url": "http://localhost:8000/api/people/1/"
+}
+          </pre>
         </div>
-        <!--End mc_embed_signup-->
     </div>
-    <div class="col-sm-3 col-lg-3 col-md-3">
+    <div class="col-sm-2 col-lg-2 col-md-2">
     </div>
 </div>
-<div class="row pad_top">
-        <div class="col-lg-2 col-md-2 col-sm-2">
+<div class="row pad_bot">
+        <div class="col-sm-1 col-lg-1 col-md-1">
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <h4>Have you ever wanted to know who piloted an X-Wing in Star Wars?</h4>
-          <p><pre>HTTP GET http://swapi.co/api/vehicles/1</pre></p>
+        <div class="col-sm-3 col-lg-3 col-md-3">
+          <h4 class="center">What is this?</h4>
+          <p>The Star Wars API, or "swapi" (Swah-pee) is the world's first quanitified and programmatically-accessible data source for all the data from the Star Wars canon universe!</p>
+          <p>We've taken all the rich contextual data from the universe and formatted in our data. Then we went and stuck an API on the front so you can consume all the data!</p>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-3">
-          <h4>Response</h4>
-          <pre class="pre-scrollable"><code>HTTP/1.1 200 OK
-...
-
-{
-  "vehicle_id": "1",
-  "name": "T-65 X-wing",
-  "common_name": "X-wing",
-  "pilots" : [
-    {
-      "name": "Luke Skywalker",
-      "people_id": "1",
-      "url": "/people/1",
-    },
-    {
-      "name": "Wedge Antilles",
-      "people_id": "34",
-      "url": "/people/34",
-    }
-  ],
-  ...
-}</code></pre>
+        <div class="col-sm-4 col-lg-4 col-md-4">
+          <h4 class="center">How can I use it?</h4>
+          <p>All the data is accessible through HTTP. Consult our <a href="/documentation">documentation</a> if you'd like to know more.</p>
+          <p>Helper libraries for popular programming languages are also provided.</p>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2">
+        <div class="col-sm-3 col-lg-3 col-md-3">
+          <h4 class="center">How can I support this?</h4>
+          <p>With small donations we can keep swapi running for free, please consider throwing me some beer money to say thank you. With every $10 I can keep the site up for another month!</p>
+<p><form action="/stripe/donation" method="POST">{% csrf_token %}
+          <script
+            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="{{stripe_key}}"
+            data-image="http://i.imgur.com/PqkJzx4s.png"
+            data-name="swapi.co"
+            data-description="Donate and keep swapi alive!"
+            data-amount="1000"
+            data-panel-label="Donate">
+          </script>
+        </form></p>
+        <p>If you'd like to support with your super cool programmer skills, <a href="/documentation">we need helper libraries</a> for new languages!</p>
+        </div>
+        <div class="col-sm-1 col-lg-1 col-md-1">
         </div>
       </div>
-<div class="row pad_top">
-        <div class="col-lg-2 col-md-2 col-sm-2">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <h4>Which of the films was that planet in again?</h4>
-          <p><pre>HTTP GET http://swapi.co/api/planets/7</pre></p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <h4>Response</h4>
-          <pre class="pre-scrollable"><code>HTTP/1.1 200 OK
-...
-
-{
-  "planet_id": "7",
-  "name": Mustafar,
-  ...
-  "films": [
-    {
-      "film_id": "6",
-      "title" "Revenge of the Sith",
-      "episode_id": "3",
-        "url": "/films/6"
-    }
-  ],
-  ...
-}</code></pre>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-2">
-        </div>
-      </div>
-      <div class="row pad_bot">
-        <div class="col-lg-3">
-        </div>
-        <div class="col-lg-6 center">
-          <h4>All of this and more, coming soon (sooner than episode VII, we promise)</h4>
-        </div>
-        <div class="col-lg-3">
-        </div>
-      </div>
-    </div>
 {% endblock mainbody %}
+{% block scripts %}
+<script>
+    function update(call){
+        jQuery('#interactive').val(call);
+        interactive_call();
+    }
+
+    function interactive_call(){
+        var content = jQuery('#interactive').val()
+        if(content == ''){
+            content = 'people/1/';
+        }
+        var call_url = 'api/' + content;
+        jQuery.ajax({
+      dataType: 'json',
+      url: call_url,
+      context: document.body
+    }).complete(function(data) {
+        if(data['status'] == 200){
+            var d = jQuery.parseJSON(data['responseText']);
+            jQuery('#interactive_output').text(JSON.stringify(d, null, '\t'));
+        }
+        else if (data['status'] == 404) {
+            jQuery('#interactive_output').text(data['status'] + ' ' + data['statusText']);
+        }
+    });
+    }
+    </script>
+{% endblock scripts %}

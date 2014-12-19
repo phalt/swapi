@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response, redirect
 from django.views.decorators.csrf import csrf_exempt
 from django.conf import settings
 
@@ -17,9 +17,11 @@ def index(request):
         read_key=settings.KEEN_READ_KEY
     )
     hits = keen.count("detail_hit")
+    stripe_key = settings.STRIPE_KEYS['publishable']
     return render_to_response('index.html',
         {
-            "hits": hits
+            "hits": hits,
+            "stripe_key": stripe_key
         }
     )
 
@@ -45,13 +47,15 @@ def stripe_donation(request):
 
     stripe.api_key = settings.STRIPE_KEYS['secret']
 
+    import pdb; pdb.set_trace()
+
     customer = stripe.Customer.create(
         email=request.POST.get('stripeEmail', ''),
         card=request.POST.get('stripeToken', '')
     )
 
     try:
-        charge = stripe.Charge.create(
+        stripe.Charge.create(
             customer=customer.id,
             amount=amount,
             currency='usd',
@@ -60,4 +64,4 @@ def stripe_donation(request):
     except:
         pass
 
-    return render_to_response('about.html')
+    return redirect('/')

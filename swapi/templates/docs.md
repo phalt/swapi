@@ -25,18 +25,18 @@ Here is the response we get:
     Content-Type: application/json
     {
         "climate": "Arid",
-        "diameter": "10,465",
+        "diameter": "10465",
         "gravity": "1 standard",
         "name": "Tatooine",
         "orbital_period": "304",
-        "population": "200,000",
+        "population": "200000",
         "residents": [
             "http://swapi.co/api/people/1/",
             "http://swapi.co/api/people/2/",
             ...
         ],
         "rotation_period": "23",
-        "surface_water": "1%",
+        "surface_water": "1",
         "terrain": "Dessert",
         "url": "http://swapi.co/api/planets/1/"
     }
@@ -137,7 +137,7 @@ A People resource is an individual person or character within the Star Wars univ
         ],
         "gender": "Male",
         "hair_color": "Blond",
-        "height": "1.72",
+        "height": "172",
         "homeworld": "http://swapi.co/api/planets/1/",
         "mass": "77",
         "name": "Luke Skywalker",
@@ -167,7 +167,7 @@ A People resource is an individual person or character within the Star Wars univ
 - ```hair_color``` *string*
 -- The hair color of this person. Will be "unknown" if not known or "n/a" if the person does not have hair.
 - ```height``` *string*
--- The height of the person in meters.
+-- The height of the person in centimeters.
 - ```mass``` *string*
 -- The mass of the person in kilograms.
 - ```skin_color``` *string*
@@ -290,19 +290,19 @@ A Starship resource is a single transport craft that has hyperdrive capability.
     Content-Type: application/json
     {
         "MGLT": "10 MGLT",
-        "cargo_capacity": "1,000,000,000,000",
+        "cargo_capacity": "1000000000000",
         "consumables": "3 years",
-        "cost_in_credits": "1,000,000,000,000",
+        "cost_in_credits": "1000000000000",
         "created": "2014-12-10T16:36:50.509000Z",
         "crew": "342,953",
         "edited": "2014-12-10T16:36:50.509000Z",
         "hyperdrive_rating": "4.0",
-        "length": "120,000",
+        "length": "120000",
         "manufacturer": "Imperial Department of Military Research, Sienar Fleet Systems",
         "max_atmosphering_speed": "n/a",
         "model": "DS-1 Orbital Battle Station",
         "name": "Death Star",
-        "passengers": "843,342",
+        "passengers": "843342",
         "films": [
             "http://swapi.co/api/films/1/"
         ],
@@ -371,15 +371,15 @@ A Vehicle resource is a single transport craft that **does not have** hyperdrive
     Content-Type: application/json
 
     {
-        "cargo_capacity": "50,000 kg",
+        "cargo_capacity": "50000",
         "consumables": "2 months",
-        "cost_in_credits": "150,000",
+        "cost_in_credits": "150000",
         "created": "2014-12-10T15:36:25.724000Z",
         "crew": "46",
         "edited": "2014-12-10T15:36:25.724000Z",
-        "length": "36.8 meters",
+        "length": "36.8",
         "manufacturer": "Corellia Mining Corporation",
-        "max_atmosphering_speed": "30 km/h",
+        "max_atmosphering_speed": "30",
         "model": "Digger Crawler",
         "name": "Sand Crawler",
         "passengers": "30",
@@ -523,7 +523,7 @@ A Planet resource is a large mass, planet or planetoid in the Star Wars Universe
     {
         "climate": "Arid",
         "created": "2014-12-09T13:50:49.641000Z",
-        "diameter": "10,465",
+        "diameter": "10465",
         "edited": "2014-12-15T13:48:16.167217Z",
         "films": [
             "http://swapi.co/api/films/1/",
@@ -532,13 +532,13 @@ A Planet resource is a large mass, planet or planetoid in the Star Wars Universe
         "gravity": "1",
         "name": "Tatooine",
         "orbital_period": "304",
-        "population": "120,000",
+        "population": "120000",
         "residents": [
             "http://swapi.co/api/people/1/",
             ...
         ],
         "rotation_period": "23",
-        "surface_water": "1%",
+        "surface_water": "1",
         "terrain": "Dessert",
         "url": "http://swapi.co/api/planets/1/"
     }
@@ -578,6 +578,8 @@ A Planet resource is a large mass, planet or planetoid in the Star Wars Universe
 - - -
 
 There are a bunch of helper libraries available for consuming the Star Wars API in a native programming language.
+
+![helper_library_gif](http://i.imgur.com/l02u363.gif)
 
 <a name="python"></a>
 ##Python
