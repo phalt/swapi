@@ -7,10 +7,11 @@
           <p>All the Star Wars data you've ever wanted:</p>
           <p><b>Planets, Spaceships, Vehicles, People, Films and Species</b></p>
           <p>From all six Star Wars films</p>
-          <p><h4>Over {{ hits }} requests made!</h4></p>
+          <p><h4>Over {{ hits }} requests received!</h4></p>
         </div>
         <div class="col-lg-3">
         </div>
+        <hr>
       </div>
 <div class="row">
     <div class="col-sm-2 col-lg-2 col-md-2">
@@ -75,11 +76,11 @@
         <div class="col-sm-4 col-lg-4 col-md-4">
           <h4 class="center">How can I use it?</h4>
           <p>All the data is accessible through HTTP. Consult our <a href="/documentation">documentation</a> if you'd like to know more.</p>
-          <p>Helper libraries for popular programming languages are also provided.</p>
+          <p>Helper libraries for popular programming languages are also provided so you can consume swapi in your favourite programming language, in a style that suits you.</p>
         </div>
         <div class="col-sm-3 col-lg-3 col-md-3">
           <h4 class="center">How can I support this?</h4>
-          <p>With small donations we can keep swapi running for free, please consider throwing me some beer money to say thank you. With every $10 I can keep the site up for another month!</p>
+          <p>With small donations we can keep swapi running for free, please consider throwing us some beer money to say thank you. With every $10 we can keep the site up for another month!</p>
 <p><form action="/stripe/donation" method="POST">{% csrf_token %}
           <script
             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -92,10 +93,12 @@
           </script>
         </form></p>
         <p>If you'd like to support with your super cool programmer skills, <a href="/documentation">we need helper libraries</a> for new languages!</p>
+        <p>We truly appreciate your support</p>
         </div>
         <div class="col-sm-1 col-lg-1 col-md-1">
         </div>
       </div>
+      <hr>
 {% endblock mainbody %}
 {% block scripts %}
 <script>
