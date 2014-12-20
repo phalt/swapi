@@ -1,134 +1,134 @@
 [
 {
     "fields": {
-        "edited": "2014-12-10T13:52:43.172Z",
+        "edited": "2014-12-20T21:17:56.891Z",
         "name": "Luke Skywalker",
         "created": "2014-12-09T13:50:51.644Z",
-        "gender": "Male",
-        "skin_color": "Caucasian",
-        "hair_color": "Blond",
-        "height": "1.72 m",
-        "eye_color": "Blue",
-        "mass": "77 Kg",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "blond",
+        "height": "172",
+        "eye_color": "blue",
+        "mass": "77",
         "homeworld": 1,
-        "birth_year": "19 BBY"
+        "birth_year": "19BBY"
     },
     "model": "resources.people",
     "pk": 1
 },
 {
     "fields": {
-        "edited": "2014-12-10T15:10:51.357Z",
+        "edited": "2014-12-20T21:17:50.309Z",
         "name": "C-3PO",
         "created": "2014-12-10T15:10:51.357Z",
         "gender": "n/a",
-        "skin_color": "Gold",
+        "skin_color": "gold",
         "hair_color": "n/a",
-        "height": "1.67 m",
-        "eye_color": "Yellow",
-        "mass": "75 kg",
+        "height": "167",
+        "eye_color": "yellow",
+        "mass": "75",
         "homeworld": 1,
-        "birth_year": "112 BBY"
+        "birth_year": "112BBY"
     },
     "model": "resources.people",
     "pk": 2
 },
 {
     "fields": {
-        "edited": "2014-12-10T15:11:50.376Z",
+        "edited": "2014-12-20T21:17:50.311Z",
         "name": "R2-D2",
         "created": "2014-12-10T15:11:50.376Z",
         "gender": "n/a",
-        "skin_color": "White, Blue",
+        "skin_color": "white, blue",
         "hair_color": "n/a",
-        "height": "0.96 m",
-        "eye_color": "Red",
-        "mass": "32 kg",
+        "height": "96",
+        "eye_color": "red",
+        "mass": "32",
         "homeworld": 8,
-        "birth_year": "33 BBY"
+        "birth_year": "33BBY"
     },
     "model": "resources.people",
     "pk": 3
 },
 {
     "fields": {
-        "edited": "2014-12-10T15:18:20.704Z",
+        "edited": "2014-12-20T21:17:50.313Z",
         "name": "Darth Vader",
         "created": "2014-12-10T15:18:20.704Z",
-        "gender": "Male",
+        "gender": "male",
         "skin_color": "white",
         "hair_color": "none",
-        "height": "2.02 m",
+        "height": "202",
         "eye_color": "yellow",
-        "mass": "136 kg",
+        "mass": "136",
         "homeworld": 1,
-        "birth_year": "41.9 BBY"
+        "birth_year": "41.9BBY"
     },
     "model": "resources.people",
     "pk": 4
 },
 {
     "fields": {
-        "edited": "2014-12-10T15:20:09.791Z",
+        "edited": "2014-12-20T21:17:50.315Z",
         "name": "Leia Organa",
         "created": "2014-12-10T15:20:09.791Z",
         "gender": "female",
         "skin_color": "light",
         "hair_color": "brown",
-        "height": "1.5 m",
+        "height": "150",
         "eye_color": "brown",
-        "mass": "49 kg",
+        "mass": "49",
         "homeworld": 2,
-        "birth_year": "19 BBY"
+        "birth_year": "19BBY"
     },
     "model": "resources.people",
     "pk": 5
 },
 {
     "fields": {
-        "edited": "2014-12-10T15:52:14.024Z",
+        "edited": "2014-12-20T21:17:50.317Z",
         "name": "Owen Lars",
         "created": "2014-12-10T15:52:14.024Z",
         "gender": "male",
         "skin_color": "light",
         "hair_color": "brown, grey",
-        "height": "1.78 m",
+        "height": "178",
         "eye_color": "blue",
-        "mass": "120 kg",
+        "mass": "120",
         "homeworld": 1,
-        "birth_year": "52 BBY"
+        "birth_year": "52BBY"
     },
     "model": "resources.people",
     "pk": 6
 },
 {
     "fields": {
-        "edited": "2014-12-10T15:53:41.121Z",
+        "edited": "2014-12-20T21:17:50.319Z",
         "name": "Beru Whitesun lars",
         "created": "2014-12-10T15:53:41.121Z",
         "gender": "female",
         "skin_color": "light",
         "hair_color": "brown",
-        "height": "1.65 m",
+        "height": "165",
         "eye_color": "blue",
-        "mass": "75 kg",
+        "mass": "75",
         "homeworld": 1,
-        "birth_year": "47 BBY"
+        "birth_year": "47BBY"
     },
     "model": "resources.people",
     "pk": 7
 },
 {
     "fields": {
-        "edited": "2014-12-10T15:57:50.959Z",
+        "edited": "2014-12-20T21:17:50.321Z",
         "name": "R5-D4",
         "created": "2014-12-10T15:57:50.959Z",
         "gender": "n/a",
         "skin_color": "white, red",
         "hair_color": "n/a",
-        "height": "0.97 m",
+        "height": "97",
         "eye_color": "red",
-        "mass": "32 kg",
+        "mass": "32",
         "homeworld": 1,
         "birth_year": "unknown"
     },
@@ -137,168 +137,168 @@
 },
 {
     "fields": {
-        "edited": "2014-12-10T15:59:50.509Z",
+        "edited": "2014-12-20T21:17:50.323Z",
         "name": "Biggs Darklighter",
         "created": "2014-12-10T15:59:50.509Z",
         "gender": "male",
         "skin_color": "light",
         "hair_color": "black",
-        "height": "1.83 m",
+        "height": "183",
         "eye_color": "brown",
-        "mass": "84 kg",
+        "mass": "84",
         "homeworld": 1,
-        "birth_year": "24 BBY"
+        "birth_year": "24BBY"
     },
     "model": "resources.people",
     "pk": 9
 },
 {
     "fields": {
-        "edited": "2014-12-10T16:16:29.192Z",
+        "edited": "2014-12-20T21:17:50.325Z",
         "name": "Obi-Wan Kenobi",
         "created": "2014-12-10T16:16:29.192Z",
         "gender": "male",
         "skin_color": "fair",
         "hair_color": "auburn, white",
-        "height": "1.82m",
+        "height": "182",
         "eye_color": "blue-gray",
-        "mass": "77kg",
+        "mass": "77",
         "homeworld": 20,
-        "birth_year": "57 BBY"
+        "birth_year": "57BBY"
     },
     "model": "resources.people",
     "pk": 10
 },
 {
     "fields": {
-        "edited": "2014-12-10T16:20:44.310Z",
+        "edited": "2014-12-20T21:17:50.327Z",
         "name": "Anakin Skywalker",
         "created": "2014-12-10T16:20:44.310Z",
         "gender": "male",
         "skin_color": "fair",
         "hair_color": "blond",
-        "height": "1.88m",
+        "height": "188",
         "eye_color": "blue",
-        "mass": "84kg",
+        "mass": "84",
         "homeworld": 1,
-        "birth_year": "41.9 BBY"
+        "birth_year": "41.9BBY"
     },
     "model": "resources.people",
     "pk": 11
 },
 {
     "fields": {
-        "edited": "2014-12-10T16:26:56.138Z",
+        "edited": "2014-12-20T21:17:50.330Z",
         "name": "Wilhuff Tarkin",
         "created": "2014-12-10T16:26:56.138Z",
         "gender": "male",
         "skin_color": "fair",
         "hair_color": "auburn, grey",
-        "height": "1.8m",
+        "height": "180",
         "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 21,
-        "birth_year": "64 BBY"
+        "birth_year": "64BBY"
     },
     "model": "resources.people",
     "pk": 12
 },
 {
     "fields": {
-        "edited": "2014-12-10T16:42:45.066Z",
+        "edited": "2014-12-20T21:17:50.332Z",
         "name": "Chewbacca",
         "created": "2014-12-10T16:42:45.066Z",
         "gender": "male",
         "skin_color": "unknown",
         "hair_color": "brown",
-        "height": "2.28m",
+        "height": "228",
         "eye_color": "blue",
-        "mass": "112kg",
+        "mass": "112",
         "homeworld": 14,
-        "birth_year": "200 BBY"
+        "birth_year": "200BBY"
     },
     "model": "resources.people",
     "pk": 13
 },
 {
     "fields": {
-        "edited": "2014-12-10T16:49:14.582Z",
+        "edited": "2014-12-20T21:17:50.334Z",
         "name": "Han Solo",
         "created": "2014-12-10T16:49:14.582Z",
         "gender": "male",
         "skin_color": "fair",
         "hair_color": "brown",
-        "height": "1.8m",
+        "height": "180",
         "eye_color": "brown",
-        "mass": "80kg",
+        "mass": "80",
         "homeworld": 22,
-        "birth_year": "29 BBY"
+        "birth_year": "29BBY"
     },
     "model": "resources.people",
     "pk": 14
 },
 {
     "fields": {
-        "edited": "2014-12-10T17:03:30.334Z",
+        "edited": "2014-12-20T21:17:50.336Z",
         "name": "Greedo",
         "created": "2014-12-10T17:03:30.334Z",
         "gender": "male",
         "skin_color": "green",
         "hair_color": "n/a",
-        "height": "1.73m",
+        "height": "173",
         "eye_color": "black",
-        "mass": "74kg",
+        "mass": "74",
         "homeworld": 23,
-        "birth_year": "44 BBY"
+        "birth_year": "44BBY"
     },
     "model": "resources.people",
     "pk": 15
 },
 {
     "fields": {
-        "edited": "2014-12-10T17:11:31.638Z",
+        "edited": "2014-12-20T21:17:50.338Z",
         "name": "Jabba Desilijic Tiure",
         "created": "2014-12-10T17:11:31.638Z",
-        "gender": "Hermaphrodite",
+        "gender": "hermaphrodite",
         "skin_color": "green-tan, brown",
         "hair_color": "n/a",
-        "height": "1.75m",
+        "height": "175",
         "eye_color": "orange",
-        "mass": "1,358kg",
+        "mass": "1,358",
         "homeworld": 24,
-        "birth_year": "600 BBY"
+        "birth_year": "600BBY"
     },
     "model": "resources.people",
     "pk": 16
 },
 {
     "fields": {
-        "edited": "2014-12-12T11:08:06.469Z",
+        "edited": "2014-12-20T21:17:50.341Z",
         "name": "Wedge Antilles",
         "created": "2014-12-12T11:08:06.469Z",
         "gender": "male",
         "skin_color": "fair",
         "hair_color": "brown",
-        "height": "1.7m",
+        "height": "170",
         "eye_color": "hazel",
-        "mass": "77kg",
+        "mass": "77",
         "homeworld": 22,
-        "birth_year": "21 BBY"
+        "birth_year": "21BBY"
     },
     "model": "resources.people",
     "pk": 18
 },
 {
     "fields": {
-        "edited": "2014-12-12T11:16:56.569Z",
+        "edited": "2014-12-20T21:17:50.343Z",
         "name": "Jek Tono Porkins",
         "created": "2014-12-12T11:16:56.569Z",
         "gender": "male",
         "skin_color": "fair",
         "hair_color": "brown",
-        "height": "1.8m",
+        "height": "180",
         "eye_color": "blue",
-        "mass": "110kg",
+        "mass": "110",
         "homeworld": 26,
         "birth_year": "unknown"
     },
@@ -307,15 +307,15 @@
 },
 {
     "fields": {
-        "edited": "2014-12-15T12:26:01.042Z",
+        "edited": "2014-12-20T21:17:50.345Z",
         "name": "Yoda",
         "created": "2014-12-15T12:26:01.042Z",
         "gender": "male",
         "skin_color": "green",
         "hair_color": "white",
-        "height": "0.66m",
+        "height": "66",
         "eye_color": "brown",
-        "mass": "17kg",
+        "mass": "17",
         "homeworld": 28,
         "birth_year": "896BBY"
     },
@@ -324,15 +324,15 @@
 },
 {
     "fields": {
-        "edited": "2014-12-15T12:48:05.972Z",
+        "edited": "2014-12-20T21:17:50.347Z",
         "name": "Palpatine",
         "created": "2014-12-15T12:48:05.971Z",
         "gender": "male",
         "skin_color": "pale",
         "hair_color": "grey",
-        "height": "1.7m",
+        "height": "170",
         "eye_color": "yellow",
-        "mass": "75kg",
+        "mass": "75",
         "homeworld": 8,
         "birth_year": "82BBY"
     },
@@ -341,15 +341,15 @@
 },
 {
     "fields": {
-        "edited": "2014-12-15T12:49:32.457Z",
+        "edited": "2014-12-20T21:17:50.349Z",
         "name": "Boba Fett",
         "created": "2014-12-15T12:49:32.457Z",
         "gender": "male",
         "skin_color": "fair",
         "hair_color": "black",
-        "height": "1.83",
+        "height": "183",
         "eye_color": "brown",
-        "mass": "78.2kg",
+        "mass": "78.2",
         "homeworld": 10,
         "birth_year": "31.5BBY"
     },
@@ -358,15 +358,15 @@
 },
 {
     "fields": {
-        "edited": "2014-12-15T12:51:10.076Z",
+        "edited": "2014-12-20T21:17:50.351Z",
         "name": "IG-88",
         "created": "2014-12-15T12:51:10.076Z",
         "gender": "none",
         "skin_color": "metal",
         "hair_color": "none",
-        "height": "2m",
+        "height": "200",
         "eye_color": "red",
-        "mass": "140kg",
+        "mass": "140",
         "homeworld": 28,
         "birth_year": "15BBY"
     },
@@ -375,15 +375,15 @@
 },
 {
     "fields": {
-        "edited": "2014-12-15T12:53:49.297Z",
+        "edited": "2014-12-20T21:17:50.355Z",
         "name": "Bossk",
         "created": "2014-12-15T12:53:49.297Z",
         "gender": "male",
         "skin_color": "green",
         "hair_color": "none",
-        "height": "1.9m",
+        "height": "190",
         "eye_color": "red",
-        "mass": "113kg",
+        "mass": "113",
         "homeworld": 29,
         "birth_year": "53BBY"
     },
@@ -392,15 +392,15 @@
 },
 {
     "fields": {
-        "edited": "2014-12-15T12:56:32.683Z",
+        "edited": "2014-12-20T21:17:50.357Z",
         "name": "Lando Calrissian",
         "created": "2014-12-15T12:56:32.683Z",
         "gender": "male",
         "skin_color": "dark",
         "hair_color": "black",
-        "height": "1.77m",
+        "height": "177",
         "eye_color": "brown",
-        "mass": "79kg",
+        "mass": "79",
         "homeworld": 30,
         "birth_year": "31BBY"
     },
@@ -409,15 +409,15 @@
 },
 {
     "fields": {
-        "edited": "2014-12-15T13:01:57.178Z",
+        "edited": "2014-12-20T21:17:50.359Z",
         "name": "Lobot",
         "created": "2014-12-15T13:01:57.178Z",
         "gender": "male",
         "skin_color": "light",
         "hair_color": "none",
-        "height": "1.75m",
+        "height": "175",
         "eye_color": "blue",
-        "mass": "79kg",
+        "mass": "79",
         "homeworld": 6,
         "birth_year": "37BBY"
     },
@@ -426,13 +426,13 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:07:50.584Z",
+        "edited": "2014-12-20T21:17:50.362Z",
         "name": "Ackbar",
         "created": "2014-12-18T11:07:50.584Z",
-        "gender": "Male",
+        "gender": "male",
         "skin_color": "brown mottle",
         "hair_color": "none",
-        "height": "1.8",
+        "height": "180",
         "eye_color": "orange",
         "mass": "83",
         "homeworld": 31,
@@ -443,14 +443,14 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:12:38.895Z",
+        "edited": "2014-12-20T21:17:50.364Z",
         "name": "Mon Mothma",
         "created": "2014-12-18T11:12:38.895Z",
-        "gender": "Female",
-        "skin_color": "Fair",
-        "hair_color": "Auburn",
-        "height": "1.5",
-        "eye_color": "Blue",
+        "gender": "female",
+        "skin_color": "fair",
+        "hair_color": "auburn",
+        "height": "150",
+        "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 32,
         "birth_year": "48BBY"
@@ -460,14 +460,14 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:16:33.020Z",
+        "edited": "2014-12-20T21:17:50.367Z",
         "name": "Arvel Crynyd",
         "created": "2014-12-18T11:16:33.020Z",
-        "gender": "Male",
-        "skin_color": "Fair",
-        "hair_color": "Brown",
+        "gender": "male",
+        "skin_color": "fair",
+        "hair_color": "brown",
         "height": "unknown",
-        "eye_color": "Brown",
+        "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 28,
         "birth_year": "unknown"
@@ -477,14 +477,14 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:21:58.954Z",
+        "edited": "2014-12-20T21:17:50.369Z",
         "name": "Wicket Systri Warrick",
         "created": "2014-12-18T11:21:58.954Z",
         "gender": "male",
-        "skin_color": "Brown",
-        "hair_color": "Brown",
-        "height": "0.8",
-        "eye_color": "Brown",
+        "skin_color": "brown",
+        "hair_color": "brown",
+        "height": "88",
+        "eye_color": "brown",
         "mass": "20",
         "homeworld": 7,
         "birth_year": "8BBY"
@@ -494,14 +494,14 @@
 },
 {
     "fields": {
-        "edited": "2014-12-18T11:26:18.542Z",
+        "edited": "2014-12-20T21:17:50.371Z",
         "name": "Nien Nunb",
         "created": "2014-12-18T11:26:18.541Z",
         "gender": "male",
-        "skin_color": "Grey",
+        "skin_color": "grey",
         "hair_color": "none",
-        "height": "1.6",
-        "eye_color": "Black",
+        "height": "160",
+        "eye_color": "black",
         "mass": "68",
         "homeworld": 33,
         "birth_year": "unknown"
@@ -511,7 +511,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-19T16:54:53.618Z",
+        "edited": "2014-12-20T21:17:50.375Z",
         "name": "Qui-Gon Jinn",
         "created": "2014-12-19T16:54:53.618Z",
         "gender": "male",
@@ -528,7 +528,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-19T17:05:57.357Z",
+        "edited": "2014-12-20T21:17:50.377Z",
         "name": "Nute Gunray",
         "created": "2014-12-19T17:05:57.357Z",
         "gender": "male",
@@ -545,7 +545,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-19T17:21:45.915Z",
+        "edited": "2014-12-20T21:17:50.379Z",
         "name": "Finis Valorum",
         "created": "2014-12-19T17:21:45.915Z",
         "gender": "male",
@@ -555,14 +555,14 @@
         "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 9,
-        "birth_year": "91 BBY"
+        "birth_year": "91BBY"
     },
     "model": "resources.people",
     "pk": 34
 },
 {
     "fields": {
-        "edited": "2014-12-19T17:28:26.926Z",
+        "edited": "2014-12-20T21:17:50.381Z",
         "name": "Padm\u00e9 Amidala",
         "created": "2014-12-19T17:28:26.926Z",
         "gender": "female",
@@ -572,14 +572,14 @@
         "eye_color": "brown",
         "mass": "45",
         "homeworld": 8,
-        "birth_year": "46 BBY"
+        "birth_year": "46BBY"
     },
     "model": "resources.people",
     "pk": 35
 },
 {
     "fields": {
-        "edited": "2014-12-19T17:29:32.489Z",
+        "edited": "2014-12-20T21:17:50.383Z",
         "name": "Jar Jar Binks",
         "created": "2014-12-19T17:29:32.489Z",
         "gender": "male",
@@ -589,14 +589,14 @@
         "eye_color": "orange",
         "mass": "66",
         "homeworld": 8,
-        "birth_year": "52 BBY"
+        "birth_year": "52BBY"
     },
     "model": "resources.people",
     "pk": 36
 },
 {
     "fields": {
-        "edited": "2014-12-19T17:32:56.741Z",
+        "edited": "2014-12-20T21:17:50.385Z",
         "name": "Roos Tarpals",
         "created": "2014-12-19T17:32:56.741Z",
         "gender": "male",
@@ -613,7 +613,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-19T17:33:38.909Z",
+        "edited": "2014-12-20T21:17:50.388Z",
         "name": "Rugor Nass",
         "created": "2014-12-19T17:33:38.909Z",
         "gender": "male",
@@ -630,7 +630,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-19T17:45:01.522Z",
+        "edited": "2014-12-20T21:17:50.392Z",
         "name": "Ric Oli\u00e9",
         "created": "2014-12-19T17:45:01.522Z",
         "gender": "male",
@@ -647,7 +647,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-19T17:48:54.647Z",
+        "edited": "2014-12-20T21:17:50.395Z",
         "name": "Watto",
         "created": "2014-12-19T17:48:54.647Z",
         "gender": "male",
@@ -664,7 +664,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-19T17:53:02.586Z",
+        "edited": "2014-12-20T21:17:50.397Z",
         "name": "Sebulba",
         "created": "2014-12-19T17:53:02.586Z",
         "gender": "male",
@@ -681,7 +681,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-19T17:55:43.348Z",
+        "edited": "2014-12-20T21:17:50.399Z",
         "name": "Quarsh Panaka",
         "created": "2014-12-19T17:55:43.348Z",
         "gender": "male",
@@ -691,14 +691,14 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 8,
-        "birth_year": "62 BBY"
+        "birth_year": "62BBY"
     },
     "model": "resources.people",
     "pk": 42
 },
 {
     "fields": {
-        "edited": "2014-12-19T17:57:41.191Z",
+        "edited": "2014-12-20T21:17:50.401Z",
         "name": "Shmi Skywalker",
         "created": "2014-12-19T17:57:41.191Z",
         "gender": "female",
@@ -708,14 +708,14 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 1,
-        "birth_year": "72 BBY"
+        "birth_year": "72BBY"
     },
     "model": "resources.people",
     "pk": 43
 },
 {
     "fields": {
-        "edited": "2014-12-19T18:00:41.929Z",
+        "edited": "2014-12-20T21:17:50.403Z",
         "name": "Darth Maul",
         "created": "2014-12-19T18:00:41.929Z",
         "gender": "male",
@@ -725,14 +725,14 @@
         "eye_color": "yellow",
         "mass": "80",
         "homeworld": 36,
-        "birth_year": "54 BBY"
+        "birth_year": "54BBY"
     },
     "model": "resources.people",
     "pk": 44
 },
 {
     "fields": {
-        "edited": "2014-12-20T09:47:02.512Z",
+        "edited": "2014-12-20T21:17:50.407Z",
         "name": "Bib Fortuna",
         "created": "2014-12-20T09:47:02.512Z",
         "gender": "male",
@@ -749,7 +749,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T09:48:01.172Z",
+        "edited": "2014-12-20T21:17:50.409Z",
         "name": "Ayla Secura",
         "created": "2014-12-20T09:48:01.172Z",
         "gender": "female",
@@ -766,7 +766,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T09:53:15.086Z",
+        "edited": "2014-12-20T21:17:50.410Z",
         "name": "Ratts Tyerel",
         "created": "2014-12-20T09:53:15.086Z",
         "gender": "male",
@@ -783,7 +783,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T09:57:31.858Z",
+        "edited": "2014-12-20T21:17:50.414Z",
         "name": "Dud Bolt",
         "created": "2014-12-20T09:57:31.858Z",
         "gender": "male",
@@ -800,7 +800,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T10:02:12.223Z",
+        "edited": "2014-12-20T21:17:50.416Z",
         "name": "Gasgano",
         "created": "2014-12-20T10:02:12.223Z",
         "gender": "male",
@@ -817,7 +817,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T10:08:33.777Z",
+        "edited": "2014-12-20T21:17:50.417Z",
         "name": "Ben Quadinaros",
         "created": "2014-12-20T10:08:33.777Z",
         "gender": "male",
@@ -834,7 +834,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T10:12:30.846Z",
+        "edited": "2014-12-20T21:17:50.420Z",
         "name": "Mace Windu",
         "created": "2014-12-20T10:12:30.846Z",
         "gender": "male",
@@ -844,14 +844,14 @@
         "eye_color": "brown",
         "mass": "84",
         "homeworld": 42,
-        "birth_year": "72 BBY"
+        "birth_year": "72BBY"
     },
     "model": "resources.people",
     "pk": 51
 },
 {
     "fields": {
-        "edited": "2014-12-20T10:15:32.293Z",
+        "edited": "2014-12-20T21:17:50.422Z",
         "name": "Ki-Adi-Mundi",
         "created": "2014-12-20T10:15:32.293Z",
         "gender": "male",
@@ -861,14 +861,14 @@
         "eye_color": "yellow",
         "mass": "82",
         "homeworld": 43,
-        "birth_year": "92 BBY"
+        "birth_year": "92BBY"
     },
     "model": "resources.people",
     "pk": 52
 },
 {
     "fields": {
-        "edited": "2014-12-20T10:18:57.202Z",
+        "edited": "2014-12-20T21:17:50.424Z",
         "name": "Kit Fisto",
         "created": "2014-12-20T10:18:57.202Z",
         "gender": "male",
@@ -885,7 +885,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T10:26:47.902Z",
+        "edited": "2014-12-20T21:17:50.427Z",
         "name": "Eeth Koth",
         "created": "2014-12-20T10:26:47.902Z",
         "gender": "male",
@@ -902,7 +902,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T10:29:11.661Z",
+        "edited": "2014-12-20T21:17:50.432Z",
         "name": "Adi Gallia",
         "created": "2014-12-20T10:29:11.661Z",
         "gender": "female",
@@ -919,7 +919,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T10:32:11.669Z",
+        "edited": "2014-12-20T21:17:50.434Z",
         "name": "Saesee Tiin",
         "created": "2014-12-20T10:32:11.669Z",
         "gender": "male",
@@ -936,7 +936,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T10:34:48.725Z",
+        "edited": "2014-12-20T21:17:50.437Z",
         "name": "Yarael Poof",
         "created": "2014-12-20T10:34:48.725Z",
         "gender": "male",
@@ -953,7 +953,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T10:49:19.859Z",
+        "edited": "2014-12-20T21:17:50.439Z",
         "name": "Plo Koon",
         "created": "2014-12-20T10:49:19.859Z",
         "gender": "male",
@@ -963,14 +963,14 @@
         "eye_color": "black",
         "mass": "80",
         "homeworld": 49,
-        "birth_year": "22 BBY"
+        "birth_year": "22BBY"
     },
     "model": "resources.people",
     "pk": 58
 },
 {
     "fields": {
-        "edited": "2014-12-20T10:53:26.457Z",
+        "edited": "2014-12-20T21:17:50.442Z",
         "name": "Mas Amedda",
         "created": "2014-12-20T10:53:26.457Z",
         "gender": "male",
@@ -987,7 +987,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T11:10:10.381Z",
+        "edited": "2014-12-20T21:17:50.445Z",
         "name": "Gregar Typho",
         "created": "2014-12-20T11:10:10.381Z",
         "gender": "male",
@@ -1004,7 +1004,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T11:11:39.630Z",
+        "edited": "2014-12-20T21:17:50.449Z",
         "name": "Cord\u00e9",
         "created": "2014-12-20T11:11:39.630Z",
         "gender": "female",
@@ -1021,7 +1021,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T15:59:03.958Z",
+        "edited": "2014-12-20T21:17:50.451Z",
         "name": "Cliegg Lars",
         "created": "2014-12-20T15:59:03.958Z",
         "gender": "male",
@@ -1031,14 +1031,14 @@
         "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 1,
-        "birth_year": "82 BBY"
+        "birth_year": "82BBY"
     },
     "model": "resources.people",
     "pk": 62
 },
 {
     "fields": {
-        "edited": "2014-12-20T16:40:43.977Z",
+        "edited": "2014-12-20T21:17:50.453Z",
         "name": "Poggle the Lesser",
         "created": "2014-12-20T16:40:43.977Z",
         "gender": "male",
@@ -1055,7 +1055,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T16:45:53.668Z",
+        "edited": "2014-12-20T21:17:50.455Z",
         "name": "Luminara Unduli",
         "created": "2014-12-20T16:45:53.668Z",
         "gender": "female",
@@ -1065,14 +1065,14 @@
         "eye_color": "blue",
         "mass": "56.2",
         "homeworld": 51,
-        "birth_year": "58 BBY"
+        "birth_year": "58BBY"
     },
     "model": "resources.people",
     "pk": 64
 },
 {
     "fields": {
-        "edited": "2014-12-20T16:46:40.440Z",
+        "edited": "2014-12-20T21:17:50.457Z",
         "name": "Barriss Offee",
         "created": "2014-12-20T16:46:40.440Z",
         "gender": "female",
@@ -1082,14 +1082,14 @@
         "eye_color": "blue",
         "mass": "50",
         "homeworld": 51,
-        "birth_year": "40 BBY"
+        "birth_year": "40BBY"
     },
     "model": "resources.people",
     "pk": 65
 },
 {
     "fields": {
-        "edited": "2014-12-20T16:49:14.640Z",
+        "edited": "2014-12-20T21:17:50.460Z",
         "name": "Dorm\u00e9",
         "created": "2014-12-20T16:49:14.640Z",
         "gender": "female",
@@ -1106,7 +1106,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T16:52:14.726Z",
+        "edited": "2014-12-20T21:17:50.462Z",
         "name": "Dooku",
         "created": "2014-12-20T16:52:14.726Z",
         "gender": "male",
@@ -1116,14 +1116,14 @@
         "eye_color": "brown",
         "mass": "80",
         "homeworld": 52,
-        "birth_year": "102 BBY"
+        "birth_year": "102BBY"
     },
     "model": "resources.people",
     "pk": 67
 },
 {
     "fields": {
-        "edited": "2014-12-20T16:53:08.575Z",
+        "edited": "2014-12-20T21:17:50.463Z",
         "name": "Bail Prestor Organa",
         "created": "2014-12-20T16:53:08.575Z",
         "gender": "male",
@@ -1133,14 +1133,14 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 2,
-        "birth_year": "67 BBY"
+        "birth_year": "67BBY"
     },
     "model": "resources.people",
     "pk": 68
 },
 {
     "fields": {
-        "edited": "2014-12-20T16:54:41.620Z",
+        "edited": "2014-12-20T21:17:50.465Z",
         "name": "Jango Fett",
         "created": "2014-12-20T16:54:41.620Z",
         "gender": "male",
@@ -1150,14 +1150,14 @@
         "eye_color": "brown",
         "mass": "79",
         "homeworld": 53,
-        "birth_year": "66 BBY"
+        "birth_year": "66BBY"
     },
     "model": "resources.people",
     "pk": 69
 },
 {
     "fields": {
-        "edited": "2014-12-20T16:57:44.471Z",
+        "edited": "2014-12-20T21:17:50.468Z",
         "name": "Zam Wesell",
         "created": "2014-12-20T16:57:44.471Z",
         "gender": "female",
@@ -1174,7 +1174,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T17:28:27.248Z",
+        "edited": "2014-12-20T21:17:50.470Z",
         "name": "Dexter Jettster",
         "created": "2014-12-20T17:28:27.248Z",
         "gender": "male",
@@ -1191,7 +1191,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T17:30:50.416Z",
+        "edited": "2014-12-20T21:17:50.473Z",
         "name": "Lama Su",
         "created": "2014-12-20T17:30:50.416Z",
         "gender": "male",
@@ -1208,7 +1208,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T17:31:21.195Z",
+        "edited": "2014-12-20T21:17:50.474Z",
         "name": "Taun We",
         "created": "2014-12-20T17:31:21.195Z",
         "gender": "female",
@@ -1225,7 +1225,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T17:32:51.996Z",
+        "edited": "2014-12-20T21:17:50.476Z",
         "name": "Jocasta Nu",
         "created": "2014-12-20T17:32:51.996Z",
         "gender": "female",
@@ -1242,7 +1242,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T17:43:36.409Z",
+        "edited": "2014-12-20T21:17:50.478Z",
         "name": "R4-P17",
         "created": "2014-12-20T17:43:36.409Z",
         "gender": "female",
@@ -1259,7 +1259,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T17:53:52.607Z",
+        "edited": "2014-12-20T21:17:50.481Z",
         "name": "Wat Tambor",
         "created": "2014-12-20T17:53:52.607Z",
         "gender": "male",
@@ -1276,7 +1276,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T17:58:17.049Z",
+        "edited": "2014-12-20T21:17:50.484Z",
         "name": "San Hill",
         "created": "2014-12-20T17:58:17.049Z",
         "gender": "male",
@@ -1293,7 +1293,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-20T18:44:01.103Z",
+        "edited": "2014-12-20T21:17:50.486Z",
         "name": "Shaak Ti",
         "created": "2014-12-20T18:44:01.103Z",
         "gender": "female",
@@ -1307,5 +1307,90 @@
     },
     "model": "resources.people",
     "pk": 78
+},
+{
+    "fields": {
+        "edited": "2014-12-20T21:17:50.488Z",
+        "name": "Grievous",
+        "created": "2014-12-20T19:43:53.348Z",
+        "gender": "male",
+        "skin_color": "brown, white",
+        "hair_color": "none",
+        "height": "216",
+        "eye_color": "green, yellow",
+        "mass": "159",
+        "homeworld": 59,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 79
+},
+{
+    "fields": {
+        "edited": "2014-12-20T21:17:50.491Z",
+        "name": "Tarfful",
+        "created": "2014-12-20T19:46:34.209Z",
+        "gender": "male",
+        "skin_color": "brown",
+        "hair_color": "brown",
+        "height": "234",
+        "eye_color": "blue",
+        "mass": "136",
+        "homeworld": 14,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 80
+},
+{
+    "fields": {
+        "edited": "2014-12-20T21:17:50.493Z",
+        "name": "Raymus Antilles",
+        "created": "2014-12-20T19:49:35.583Z",
+        "gender": "male",
+        "skin_color": "light",
+        "hair_color": "brown",
+        "height": "188",
+        "eye_color": "brown",
+        "mass": "79",
+        "homeworld": 2,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 81
+},
+{
+    "fields": {
+        "edited": "2014-12-20T21:17:50.496Z",
+        "name": "Sly Moore",
+        "created": "2014-12-20T20:18:37.619Z",
+        "gender": "female",
+        "skin_color": "pale",
+        "hair_color": "none",
+        "height": "178",
+        "eye_color": "white",
+        "mass": "48",
+        "homeworld": 60,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 82
+},
+{
+    "fields": {
+        "edited": "2014-12-20T21:17:50.498Z",
+        "name": "Tion Medon",
+        "created": "2014-12-20T20:35:04.260Z",
+        "gender": "male",
+        "skin_color": "grey",
+        "hair_color": "none",
+        "height": "206",
+        "eye_color": "black",
+        "mass": "80",
+        "homeworld": 12,
+        "birth_year": "unknown"
+    },
+    "model": "resources.people",
+    "pk": 83
 }
 ]

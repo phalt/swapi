@@ -5,6 +5,8 @@ install:
 build:
 	python manage.py migrate
 	python manage.py createsuperuser
+
+load_data:
 	python manage.py loaddata planets.json
 	python manage.py loaddata people.json
 	python manage.py loaddata species.json
