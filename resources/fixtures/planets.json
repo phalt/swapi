@@ -610,5 +610,379 @@
     },
     "model": "resources.planet",
     "pk": 36
+},
+{
+    "fields": {
+        "edited": "2014-12-20T09:46:25.740Z",
+        "climate": "Temperate, Arid, Subartic",
+        "surface_water": "5%",
+        "name": "Ryloth",
+        "diameter": "10600",
+        "rotation_period": "30",
+        "created": "2014-12-20T09:46:25.740Z",
+        "terrain": "Mountains, Valleys, Deserts, Tundra",
+        "gravity": "1",
+        "orbital_period": "305",
+        "population": "1500000000"
+    },
+    "model": "resources.planet",
+    "pk": 37
+},
+{
+    "fields": {
+        "edited": "2014-12-20T09:52:23.452Z",
+        "climate": "unknown",
+        "surface_water": "unknown",
+        "name": "Aleen Minor",
+        "diameter": "unknown",
+        "rotation_period": "unknown",
+        "created": "2014-12-20T09:52:23.452Z",
+        "terrain": "unknown",
+        "gravity": "unknown",
+        "orbital_period": "unknown",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 38
+},
+{
+    "fields": {
+        "edited": "2014-12-20T09:56:58.874Z",
+        "climate": "Temperate, Artic",
+        "surface_water": "unknown",
+        "name": "Vulpter",
+        "diameter": "14900",
+        "rotation_period": "22",
+        "created": "2014-12-20T09:56:58.874Z",
+        "terrain": "Urban, Barren",
+        "gravity": "1",
+        "orbital_period": "391",
+        "population": "421000000"
+    },
+    "model": "resources.planet",
+    "pk": 39
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:01:37.395Z",
+        "climate": "unknown",
+        "surface_water": "unknown",
+        "name": "Troiken",
+        "diameter": "unknown",
+        "rotation_period": "unknown",
+        "created": "2014-12-20T10:01:37.395Z",
+        "terrain": "Desert, Tundra, Rainforests, Mountains",
+        "gravity": "unknown",
+        "orbital_period": "unknown",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 40
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:07:29.578Z",
+        "climate": "unknown",
+        "surface_water": "unknown",
+        "name": "Tund",
+        "diameter": "12190",
+        "rotation_period": "48",
+        "created": "2014-12-20T10:07:29.578Z",
+        "terrain": "Barren, Ash",
+        "gravity": "unknown",
+        "orbital_period": "1770",
+        "population": "0"
+    },
+    "model": "resources.planet",
+    "pk": 41
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:12:28.980Z",
+        "climate": "Temperate",
+        "surface_water": "unknown",
+        "name": "Haruun Kal",
+        "diameter": "10120",
+        "rotation_period": "25",
+        "created": "2014-12-20T10:12:28.980Z",
+        "terrain": "Toxic cloudsea, Plateaus, Volcanoes",
+        "gravity": "0.98",
+        "orbital_period": "383",
+        "population": "705300"
+    },
+    "model": "resources.planet",
+    "pk": 42
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:14:48.178Z",
+        "climate": "Temperate",
+        "surface_water": "20%",
+        "name": "Cerea",
+        "diameter": "unknown",
+        "rotation_period": "27",
+        "created": "2014-12-20T10:14:48.178Z",
+        "terrain": "Verdant",
+        "gravity": "1",
+        "orbital_period": "386",
+        "population": "450000000"
+    },
+    "model": "resources.planet",
+    "pk": 43
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:18:26.110Z",
+        "climate": "Tropical, Temperate",
+        "surface_water": "80%",
+        "name": "Glee Anselm",
+        "diameter": "15600",
+        "rotation_period": "33",
+        "created": "2014-12-20T10:18:26.110Z",
+        "terrain": "Lakes, Islands, Swamps, Seas",
+        "gravity": "1",
+        "orbital_period": "206",
+        "population": "500000000"
+    },
+    "model": "resources.planet",
+    "pk": 44
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:26:05.788Z",
+        "climate": "unknown",
+        "surface_water": "unknown",
+        "name": "Iridonia",
+        "diameter": "unknown",
+        "rotation_period": "29",
+        "created": "2014-12-20T10:26:05.788Z",
+        "terrain": "Rocky canyons, Acid pools",
+        "gravity": "unknown",
+        "orbital_period": "413",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 45
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:28:31.117Z",
+        "climate": "unknown",
+        "surface_water": "unknown",
+        "name": "Tholoth",
+        "diameter": "unknown",
+        "rotation_period": "unknown",
+        "created": "2014-12-20T10:28:31.117Z",
+        "terrain": "unknown",
+        "gravity": "unknown",
+        "orbital_period": "unknown",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 46
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:31:32.413Z",
+        "climate": "Arid, Rocky, Windy",
+        "surface_water": "unknown",
+        "name": "Iktotch",
+        "diameter": "unknown",
+        "rotation_period": "22",
+        "created": "2014-12-20T10:31:32.413Z",
+        "terrain": "Rocky",
+        "gravity": "1",
+        "orbital_period": "481",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 47
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:34:08.249Z",
+        "climate": "unknown",
+        "surface_water": "unknown",
+        "name": "Quermia",
+        "diameter": "unknown",
+        "rotation_period": "unknown",
+        "created": "2014-12-20T10:34:08.249Z",
+        "terrain": "unknown",
+        "gravity": "unknown",
+        "orbital_period": "unknown",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 48
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:48:36.141Z",
+        "climate": "Temperate",
+        "surface_water": "unknown",
+        "name": "Dorin",
+        "diameter": "13400",
+        "rotation_period": "22",
+        "created": "2014-12-20T10:48:36.141Z",
+        "terrain": "unknown",
+        "gravity": "1",
+        "orbital_period": "409",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 49
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:52:51.524Z",
+        "climate": "temperate",
+        "surface_water": "unknown",
+        "name": "Champala",
+        "diameter": "unknown",
+        "rotation_period": "27",
+        "created": "2014-12-20T10:52:51.524Z",
+        "terrain": "oceans, rainforests, plateaus",
+        "gravity": "1",
+        "orbital_period": "318",
+        "population": "3500000000"
+    },
+    "model": "resources.planet",
+    "pk": 50
+},
+{
+    "fields": {
+        "edited": "2014-12-20T16:44:46.318Z",
+        "climate": "unknown",
+        "surface_water": "unknown",
+        "name": "Mirial",
+        "diameter": "unknown",
+        "rotation_period": "unknown",
+        "created": "2014-12-20T16:44:46.318Z",
+        "terrain": "deserts",
+        "gravity": "unknown",
+        "orbital_period": "unknown",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 51
+},
+{
+    "fields": {
+        "edited": "2014-12-20T16:52:13.357Z",
+        "climate": "unknown",
+        "surface_water": "unknown",
+        "name": "Serenno",
+        "diameter": "unknown",
+        "rotation_period": "unknown",
+        "created": "2014-12-20T16:52:13.357Z",
+        "terrain": "Rainforests, Rivers, Mountains",
+        "gravity": "unknown",
+        "orbital_period": "unknown",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 52
+},
+{
+    "fields": {
+        "edited": "2014-12-20T16:54:39.909Z",
+        "climate": "unknown",
+        "surface_water": "unknown",
+        "name": "Concord Dawn",
+        "diameter": "unknown",
+        "rotation_period": "unknown",
+        "created": "2014-12-20T16:54:39.909Z",
+        "terrain": "Jungles, Forests, Deserts",
+        "gravity": "unknown",
+        "orbital_period": "unknown",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 53
+},
+{
+    "fields": {
+        "edited": "2014-12-20T16:56:37.250Z",
+        "climate": "unknown",
+        "surface_water": "unknown",
+        "name": "Zolan",
+        "diameter": "unknown",
+        "rotation_period": "unknown",
+        "created": "2014-12-20T16:56:37.250Z",
+        "terrain": "unknown",
+        "gravity": "unknown",
+        "orbital_period": "unknown",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 54
+},
+{
+    "fields": {
+        "edited": "2014-12-20T17:27:41.286Z",
+        "climate": "frigid",
+        "surface_water": "100%",
+        "name": "Ojom",
+        "diameter": "unknown",
+        "rotation_period": "unknown",
+        "created": "2014-12-20T17:27:41.286Z",
+        "terrain": "oceans, glaciers",
+        "gravity": "unknown",
+        "orbital_period": "unknown",
+        "population": "500000000"
+    },
+    "model": "resources.planet",
+    "pk": 55
+},
+{
+    "fields": {
+        "edited": "2014-12-20T17:50:47.864Z",
+        "climate": "temperate",
+        "surface_water": "unknown",
+        "name": "Skako",
+        "diameter": "unknown",
+        "rotation_period": "27",
+        "created": "2014-12-20T17:50:47.864Z",
+        "terrain": "urban, vines",
+        "gravity": "1",
+        "orbital_period": "384",
+        "population": "500000000000"
+    },
+    "model": "resources.planet",
+    "pk": 56
+},
+{
+    "fields": {
+        "edited": "2014-12-20T17:57:47.420Z",
+        "climate": "Temperate",
+        "surface_water": "25%",
+        "name": "Muunilinst",
+        "diameter": "13800",
+        "rotation_period": "28",
+        "created": "2014-12-20T17:57:47.420Z",
+        "terrain": "Plains, Forests, Hills, Mountains",
+        "gravity": "1",
+        "orbital_period": "412",
+        "population": "5000000000"
+    },
+    "model": "resources.planet",
+    "pk": 57
+},
+{
+    "fields": {
+        "edited": "2014-12-20T18:43:14.049Z",
+        "climate": "temperate",
+        "surface_water": "unknown",
+        "name": "Shili",
+        "diameter": "unknown",
+        "rotation_period": "unknown",
+        "created": "2014-12-20T18:43:14.049Z",
+        "terrain": "Cities, Savannahs, Seas, Plains",
+        "gravity": "1",
+        "orbital_period": "unknown",
+        "population": "unknown"
+    },
+    "model": "resources.planet",
+    "pk": 58
 }
 ]

@@ -161,5 +161,103 @@
     },
     "model": "resources.vehicle",
     "pk": 38
+},
+{
+    "fields": {
+        "vehicle_class": "speeder",
+        "pilots": [
+            44
+        ]
+    },
+    "model": "resources.vehicle",
+    "pk": 42
+},
+{
+    "fields": {
+        "vehicle_class": "Repulsorcraft",
+        "pilots": [
+            11
+        ]
+    },
+    "model": "resources.vehicle",
+    "pk": 44
+},
+{
+    "fields": {
+        "vehicle_class": "airspeeder",
+        "pilots": [
+            70
+        ]
+    },
+    "model": "resources.vehicle",
+    "pk": 45
+},
+{
+    "fields": {
+        "vehicle_class": "airspeeder",
+        "pilots": [
+            11
+        ]
+    },
+    "model": "resources.vehicle",
+    "pk": 46
+},
+{
+    "fields": {
+        "vehicle_class": "gunship",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 50
+},
+{
+    "fields": {
+        "vehicle_class": "gunship",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 51
+},
+{
+    "fields": {
+        "vehicle_class": "walker",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 53
+},
+{
+    "fields": {
+        "vehicle_class": "walker",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 54
+},
+{
+    "fields": {
+        "vehicle_class": "speeder",
+        "pilots": [
+            67
+        ]
+    },
+    "model": "resources.vehicle",
+    "pk": 55
+},
+{
+    "fields": {
+        "vehicle_class": "transport",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 56
+},
+{
+    "fields": {
+        "vehicle_class": "starfighter",
+        "pilots": []
+    },
+    "model": "resources.vehicle",
+    "pk": 57
 }
 ]

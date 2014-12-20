@@ -1,9 +1,9 @@
 [
 {
     "fields": {
-        "edited": "2014-12-10T14:20:33.369Z",
+        "edited": "2014-12-20T18:53:19.776Z",
         "consumables": "1 year",
-        "name": "Tantive IV",
+        "name": "CR90 corvette",
         "created": "2014-12-10T14:20:33.369Z",
         "cargo_capacity": "3,000,000 kg",
         "passengers": "600",
@@ -667,7 +667,7 @@
 },
 {
     "fields": {
-        "edited": "2014-12-19T17:39:17.582Z",
+        "edited": "2014-12-20T11:10:42.840Z",
         "consumables": "7 days",
         "name": "Naboo fighter",
         "created": "2014-12-19T17:39:17.582Z",
@@ -700,5 +700,329 @@
     },
     "model": "resources.transport",
     "pk": 40
+},
+{
+    "fields": {
+        "edited": "2014-12-20T09:39:56.116Z",
+        "consumables": "30 days",
+        "name": "Scimitar",
+        "created": "2014-12-20T09:39:56.116Z",
+        "cargo_capacity": "2500000",
+        "passengers": "6",
+        "max_atmosphering_speed": "1180",
+        "crew": "1",
+        "length": "26.5",
+        "model": "Star Courier",
+        "cost_in_credits": "55000000",
+        "manufacturer": "Republic Sienar Systems"
+    },
+    "model": "resources.transport",
+    "pk": 41
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:09:56.095Z",
+        "consumables": "unknown",
+        "name": "Sith speeder",
+        "created": "2014-12-20T10:09:56.095Z",
+        "cargo_capacity": "2",
+        "passengers": "0",
+        "max_atmosphering_speed": "180",
+        "crew": "1",
+        "length": "1.5",
+        "model": "FC-20 speeder bike",
+        "cost_in_credits": "4000",
+        "manufacturer": "Razalon"
+    },
+    "model": "resources.transport",
+    "pk": 42
+},
+{
+    "fields": {
+        "edited": "2014-12-20T11:05:51.237Z",
+        "consumables": "1 year",
+        "name": "J-type diplomatic barge",
+        "created": "2014-12-20T11:05:51.237Z",
+        "cargo_capacity": "unknown",
+        "passengers": "10",
+        "max_atmosphering_speed": "2000",
+        "crew": "5",
+        "length": "39",
+        "model": "J-type diplomatic barge",
+        "cost_in_credits": "2000000",
+        "manufacturer": "Theed Palace Space Vessel Engineering Corps, Nubia Star Drives"
+    },
+    "model": "resources.transport",
+    "pk": 43
+},
+{
+    "fields": {
+        "edited": "2014-12-20T16:24:16.026Z",
+        "consumables": "none",
+        "name": "Zephyr-G swoop bike",
+        "created": "2014-12-20T16:24:16.026Z",
+        "cargo_capacity": "200",
+        "passengers": "1",
+        "max_atmosphering_speed": "350",
+        "crew": "1",
+        "length": "3.68",
+        "model": "Zephyr-G swoop bike",
+        "cost_in_credits": "5750",
+        "manufacturer": "Mobquet Swoops and Speeders"
+    },
+    "model": "resources.transport",
+    "pk": 44
+},
+{
+    "fields": {
+        "edited": "2014-12-20T17:17:33.526Z",
+        "consumables": "unknown",
+        "name": "Koro-2 Exodrive airspeeder",
+        "created": "2014-12-20T17:17:33.526Z",
+        "cargo_capacity": "80",
+        "passengers": "1",
+        "max_atmosphering_speed": "800",
+        "crew": "1",
+        "length": "6.6",
+        "model": "Koro-2 Exodrive airspeeder",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Desler Gizh Outworld Mobility Corporation"
+    },
+    "model": "resources.transport",
+    "pk": 45
+},
+{
+    "fields": {
+        "edited": "2014-12-20T17:19:19.991Z",
+        "consumables": "unknown",
+        "name": "XJ-6 airspeeder",
+        "created": "2014-12-20T17:19:19.991Z",
+        "cargo_capacity": "unknown",
+        "passengers": "1",
+        "max_atmosphering_speed": "720",
+        "crew": "1",
+        "length": "6.23",
+        "model": "XJ-6 airspeeder",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Narglatch AirTech prefabricated kit"
+    },
+    "model": "resources.transport",
+    "pk": 46
+},
+{
+    "fields": {
+        "edited": "2014-12-20T17:24:23.509Z",
+        "consumables": "unknown",
+        "name": "AA-9 Coruscant freighter",
+        "created": "2014-12-20T17:24:23.509Z",
+        "cargo_capacity": "unknown",
+        "passengers": "30000",
+        "max_atmosphering_speed": "unknown",
+        "crew": "unknown",
+        "length": "390",
+        "model": "Botajef AA-9 Freighter-Liner",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Botajef Shipyards"
+    },
+    "model": "resources.transport",
+    "pk": 47
+},
+{
+    "fields": {
+        "edited": "2014-12-20T17:35:23.906Z",
+        "consumables": "7 days",
+        "name": "Jedi starfighter",
+        "created": "2014-12-20T17:35:23.906Z",
+        "cargo_capacity": "60",
+        "passengers": "0",
+        "max_atmosphering_speed": "1150",
+        "crew": "1",
+        "length": "8",
+        "model": "Delta-7 Aethersprite-class interceptor",
+        "cost_in_credits": "180000",
+        "manufacturer": "Kuat Systems Engineering"
+    },
+    "model": "resources.transport",
+    "pk": 48
+},
+{
+    "fields": {
+        "edited": "2014-12-20T17:46:46.847Z",
+        "consumables": "unknown",
+        "name": "H-type Nubian yacht",
+        "created": "2014-12-20T17:46:46.847Z",
+        "cargo_capacity": "unknown",
+        "passengers": "unknown",
+        "max_atmosphering_speed": "8000",
+        "crew": "4",
+        "length": "47.9",
+        "model": "H-type Nubian yacht",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Theed Palace Space Vessel Engineering Corps"
+    },
+    "model": "resources.transport",
+    "pk": 49
+},
+{
+    "fields": {
+        "edited": "2014-12-20T18:01:21.014Z",
+        "consumables": "unknown",
+        "name": "LAAT/i",
+        "created": "2014-12-20T18:01:21.014Z",
+        "cargo_capacity": "170",
+        "passengers": "30",
+        "max_atmosphering_speed": "620",
+        "crew": "6",
+        "length": "17.4",
+        "model": "Low Altitude Assault Transport/infrantry",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Rothana Heavy Engineering"
+    },
+    "model": "resources.transport",
+    "pk": 50
+},
+{
+    "fields": {
+        "edited": "2014-12-20T18:02:46.802Z",
+        "consumables": "unknown",
+        "name": "LAAT/c",
+        "created": "2014-12-20T18:02:46.802Z",
+        "cargo_capacity": "40000",
+        "passengers": "0",
+        "max_atmosphering_speed": "620",
+        "crew": "1",
+        "length": "28.82",
+        "model": "Low Altitude Assault Transport/carrier",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Rothana Heavy Engineering"
+    },
+    "model": "resources.transport",
+    "pk": 51
+},
+{
+    "fields": {
+        "edited": "2014-12-20T18:08:42.926Z",
+        "consumables": "2 years",
+        "name": "Republic Assault ship",
+        "created": "2014-12-20T18:08:42.926Z",
+        "cargo_capacity": "11250000",
+        "passengers": "16000",
+        "max_atmosphering_speed": "unknown",
+        "crew": "700",
+        "length": "752",
+        "model": "Acclamator I-class assault ship",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Rothana Heavy Engineering"
+    },
+    "model": "resources.transport",
+    "pk": 52
+},
+{
+    "fields": {
+        "edited": "2014-12-20T18:10:07.560Z",
+        "consumables": "21 days",
+        "name": "AT-TE",
+        "created": "2014-12-20T18:10:07.560Z",
+        "cargo_capacity": "10000",
+        "passengers": "36",
+        "max_atmosphering_speed": "60",
+        "crew": "6",
+        "length": "13.2",
+        "model": "All Terrain Tactical Enforcer",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Rothana Heavy Engineering, Kuat Drive Yards"
+    },
+    "model": "resources.transport",
+    "pk": 53
+},
+{
+    "fields": {
+        "edited": "2014-12-20T18:12:32.315Z",
+        "consumables": "7 days",
+        "name": "SPHA",
+        "created": "2014-12-20T18:12:32.315Z",
+        "cargo_capacity": "500",
+        "passengers": "30",
+        "max_atmosphering_speed": "35",
+        "crew": "25",
+        "length": "140",
+        "model": "Self-Propelled Heavy Artillery",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Rothana Heavy Engineering"
+    },
+    "model": "resources.transport",
+    "pk": 54
+},
+{
+    "fields": {
+        "edited": "2014-12-20T18:15:20.313Z",
+        "consumables": "unknown",
+        "name": "Flitknot speeder",
+        "created": "2014-12-20T18:15:20.312Z",
+        "cargo_capacity": "unknown",
+        "passengers": "0",
+        "max_atmosphering_speed": "634",
+        "crew": "1",
+        "length": "2",
+        "model": "Flitknot speeder",
+        "cost_in_credits": "8000",
+        "manufacturer": "Huppla Pasa Tisc Shipwrights Collective"
+    },
+    "model": "resources.transport",
+    "pk": 55
+},
+{
+    "fields": {
+        "edited": "2014-12-20T18:25:44.912Z",
+        "consumables": "7 days",
+        "name": "Neimoidian shuttle",
+        "created": "2014-12-20T18:25:44.912Z",
+        "cargo_capacity": "1000",
+        "passengers": "6",
+        "max_atmosphering_speed": "880",
+        "crew": "2",
+        "length": "20",
+        "model": "Sheathipede-class transport shuttle",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Haor Chall Engineering"
+    },
+    "model": "resources.transport",
+    "pk": 56
+},
+{
+    "fields": {
+        "edited": "2014-12-20T18:34:12.541Z",
+        "consumables": "unknown",
+        "name": "Geonosian starfighter",
+        "created": "2014-12-20T18:34:12.541Z",
+        "cargo_capacity": "unknown",
+        "passengers": "0",
+        "max_atmosphering_speed": "20000",
+        "crew": "1",
+        "length": "9.8",
+        "model": "Nantex-class territorial defense",
+        "cost_in_credits": "unknown",
+        "manufacturer": "Huppla Pasa Tisc Shipwrights Collective"
+    },
+    "model": "resources.transport",
+    "pk": 57
+},
+{
+    "fields": {
+        "edited": "2014-12-20T18:37:56.969Z",
+        "consumables": "7 days",
+        "name": "Solar Sailer",
+        "created": "2014-12-20T18:37:56.969Z",
+        "cargo_capacity": "240",
+        "passengers": "11",
+        "max_atmosphering_speed": "1600",
+        "crew": "3",
+        "length": "15.2",
+        "model": "Punworcca 116-class interstellar sloop",
+        "cost_in_credits": "35700",
+        "manufacturer": "Huppla Pasa Tisc Shipwrights Collective"
+    },
+    "model": "resources.transport",
+    "pk": 58
 }
 ]

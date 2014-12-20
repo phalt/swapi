@@ -1,31 +1,17 @@
 [
 {
     "fields": {
-        "edited": "2014-12-18T11:27:31.311Z",
+        "edited": "2014-12-20T18:39:18.947Z",
         "classification": "Mammal",
         "name": "Human",
         "designation": "Sentient",
         "created": "2014-12-10T13:52:11.567Z",
         "eye_colors": "Brown, Blue, Green, Hazel, Grey, Amber",
         "people": [
-            1,
-            4,
-            5,
-            6,
-            7,
-            9,
-            10,
-            11,
-            12,
-            14,
-            18,
-            19,
-            21,
-            22,
-            25,
-            26,
-            28,
-            29
+            66,
+            67,
+            68,
+            74
         ],
         "skin_colors": "Caucasian, Black, Asian, Hispanic",
         "language": "Galactic Basic",
@@ -314,5 +300,450 @@
     },
     "model": "resources.species",
     "pk": 14
+},
+{
+    "fields": {
+        "edited": "2014-12-20T09:48:02.406Z",
+        "classification": "Mammals",
+        "name": "Twi'lek",
+        "designation": "Sentient",
+        "created": "2014-12-20T09:48:02.406Z",
+        "eye_colors": "blue, brown, orange, pink",
+        "people": [
+            45,
+            46
+        ],
+        "skin_colors": "Orange, Yellow, Blue, Green, Pink, Purple, Tan",
+        "language": "Twi'leki",
+        "hair_colors": "none",
+        "homeworld": 37,
+        "average_lifespan": "unknown",
+        "average_height": "200"
+    },
+    "model": "resources.species",
+    "pk": 15
+},
+{
+    "fields": {
+        "edited": "2014-12-20T09:53:16.481Z",
+        "classification": "Reptile",
+        "name": "Aleena",
+        "designation": "Sentient",
+        "created": "2014-12-20T09:53:16.481Z",
+        "eye_colors": "unknown",
+        "people": [
+            47
+        ],
+        "skin_colors": "blue, gray",
+        "language": "Aleena",
+        "hair_colors": "none",
+        "homeworld": 38,
+        "average_lifespan": "79",
+        "average_height": "80"
+    },
+    "model": "resources.species",
+    "pk": 16
+},
+{
+    "fields": {
+        "edited": "2014-12-20T09:57:33.128Z",
+        "classification": "unknown",
+        "name": "Vulptereen",
+        "designation": "Sentient",
+        "created": "2014-12-20T09:57:33.128Z",
+        "eye_colors": "yellow",
+        "people": [
+            48
+        ],
+        "skin_colors": "grey",
+        "language": "vulpterish",
+        "hair_colors": "none",
+        "homeworld": 39,
+        "average_lifespan": "unknown",
+        "average_height": "100"
+    },
+    "model": "resources.species",
+    "pk": 17
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:02:13.915Z",
+        "classification": "unknown",
+        "name": "Xexto",
+        "designation": "Sentient",
+        "created": "2014-12-20T10:02:13.915Z",
+        "eye_colors": "black",
+        "people": [
+            49
+        ],
+        "skin_colors": "grey, yellow, purple",
+        "language": "Xextese",
+        "hair_colors": "none",
+        "homeworld": 40,
+        "average_lifespan": "unknown",
+        "average_height": "125"
+    },
+    "model": "resources.species",
+    "pk": 18
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:08:36.795Z",
+        "classification": "unknown",
+        "name": "Toong",
+        "designation": "Sentient",
+        "created": "2014-12-20T10:08:36.795Z",
+        "eye_colors": "orange",
+        "people": [
+            50
+        ],
+        "skin_colors": "grey, green, yellow",
+        "language": "Tundan",
+        "hair_colors": "none",
+        "homeworld": 41,
+        "average_lifespan": "unknown",
+        "average_height": "200"
+    },
+    "model": "resources.species",
+    "pk": 19
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:15:33.765Z",
+        "classification": "Mammal",
+        "name": "Cerean",
+        "designation": "Sentient",
+        "created": "2014-12-20T10:15:33.765Z",
+        "eye_colors": "hazel",
+        "people": [
+            52
+        ],
+        "skin_colors": "pale pink",
+        "language": "Cerean",
+        "hair_colors": "red, blond, black, white",
+        "homeworld": 43,
+        "average_lifespan": "unknown",
+        "average_height": "2"
+    },
+    "model": "resources.species",
+    "pk": 20
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:18:58.610Z",
+        "classification": "Amphibian",
+        "name": "Nautolan",
+        "designation": "Sentient",
+        "created": "2014-12-20T10:18:58.610Z",
+        "eye_colors": "black",
+        "people": [
+            53
+        ],
+        "skin_colors": "green, blue, brown, red",
+        "language": "Nautila",
+        "hair_colors": "none",
+        "homeworld": 44,
+        "average_lifespan": "70",
+        "average_height": "180"
+    },
+    "model": "resources.species",
+    "pk": 21
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:26:59.894Z",
+        "classification": "mammal",
+        "name": "Zabrak",
+        "designation": "sentient",
+        "created": "2014-12-20T10:26:59.894Z",
+        "eye_colors": "brown, orange",
+        "people": [
+            44,
+            54
+        ],
+        "skin_colors": "pale, brown, red, orange, yellow",
+        "language": "Zabraki",
+        "hair_colors": "black",
+        "homeworld": 45,
+        "average_lifespan": "unknown",
+        "average_height": "180"
+    },
+    "model": "resources.species",
+    "pk": 22
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:29:13.798Z",
+        "classification": "mammal",
+        "name": "Tholothian",
+        "designation": "sentient",
+        "created": "2014-12-20T10:29:13.798Z",
+        "eye_colors": "blue, indigo",
+        "people": [
+            55
+        ],
+        "skin_colors": "dark",
+        "language": "unknown",
+        "hair_colors": "unknown",
+        "homeworld": 46,
+        "average_lifespan": "unknown",
+        "average_height": "unknown"
+    },
+    "model": "resources.species",
+    "pk": 23
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:32:13.046Z",
+        "classification": "unknown",
+        "name": "Iktotchi",
+        "designation": "sentient",
+        "created": "2014-12-20T10:32:13.046Z",
+        "eye_colors": "orange",
+        "people": [
+            56
+        ],
+        "skin_colors": "pink",
+        "language": "Iktotchese",
+        "hair_colors": "none",
+        "homeworld": 47,
+        "average_lifespan": "unknown",
+        "average_height": "180"
+    },
+    "model": "resources.species",
+    "pk": 24
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:34:50.827Z",
+        "classification": "Mammal",
+        "name": "Quermian",
+        "designation": "sentient",
+        "created": "2014-12-20T10:34:50.827Z",
+        "eye_colors": "yellow",
+        "people": [
+            57
+        ],
+        "skin_colors": "white",
+        "language": "Quermian",
+        "hair_colors": "none",
+        "homeworld": 48,
+        "average_lifespan": "86",
+        "average_height": "240"
+    },
+    "model": "resources.species",
+    "pk": 25
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:49:21.692Z",
+        "classification": "unknown",
+        "name": "Kel Dor",
+        "designation": "sentient",
+        "created": "2014-12-20T10:49:21.692Z",
+        "eye_colors": "black, silver",
+        "people": [
+            58
+        ],
+        "skin_colors": "peach, orange, red",
+        "language": "Kel Dor",
+        "hair_colors": "none",
+        "homeworld": 49,
+        "average_lifespan": "70",
+        "average_height": "180"
+    },
+    "model": "resources.species",
+    "pk": 26
+},
+{
+    "fields": {
+        "edited": "2014-12-20T10:53:28.795Z",
+        "classification": "amphibian",
+        "name": "Chagrian",
+        "designation": "sentient",
+        "created": "2014-12-20T10:53:28.795Z",
+        "eye_colors": "blue",
+        "people": [
+            59
+        ],
+        "skin_colors": "blue",
+        "language": "Chagria",
+        "hair_colors": "none",
+        "homeworld": 50,
+        "average_lifespan": "unknown",
+        "average_height": "190"
+    },
+    "model": "resources.species",
+    "pk": 27
+},
+{
+    "fields": {
+        "edited": "2014-12-20T16:40:45.618Z",
+        "classification": "Insectoid",
+        "name": "Geonosian",
+        "designation": "Sentient",
+        "created": "2014-12-20T16:40:45.618Z",
+        "eye_colors": "green, hazel",
+        "people": [
+            63
+        ],
+        "skin_colors": "green, brown",
+        "language": "Geonosian",
+        "hair_colors": "none",
+        "homeworld": 11,
+        "average_lifespan": "unknown",
+        "average_height": "178"
+    },
+    "model": "resources.species",
+    "pk": 28
+},
+{
+    "fields": {
+        "edited": "2014-12-20T16:46:48.290Z",
+        "classification": "mammal",
+        "name": "Mirialan",
+        "designation": "sentient",
+        "created": "2014-12-20T16:46:48.290Z",
+        "eye_colors": "blue, green, red, yellow, brown, orange",
+        "people": [
+            64,
+            65
+        ],
+        "skin_colors": "yellow, green",
+        "language": "Mirialan",
+        "hair_colors": "black, brown",
+        "homeworld": 51,
+        "average_lifespan": "unknown",
+        "average_height": "180"
+    },
+    "model": "resources.species",
+    "pk": 29
+},
+{
+    "fields": {
+        "edited": "2014-12-20T16:57:46.171Z",
+        "classification": "reptilian",
+        "name": "Clawdite",
+        "designation": "sentient",
+        "created": "2014-12-20T16:57:46.171Z",
+        "eye_colors": "yellow",
+        "people": [
+            70
+        ],
+        "skin_colors": "green, yellow",
+        "language": "Clawdite",
+        "hair_colors": "none",
+        "homeworld": 54,
+        "average_lifespan": "70",
+        "average_height": "180"
+    },
+    "model": "resources.species",
+    "pk": 30
+},
+{
+    "fields": {
+        "edited": "2014-12-20T17:28:28.821Z",
+        "classification": "amphibian",
+        "name": "Besalisk",
+        "designation": "sentient",
+        "created": "2014-12-20T17:28:28.821Z",
+        "eye_colors": "yellow",
+        "people": [
+            71
+        ],
+        "skin_colors": "brown",
+        "language": "besalisk",
+        "hair_colors": "none",
+        "homeworld": 55,
+        "average_lifespan": "75",
+        "average_height": "178"
+    },
+    "model": "resources.species",
+    "pk": 31
+},
+{
+    "fields": {
+        "edited": "2014-12-20T17:31:24.838Z",
+        "classification": "amphibian",
+        "name": "Kaminoan",
+        "designation": "sentient",
+        "created": "2014-12-20T17:31:24.838Z",
+        "eye_colors": "black",
+        "people": [
+            72,
+            73
+        ],
+        "skin_colors": "grey, blue",
+        "language": "Kaminoan",
+        "hair_colors": "none",
+        "homeworld": 10,
+        "average_lifespan": "80",
+        "average_height": "220"
+    },
+    "model": "resources.species",
+    "pk": 32
+},
+{
+    "fields": {
+        "edited": "2014-12-20T17:53:54.515Z",
+        "classification": "mammal",
+        "name": "Skakoan",
+        "designation": "sentient",
+        "created": "2014-12-20T17:53:54.515Z",
+        "eye_colors": "unknown",
+        "people": [
+            76
+        ],
+        "skin_colors": "grey, green",
+        "language": "Skakoan",
+        "hair_colors": "none",
+        "homeworld": 56,
+        "average_lifespan": "unknown",
+        "average_height": "unknown"
+    },
+    "model": "resources.species",
+    "pk": 33
+},
+{
+    "fields": {
+        "edited": "2014-12-20T17:58:19.088Z",
+        "classification": "mammal",
+        "name": "Muun",
+        "designation": "sentient",
+        "created": "2014-12-20T17:58:19.088Z",
+        "eye_colors": "black",
+        "people": [
+            77
+        ],
+        "skin_colors": "grey, white",
+        "language": "Muun",
+        "hair_colors": "none",
+        "homeworld": 57,
+        "average_lifespan": "100",
+        "average_height": "190"
+    },
+    "model": "resources.species",
+    "pk": 34
+},
+{
+    "fields": {
+        "edited": "2014-12-20T18:44:03.246Z",
+        "classification": "mammal",
+        "name": "Togruta",
+        "designation": "sentient",
+        "created": "2014-12-20T18:44:03.246Z",
+        "eye_colors": "red, orange, yellow, green, blue, black",
+        "people": [
+            78
+        ],
+        "skin_colors": "red, white, orange, yellow, green, blue",
+        "language": "Togruti",
+        "hair_colors": "none",
+        "homeworld": 58,
+        "average_lifespan": "94",
+        "average_height": "1.8"
+    },
+    "model": "resources.species",
+    "pk": 35
 }
 ]
