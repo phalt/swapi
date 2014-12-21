@@ -41,7 +41,7 @@ Here is the response we get:
         "url": "http://swapi.co/api/planets/1/"
     }
 
-If your response looks slightly different don't panic. This is probably because more data has been added to swapi since we made this documenation.
+If your response looks slightly different don't panic. This is probably because more data has been added to swapi since we made this documentation.
 
 <a name="base"></a>
 ###Base URL
@@ -109,6 +109,8 @@ The Root resource provides information on all avaiable resources within the API.
 - ```vehicles``` *string*
 -- The URL root for Vehicles resources
 
+
+- - -
 <a name="people"></a>
 ###People
 
@@ -144,7 +146,9 @@ A People resource is an individual person or character within the Star Wars univ
         "skin_color": "Fair",
         "created": "2014-12-09T13:50:51.644000Z",
         "edited": "2014-12-10T13:52:43.172000Z",
-        "species": [],
+        "species": [
+            "http://swapi.co/api/species/1/"
+        ],
         "starships": [
             "http://swapi.co/api/starships/12/",
             ...
@@ -158,6 +162,8 @@ A People resource is an individual person or character within the Star Wars univ
 
 **Attributes:**
 
+- ```name``` *string*
+-- The name of this person.
 - ```birth_year``` *string*
 -- The birth year of the person, using the in-universe standard of **BBY** or **ABY** - Before the Battle of Yavin or After the Battle of Yavin. The Battle of Yavin is a battle that occurs at the end of Star Wars episode IV: A New Hope.
 - ```eye_color``` *string*
@@ -189,6 +195,7 @@ A People resource is an individual person or character within the Star Wars univ
 - ```edited``` *string*
 -- the ISO 8601 date format of the time that this resource was edited.
 
+- - -
 <a name="films"></a>
 ###Films
 
@@ -268,7 +275,7 @@ A Film resource is an single film.
 - ```edited``` *string*
 -- the ISO 8601 date format of the time that this resource was edited.
 
-
+- - -
 <a name="starships"></a>
 ###Starships
 
@@ -294,7 +301,7 @@ A Starship resource is a single transport craft that has hyperdrive capability.
         "consumables": "3 years",
         "cost_in_credits": "1000000000000",
         "created": "2014-12-10T16:36:50.509000Z",
-        "crew": "342,953",
+        "crew": "342953",
         "edited": "2014-12-10T16:36:50.509000Z",
         "hyperdrive_rating": "4.0",
         "length": "120000",
@@ -314,17 +321,17 @@ A Starship resource is a single transport craft that has hyperdrive capability.
 **Attributes:**
 
 - ```name``` *string*
--- The name of this starship. It's common name, such as "Death Star" or "Millenium Falcon".
+-- The name of this starship. The common name, such as "Death Star".
 - ```model``` *string*
 -- The model or official name of this starship. Such as "T-65 X-wing" or "DS-1 Orbital Battle Station".
 - ```starship_class`` *string*
 -- The class of this starship, such as "Starfighter" or "Deep Space Mobile Battlestation"
 - ```manufacturer``` *string*
 -- The manufacturer of this starship. Comma seperated if more than one.
+- ```cost_in_credits``` *string*
+-- The cost of this starship new, in galactic credits.
 - ```length``` *string*
 -- The length of this starship in meters.
-- ```cost``` *string*
--- The cost of this starship new, in Galactic Credits.
 - ```crew``` *string*
 -- The number of personnel needed to run or pilot this starship.
 - ```passengers``` *string*
@@ -350,6 +357,7 @@ A Starship resource is a single transport craft that has hyperdrive capability.
 - ```edited``` *string*
 -- the ISO 8601 date format of the time that this resource was edited.
 
+- - -
 <a name="vehicles"></a>
 ###Vehicles
 
@@ -394,7 +402,7 @@ A Vehicle resource is a single transport craft that **does not have** hyperdrive
 **Attributes:**
 
 - ```name``` *string*
--- The name of this vehicle. It's common name, such as "Sand Crawler" or "Speeder bike".
+-- The name of this vehicle. The common name, such as "Sand Crawler" or "Speeder bike".
 - ```model``` *string*
 -- The model or official name of this vehicle. Such as "All-Terrain Attack Transport".
 - ```vehicle_class`` *string*
@@ -403,7 +411,7 @@ A Vehicle resource is a single transport craft that **does not have** hyperdrive
 -- The manufacturer of this vehicle. Comma-seperated if more than one.
 - ```length``` *string*
 -- The length of this vehicle in meters.
-- ```cost``` *string*
+- ```cost_in_credits``` *string*
 -- The cost of this vehicle new, in Galactic Credits.
 - ```crew``` *string*
 -- The number of personnel needed to run or pilot this vehicle.
@@ -426,6 +434,7 @@ A Vehicle resource is a single transport craft that **does not have** hyperdrive
 - ```edited``` *string*
 -- the ISO 8601 date format of the time that this resource was edited.
 
+- - -
 <a name="species"></a>
 ###Species
 
@@ -478,7 +487,7 @@ A Species resource is a type of person or character within the Star Wars Univers
 - ```designation``` *string*
 -- The designation of this species, such as "sentient".
 - ```average_height``` *string*
--- The average height of this species in meters.
+-- The average height of this species in centimeters.
 - ```average_lifespan``` *string*
 -- The average lifespan of this species in years.
 - ```eye_colors``` *string*
@@ -486,9 +495,11 @@ A Species resource is a type of person or character within the Star Wars Univers
 - ```hair_colors``` *string*
 -- A comma-seperated string of common hair colors for this species, "none" if this species does not typically have hair.
 - ```skin_colors``` *string*
-- A comma-seperated string of common skin colors for this species, "none" if this species does not typically have skin.
+-- A comma-seperated string of common skin colors for this species, "none" if this species does not typically have skin.
 - ```Language``` *string*
 -- The language commonly spoken by this species.
+- ```homeworld``` *string*
+-- The URL of a planet resource, a planet that this species originates from.
 - ```people``` *array*
 -- An array of People URL Resources that are a part of this species.
 - ```films``` *array*
@@ -500,6 +511,7 @@ A Species resource is a type of person or character within the Star Wars Univers
 - ```edited``` *string*
 -- the ISO 8601 date format of the time that this resource was edited.
 
+- - -
 <a name="planets"></a>
 ###Planets
 
@@ -552,7 +564,7 @@ A Planet resource is a large mass, planet or planetoid in the Star Wars Universe
 - ```rotation_period``` *string*
 -- The number of standard hours it takes for this planet to complete a single rotation on it's axis.
 - ```orbital_period``` *string*
--- The number of standard days it takes fo this planet to complete a single orbit of it's local star.
+-- The number of standard days it takes for this planet to complete a single orbit of it's local star.
 - ```gravity``` *string*
 -- A number denoting the gravity of this planet, where "1" is normal or 1 standard G. "2" is twice or 2 standard Gs. "0.5" is half or 0.5 standard Gs.
 - ```population``` *string*

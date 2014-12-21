@@ -42,26 +42,28 @@ def about(request):
 
 @csrf_exempt
 def stripe_donation(request):
-    # Amount in cents
-    amount = 1000
+    if request.method == 'POST':
+        # Amount in cents
+        amount = 1000
 
-    stripe.api_key = settings.STRIPE_KEYS['secret']
+        stripe.api_key = settings.STRIPE_KEYS['secret']
 
-    import pdb; pdb.set_trace()
+        import pdb; pdb.set_trace()
 
-    customer = stripe.Customer.create(
-        email=request.POST.get('stripeEmail', ''),
-        card=request.POST.get('stripeToken', '')
-    )
-
-    try:
-        stripe.Charge.create(
-            customer=customer.id,
-            amount=amount,
-            currency='usd',
-            description='SWAPI donation'
+        customer = stripe.Customer.create(
+            email=request.POST.get('stripeEmail', ''),
+            card=request.POST.get('stripeToken', '')
         )
-    except:
-        pass
 
+        try:
+            stripe.Charge.create(
+                customer=customer.id,
+                amount=amount,
+                currency='usd',
+                description='SWAPI donation'
+            )
+        except:
+            pass
+
+        return redirect('/')
     return redirect('/')

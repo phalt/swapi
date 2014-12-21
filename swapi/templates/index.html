@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load humanize %}
 {% block mainbody %}
       <div class="row">
         <div class="col-lg-3">
@@ -7,13 +8,14 @@
           <p>All the Star Wars data you've ever wanted:</p>
           <p><b>Planets, Spaceships, Vehicles, People, Films and Species</b></p>
           <p>From all six Star Wars films</p>
-          <p><h4>Over {{ hits }} requests received!</h4></p>
+          <p><h4>Over {{ hits|intcomma }} requests received!</h4></p>
         </div>
         <div class="col-lg-3">
         </div>
-        <hr>
+
       </div>
 <div class="row">
+          <hr>
     <div class="col-sm-2 col-lg-2 col-md-2">
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8">
@@ -71,11 +73,11 @@
         <div class="col-sm-3 col-lg-3 col-md-3">
           <h4 class="center">What is this?</h4>
           <p>The Star Wars API, or "swapi" (Swah-pee) is the world's first quanitified and programmatically-accessible data source for all the data from the Star Wars canon universe!</p>
-          <p>We've taken all the rich contextual data from the universe and formatted in our data. Then we went and stuck an API on the front so you can consume all the data!</p>
+          <p>We've taken all the rich contextual stuff from the universe and formatted into something easier to consume with software. Then we went and stuck an API on the front so you can access it all!</p>
         </div>
         <div class="col-sm-4 col-lg-4 col-md-4">
           <h4 class="center">How can I use it?</h4>
-          <p>All the data is accessible through HTTP. Consult our <a href="/documentation">documentation</a> if you'd like to know more.</p>
+          <p>All the data is accessible through our HTTP web API. Consult our <a href="/documentation">documentation</a> if you'd like to get started.</p>
           <p>Helper libraries for popular programming languages are also provided so you can consume swapi in your favourite programming language, in a style that suits you.</p>
         </div>
         <div class="col-sm-3 col-lg-3 col-md-3">
@@ -93,7 +95,6 @@
           </script>
         </form></p>
         <p>If you'd like to support with your super cool programmer skills, <a href="/documentation">we need helper libraries</a> for new languages!</p>
-        <p>We truly appreciate your support</p>
         </div>
         <div class="col-sm-1 col-lg-1 col-md-1">
         </div>

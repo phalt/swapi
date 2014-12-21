@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "Starship",
+  "description": "A Starship",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of this starship. The common name, such as Death Star."
+    },
+    "model": {
+      "type": "string",
+      "description": "The model or official name of this starship. Such as T-65 X-wing or DS-1 Orbital Battle Station."
+    },
+    "starship_class": {
+      "type": "string",
+      "description": "The class of this starship, such as Starfighter or Deep Space Mobile Battlestation."
+    },
+    "manufacturer": {
+      "type": "string",
+      "description": "The manufacturer of this starship. Comma seperated if more than one."
+    },
+    "cost_in_credits": {
+      "type": "string",
+      "description": "The cost of this starship new, in galactic credits."
+    },
+    "length": {
+      "type": "string",
+      "description": "The length of this starship in meters."
+    },
+    "crew":{
+      "type": "string",
+      "description": "The number of personnel needed to run or pilot this starship."
+    },
+    "passengers": {
+      "type": "string",
+      "description": "The number of non-essential people this starship can transport."
+    },
+    "max_atmosphering_speed": {
+      "type": "string",
+      "description": "The maximum speed of this starship in atmosphere. n/a if this starship is incapable of atmosphering flight."
+    },
+    "hyperdrive_rating" : {
+      "type": "string",
+      "description": "The class of this starships hyperdrive."
+    },
+    "MGLT": {
+      "type": "string",
+      "description": "The Maximum number of Megalights this starship can travel in a standard hour. A Megalight is a standard unit of distance and has never been defined before within the Star Wars universe. This figure is only really useful for measuring the difference in speed of starships. We can assume it is similar to AU, the distance between our Sun (Sol) and Earth."
+    },
+    "cargo_capacity": {
+      "type": "string",
+      "description": "The maximum number of kilograms that this starship can transport."
+    },
+    "consumables": {
+      "type": "string",
+      "description": "The maximum length of time that this starship can provide consumables for it's entire crew without having to resupply."
+    },
+    "films": {
+      "type": "array",
+      "description": "An array of Film URL Resources that this starship has appeared in."
+    },
+    "pilots": {
+      "type": "array",
+      "description": "An array of People URL Resources that this starship has been piloted by."
+    },
+    "url": {
+      "type": "string",
+      "description": "The hypermedia URL of this resource."
+    },
+    "created": {
+      "type": "string",
+      "description": "The ISO 8601 date format of the time that this resource was created."
+    },
+    "edited": {
+      "type": "string",
+      "description": "the ISO 8601 date format of the time that this resource was edited."
+    }
+  },
+  "required": [
+    "name",
+    "model",
+    "manufacturer",
+    "cost_in_credits",
+    "length",
+    "max_atmosphering_speed",
+    "crew",
+    "passengers",
+    "cargo_capacity",
+    "consumables",
+    "hyperdrive_rating",
+    "MGLT",
+    "starship_class",
+    "pilots",
+    "films",
+    "created",
+    "edited",
+    "url"
+  ]
+}

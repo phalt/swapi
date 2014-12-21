@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "Starship",
+  "description": "A vehicle.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of this vehicle. The common name, such as Sand Crawler."
+    },
+    "model": {
+      "type": "string",
+      "description": "The model or official name of this vehicle. Such as All Terrain Attack Transport."
+    },
+    "vehicle_class": {
+      "type": "string",
+      "description": "The class of this vehicle, such as Wheeled."
+    },
+    "manufacturer": {
+      "type": "string",
+      "description": "The manufacturer of this vehicle. Comma seperated if more than one."
+    },
+    "cost_in_credits": {
+      "type": "string",
+      "description": "The cost of this vehicle new, in galactic credits."
+    },
+    "length": {
+      "type": "string",
+      "description": "The length of this vehicle in meters."
+    },
+    "crew":{
+      "type": "string",
+      "description": "The number of personnel needed to run or pilot this vehicle."
+    },
+    "passengers": {
+      "type": "string",
+      "description": "The number of non-essential people this vehicle can transport."
+    },
+    "max_atmosphering_speed": {
+      "type": "string",
+      "description": "The maximum speed of this vehicle in atmosphere."
+    },
+    "cargo_capacity": {
+      "type": "string",
+      "description": "The maximum number of kilograms that this vehicle can transport."
+    },
+    "consumables": {
+      "type": "string",
+      "description": "The maximum length of time that this vehicle can provide consumables for it's entire crew without having to resupply."
+    },
+    "films": {
+      "type": "array",
+      "description": "An array of Film URL Resources that this vehicle has appeared in."
+    },
+    "pilots": {
+      "type": "array",
+      "description": "An array of People URL Resources that this vehicle has been piloted by."
+    },
+    "url": {
+      "type": "string",
+      "description": "The hypermedia URL of this resource."
+    },
+    "created": {
+      "type": "string",
+      "description": "The ISO 8601 date format of the time that this resource was created."
+    },
+    "edited": {
+      "type": "string",
+      "description": "the ISO 8601 date format of the time that this resource was edited."
+    }
+  },
+  "required": [
+    "name",
+    "model",
+    "manufacturer",
+    "cost_in_credits",
+    "length",
+    "max_atmosphering_speed",
+    "crew",
+    "passengers",
+    "cargo_capacity",
+    "consumables",
+    "vehicle_class",
+    "pilots",
+    "films",
+    "created",
+    "edited",
+    "url"
+  ]
+}

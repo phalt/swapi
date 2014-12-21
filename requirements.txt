@@ -4,6 +4,7 @@ SQLAlchemy==0.9.8
 dj-database-url==0.3.0
 dj-stripe==0.3.5
 django-braces==1.4.0
+django-cors-headers==1.0.0
 django-jsonfield==0.9.13
 django-keen==0.1.3
 django-markdown-deux==1.0.5

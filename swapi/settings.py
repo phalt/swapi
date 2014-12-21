@@ -12,14 +12,15 @@ DEBUG = os.environ.get(bool('DEBUG'), True)
 # Because test settings will trigger KEEN.io hits
 KEEN_DEBUG = os.environ.get(bool('DEBUG'), True)
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = []
 
 CUSTOM_APPS = (
     'resources',
     'rest_framework',
-    'markdown_deux'
+    'markdown_deux',
+    'corsheaders',
 )
 
 INSTALLED_APPS = (
@@ -27,12 +28,13 @@ INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.messages',
+    'django.contrib.humanize',
     'django.contrib.staticfiles',
 ) + CUSTOM_APPS
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -140,3 +142,11 @@ else:
         "secret" :STRIPE_SECRET_KEY,
         "publishable": STRIPE_PUBLISHABLE_KEY
     }
+
+# Cors
+
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_URLS_REGEX = r'^/api/.*$'
+CORS_ALLOW_METHODS = (
+        'GET',
+    )

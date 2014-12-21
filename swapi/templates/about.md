@@ -1,10 +1,10 @@
 ## What is this?
 
-The Star Wars API is the world's first quanitified and organised data set of Star Wars data ever created.
+The Star Wars API is the world's first quanitified and programmatically-formatted set of Star Wars data.
 
 After hours of watching films and trawling through content online, we present to you all the **People, Films, Species, Starships, Vehicles and Planets** from Star Wars.
 
-We've formatted this data in **JSON** and exposed it to you in a **RESTish** implementation that allows you to programmatically collect and measure the data.
+We've formatted this data in [**JSON**](https://json.org) and exposed it to you in a [**RESTish**](https://en.wikipedia.org/wiki/Representational_state_transfer) implementation that allows you to programmatically collect and measure the data.
 
 [Check out the documentation to get started consuming swapi data](/documentation)
 
@@ -23,7 +23,7 @@ Comparing the data from Star Wars has never been easier. Here are some examples 
 *View the people who have piloted more than one starship*:
 
     import swapi
-    for people in swapi.get_all("people"):
+    for people in swapi.get_all("people").iter():
         if len(people.starships) > 1:
             print(people.name)
 
@@ -32,8 +32,8 @@ Comparing the data from Star Wars has never been easier. Here are some examples 
     import swapi
     pm = swapi.get_film(4)
     jj = swapi.get_person(36)
-    for c in pm.get_characters():
-        if c.name == pm.name:
+    for c in pm.get_characters().iter():
+        if c.name == jj.name:
             print("Why George, why.")
 
 
@@ -42,6 +42,8 @@ Comparing the data from Star Wars has never been easier. Here are some examples 
 We're using [Django](https://djangoproject.com) and [Django REST Framework](https://django-rest-framework.org) to serve a [RESTish](https://en.wikipedia.org/wiki/REST) API to you.
 
 The data is all formatted in [JSON](http://json.org) and we also support [JSON Schema](http://jsonschema.net) for programmatically understanding the attributes of each resource.
+
+We're using [stripe](https://stripe.com) to process our donations and [keen.io](https://keen.io) to track our API usage.
 
 ## Why did you build this?
 

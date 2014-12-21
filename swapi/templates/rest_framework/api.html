@@ -1,0 +1,24 @@
+{% extends "rest_framework/base.html" %}
+{% block bootstrap_theme %}
+    <link rel="stylesheet" href="/static/css/bootstrap.css/" type="text/css">
+{% endblock %}
+<title>SWAPI - The Star Wars API</title>
+{% block bootstrap_navbar_variant %}{% endblock %}
+{% block branding %}
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="navbar-brand" href="#"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://swapi.co" data-text="SWAPI - the Star Wars API " data-via="phalt_" data-related="phalt_">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/documentation">Documentation</a></li>
+</ul>
+</div><!-- /.navbar-collapse -->{% endblock %}
