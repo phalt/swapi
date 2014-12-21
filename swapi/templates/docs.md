@@ -464,18 +464,18 @@ A Species resource is a type of person or character within the Star Wars Univers
         "edited": "2014-12-10T16:44:31.486000Z",
         "eye_colors": "blue, green, yellow, brown, golden, red",
         "hair_colors": "black, brown",
-        "homeworld": "http://localhost:8000/api/planets/14/",
+        "homeworld": "http://swapi.co/api/planets/14/",
         "language": "Shyriiwook",
         "name": "Wookie",
         "people": [
-            "http://localhost:8000/api/people/13/"
+            "http://swapi.co/api/people/13/"
         ],
         "films": [
-            "http://localhost:8000/api/films/1/",
-            "http://localhost:8000/api/films/2/"
+            "http://swapi.co/api/films/1/",
+            "http://swapi.co/api/films/2/"
         ],
         "skin_colors": "gray",
-        "url": "http://localhost:8000/api/species/3/"
+        "url": "http://swapi.co/api/species/3/"
     }
 
 **Attributes:**
