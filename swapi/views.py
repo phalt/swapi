@@ -48,8 +48,6 @@ def stripe_donation(request):
 
         stripe.api_key = settings.STRIPE_KEYS['secret']
 
-        import pdb; pdb.set_trace()
-
         customer = stripe.Customer.create(
             email=request.POST.get('stripeEmail', ''),
             card=request.POST.get('stripeToken', '')
