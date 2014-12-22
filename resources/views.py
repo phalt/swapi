@@ -24,7 +24,6 @@ from .serializers import (
 
 import dkeen as keen
 
-import gevent
 
 def keen_hit(type, resource, url):
     if not settings.KEEN_DEBUG:
