@@ -23,6 +23,5 @@ pylibmc==1.4.1
 requests==2.5.0
 six==1.8.0
 stripe==1.19.1
-swapi==0.1.1
 whitenoise==1.0.3
 wsgiref==0.1.2
