@@ -597,3 +597,14 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 ##Python
 
 - [swapi-python](https://github.com/phalt/swapi-python) is built by the author of swapi.
+
+<a name="javascript"></a>
+##Javascript
+
+- [SWAPI-Wrapper](https://github.com/cfjedimaster/SWAPI-Wrapper) is a simple Javascript wrapper.
+- [swapi-node](https://www.npmjs.com/package/swapi-node) is a node.js javascript wrapper.
+
+<a name="android"></a>
+##Android
+
+- [SWAPI-Android-SDK](https://github.com/Oleur/SWAPI-Android-SDK).
