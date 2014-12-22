@@ -324,7 +324,7 @@ A Starship resource is a single transport craft that has hyperdrive capability.
 -- The name of this starship. The common name, such as "Death Star".
 - ```model``` *string*
 -- The model or official name of this starship. Such as "T-65 X-wing" or "DS-1 Orbital Battle Station".
-- ```starship_class`` *string*
+- ```starship_class``` *string*
 -- The class of this starship, such as "Starfighter" or "Deep Space Mobile Battlestation"
 - ```manufacturer``` *string*
 -- The manufacturer of this starship. Comma seperated if more than one.
@@ -405,7 +405,7 @@ A Vehicle resource is a single transport craft that **does not have** hyperdrive
 -- The name of this vehicle. The common name, such as "Sand Crawler" or "Speeder bike".
 - ```model``` *string*
 -- The model or official name of this vehicle. Such as "All-Terrain Attack Transport".
-- ```vehicle_class`` *string*
+- ```vehicle_class``` *string*
 -- The class of this vehicle, such as "Wheeled" or "Repulsorcraft".
 - ```manufacturer``` *string*
 -- The manufacturer of this vehicle. Comma-seperated if more than one.
