@@ -608,3 +608,8 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 ##Android
 
 - [SWAPI-Android-SDK](https://github.com/Oleur/SWAPI-Android-SDK).
+
+<a name="golang"></a>
+##Go
+
+- [swapi-go](https://github.com/peterhellberg/swapi).
