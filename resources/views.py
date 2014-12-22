@@ -25,15 +25,22 @@ from .serializers import (
 import dkeen as keen
 
 
-def keen_hit(type, resource, url):
+def keen_hit(type, resource, request):
     if not settings.KEEN_DEBUG:
+        ip = request.META['REMOTE_ADDR'] if request.META['REMOTE_ADDR'] else ''
+        if request.META['HTTP_USER_AGENT']:
+            user_agent = request.META['HTTP_USER_AGENT']
+        else:
+            user_agent = ''
+
         keen.add_event(
             "{0}_hit".format(type),
             {
-                "url": url,
+                "url": request.path,
                 "type": "{0}".format(type),
-                "resource": "resource"
-
+                "resource": "resource",
+                "ip_address": ip,
+                "user_agent": user_agent
             }
         )
 
@@ -43,11 +50,11 @@ class PeopleViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = PeopleSerializer
 
     def retrieve(self, request, *args, **kwargs):
-        keen_hit("detail", "people", request.get_full_path())
+        keen_hit("detail", "people", request)
         return super(PeopleViewSet, self).retrieve(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        keen_hit("list", "people", request.get_full_path())
+        keen_hit("list", "people", request)
         return super(PeopleViewSet, self).list(request, *args, **kwargs)
 
 
@@ -57,11 +64,11 @@ class PlanetViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = PlanetSerializer
 
     def retrieve(self, request, *args, **kwargs):
-        keen_hit("detail", "planet", request.get_full_path())
+        keen_hit("detail", "planet", request)
         return super(PlanetViewSet, self).retrieve(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        keen_hit("list", "planet", request.get_full_path())
+        keen_hit("list", "planet", request)
         return super(PlanetViewSet, self).list(request, *args, **kwargs)
 
 
@@ -71,11 +78,11 @@ class FilmViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = FilmSerializer
 
     def retrieve(self, request, *args, **kwargs):
-        keen_hit("detail", "film", request.get_full_path())
+        keen_hit("detail", "film", request)
         return super(FilmViewSet, self).retrieve(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        keen_hit("list", "film", request.get_full_path())
+        keen_hit("list", "film", request)
         return super(FilmViewSet, self).list(request, *args, **kwargs)
 
 
@@ -85,11 +92,11 @@ class SpeciesViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = SpeciesSerializer
 
     def retrieve(self, request, *args, **kwargs):
-        keen_hit("detail", "species", request.get_full_path())
+        keen_hit("detail", "species", request)
         return super(SpeciesViewSet, self).retrieve(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        keen_hit("list", "species", request.get_full_path())
+        keen_hit("list", "species", request)
         return super(SpeciesViewSet, self).list(request, *args, **kwargs)
 
 
@@ -99,11 +106,11 @@ class VehicleViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = VehicleSerializer
 
     def retrieve(self, request, *args, **kwargs):
-        keen_hit("detail", "vehicle", request.get_full_path())
+        keen_hit("detail", "vehicle", request)
         return super(VehicleViewSet, self).retrieve(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        keen_hit("list", "vehicle", request.get_full_path())
+        keen_hit("list", "vehicle", request)
         return super(VehicleViewSet, self).list(request, *args, **kwargs)
 
 
@@ -113,9 +120,9 @@ class StarshipViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = StarshipSerializer
 
     def retrieve(self, request, *args, **kwargs):
-        keen_hit("detail", "starship", request.get_full_path())
+        keen_hit("detail", "starship", request)
         return super(StarshipViewSet, self).retrieve(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        keen_hit("list", "starship", request.get_full_path())
+        keen_hit("list", "starship", request)
         return super(StarshipViewSet, self).list(request, *args, **kwargs)

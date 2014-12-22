@@ -21,7 +21,8 @@ def index(request):
             read_key=settings.KEEN_READ_KEY
         )
         hits = keen.count("detail_hit")
-        cache.set('keen_hit_count', hits)
+        cache.set('keen_hit_count', hits, 60)
+
     stripe_key = settings.STRIPE_KEYS['publishable']
     return render_to_response('index.html',
         {
@@ -37,8 +38,10 @@ def documentation(request):
 
 def about(request):
     stripe_key = settings.STRIPE_KEYS['publishable']
-
-    data = get_resource_stats()
+    data = cache.get('resource_data')
+    if not data:
+        data = get_resource_stats()
+        cache.set('resource_data', data, 10000)
     data['stripe_key'] = stripe_key
     return render_to_response(
         "about.html",
