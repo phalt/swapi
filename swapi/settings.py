@@ -83,7 +83,7 @@ TEMPLATE_DIRS = (
 
 CACHES = {
     'default': {
-        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        'BACKEND': 'django.core.cache.backends.memcached.PyLibMCCache',
     }
 }
 
@@ -148,3 +148,9 @@ CORS_URLS_REGEX = r'^/api/.*$'
 CORS_ALLOW_METHODS = (
         'GET',
     )
+
+# Memcache
+
+from memcacheify import memcacheify
+
+CACHES = memcacheify()
