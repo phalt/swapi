@@ -618,3 +618,8 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 ##PHP
 
 - [Coruscant](https://github.com/DraperStudio/Coruscant) by [DraperStudio](https://github.com/DraperStudio).
+
+<a name="ruby"></a>
+##Ruby
+
+- [swapi-ruby](https://github.com/emaraschio/swapi-ruby) by [Ezequiel Maraschio](https://github.com/emaraschio).
