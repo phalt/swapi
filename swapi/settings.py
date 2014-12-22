@@ -60,10 +60,10 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
+if not DEBUG:
+    DATABASES['default'] =  dj_database_url.config()
 
-DATABASES['default'] =  dj_database_url.config()
-
-DATABASES['default']['ENGINE'] = 'django_postgrespool'
+    DATABASES['default']['ENGINE'] = 'django_postgrespool'
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
