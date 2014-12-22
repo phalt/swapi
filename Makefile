@@ -36,3 +36,7 @@ drop_db:
 
 test:
 	python manage.py test
+
+
+clear_cache:
+	python manage.py clear_cache

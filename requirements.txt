@@ -4,6 +4,7 @@ SQLAlchemy==0.9.8
 dj-database-url==0.3.0
 dj-stripe==0.3.5
 django-braces==1.4.0
+django-clear-cache==0.3
 django-cors-headers==1.0.0
 django-heroku-memcacheify==0.8
 django-jsonfield==0.9.13
@@ -22,5 +23,6 @@ pylibmc==1.4.1
 requests==2.5.0
 six==1.8.0
 stripe==1.19.1
+swapi==0.1.1
 whitenoise==1.0.3
 wsgiref==0.1.2

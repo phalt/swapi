@@ -21,6 +21,7 @@ CUSTOM_APPS = (
     'rest_framework',
     'markdown_deux',
     'corsheaders',
+    'clear_cache',
 )
 
 INSTALLED_APPS = (
@@ -84,6 +85,7 @@ TEMPLATE_DIRS = (
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.memcached.PyLibMCCache',
+        'TIMEOUT': 60
     }
 }
 

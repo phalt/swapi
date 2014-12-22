@@ -19,7 +19,7 @@
 <div class="col-sm-2 col-lg-2 col-md-2">
 <h4>Donate</h4>
     <p>With small donations we can keep swapi running for free, please consider throwing us some beer money to say thank you. With every $10 we can keep the site up for another month!</p>
-<p><form action="/stripe/donation" method="POST">{% csrf_token %}
+<p><form action="/stripe/donation" method="POST">
           <script
             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
             data-key="{{stripe_key}}"
