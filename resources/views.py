@@ -38,7 +38,7 @@ def keen_hit(type, resource, request):
                 {
                     "url": request.path,
                     "type": "{0}".format(type),
-                    "resource": "resource",
+                    "resource": resource,
                     "ip_address": ip,
                     "user_agent": user_agent
                 }
