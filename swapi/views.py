@@ -22,7 +22,7 @@ def index(request):
             read_key=settings.KEEN_READ_KEY
         )
         hits = keen.count("detail_hit")
-        cache.set('keen_hit_count', hits, 300)
+        cache.set('keen_hit_count', hits, 900)
 
     stripe_key = settings.STRIPE_KEYS['publishable']
     return render_to_response('index.html',

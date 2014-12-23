@@ -613,6 +613,7 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 ##Go
 
 - [swapi-go](https://github.com/peterhellberg/swapi) by [Peter Hellberg](https://github.com/peterhellberg).
+- [swapi](https://github.com/leejarvis/swapi) by [Lee Jarvis](https://github.com/leejarvis).
 
 <a name="php"></a>
 ##PHP
