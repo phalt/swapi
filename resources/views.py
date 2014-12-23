@@ -32,17 +32,19 @@ def keen_hit(type, resource, request):
             user_agent = request.META['HTTP_USER_AGENT']
         else:
             user_agent = ''
-
-        keen.add_event(
-            "{0}_hit".format(type),
-            {
-                "url": request.path,
-                "type": "{0}".format(type),
-                "resource": "resource",
-                "ip_address": ip,
-                "user_agent": user_agent
-            }
-        )
+        try:
+            keen.add_event(
+                "{0}_hit".format(type),
+                {
+                    "url": request.path,
+                    "type": "{0}".format(type),
+                    "resource": "resource",
+                    "ip_address": ip,
+                    "user_agent": user_agent
+                }
+            )
+        except:
+            pass
 
 class PeopleViewSet(viewsets.ReadOnlyModelViewSet):
 
