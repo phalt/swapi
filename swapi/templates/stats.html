@@ -1,0 +1,185 @@
+{% extends 'base.html' %}
+{% load humanize %}
+{% block mainbody %}
+      <div class="row">
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6 center">
+          <h1>Counts</h1>
+        </div>
+        <div class="col-lg-3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div id="total_detail_count"></div>
+        </div>
+        <div class="col-lg-3">
+          <div id="total_list_count"></div>
+        </div>
+        <div class="col-lg-3">
+          <div id="total_schema_count"></div>
+        </div>
+        <div class="col-lg-3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6 center">
+          <h1>Breakdowns</h1>
+        </div>
+        <div class="col-lg-3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div id="detail_resource_breakdown"></div>
+        </div>
+        <div class="col-lg-3">
+          <div id="list_resource_breakdown"></div>
+        </div>
+        <div class="col-lg-3">
+          <div id="schema_resource_breakdown"></div>
+        </div>
+        <div class="col-lg-3">
+            <div id="user_agent_chart"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6 center">
+          <h1>Most popular</h1>
+        </div>
+        <div class="col-lg-3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div id="people_resource_popular"></div>
+        </div>
+        <div class="col-lg-4">
+          <div id="planets_resource_popular"></div>
+        </div>
+        <div class="col-lg-4">
+          <div id="species_resource_popular"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div id="vehicles_resource_popular"></div>
+        </div>
+        <div class="col-lg-4">
+          <div id="starships_resource_popular"></div>
+        </div>
+        <div class="col-lg-4">
+          <div id="films_resource_popular"></div>
+        </div>
+      </div>
+{% endblock mainbody %}
+{% block scripts %}
+<script src="https://d26b395fwzu5fz.cloudfront.net/3.1.0/keen.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  var client = new Keen({
+    projectId: "{{keen_project_id}}",       // String (required)
+    readKey: "{{keen_read_key}}",   // String (required for querying data)
+  });
+  Keen.ready(function(){
+    var query = new Keen.Query("count", {
+      eventCollection: "detail_hit",
+      groupBy: "user_agent"
+    });
+    client.draw(query, document.getElementById("user_agent_chart"), {
+    title: "User Agents"
+    });
+    var query = new Keen.Query("count", {
+      eventCollection: "detail_hit",
+      groupBy: "resource"
+    });
+    client.draw(query, document.getElementById("detail_resource_breakdown"), {
+      title: "Detail resource breakdown"
+    });
+    var query = new Keen.Query("count", {
+      eventCollection: "list_hit",
+      groupBy: "resource"
+    });
+    client.draw(query, document.getElementById("list_resource_breakdown"), {
+      title: "List resource breakdown"
+    });
+    var query = new Keen.Query("count", {
+      eventCollection: "schema_hit",
+      groupBy: "resource"
+    });
+    client.draw(query, document.getElementById("schema_resource_breakdown"), {
+      title: "Schema resource breakdown"
+    });
+    var query = new Keen.Query("count", {
+      eventCollection: "detail_hit"
+    });
+    client.draw(query, document.getElementById("total_detail_count"), {
+      title: "Total Detail resource hits"
+    });
+    var query = new Keen.Query("count", {
+      eventCollection: "list_hit"
+    });
+    client.draw(query, document.getElementById("total_list_count"), {
+      title: "Total List resource hits"
+    });
+    var query = new Keen.Query("count", {
+      eventCollection: "schema_hit"
+    });
+    client.draw(query, document.getElementById("total_schema_count"), {
+      title: "Total Schema resource hits"
+    });
+    var query = new Keen.Query("count", {
+      eventCollection: "detail_hit",
+      groupBy: "url",
+      filters: [{"property_name":"resource","operator":"eq","property_value":"people"}]
+    });
+    client.draw(query, document.getElementById("people_resource_popular"), {
+      title: "Most popular people resources",
+    });
+    var query = new Keen.Query("count", {
+      eventCollection: "detail_hit",
+      groupBy: "url",
+      filters: [{"property_name":"resource","operator":"eq","property_value":"planet"}]
+    });
+    client.draw(query, document.getElementById("planets_resource_popular"), {
+      title: "Most popular planet resources",
+    });
+    var query = new Keen.Query("count", {
+      eventCollection: "detail_hit",
+      groupBy: "url",
+      filters: [{"property_name":"resource","operator":"eq","property_value":"starship"}]
+    });
+    client.draw(query, document.getElementById("starships_resource_popular"), {
+      title: "Most popular starship resources",
+    });
+    var query = new Keen.Query("count", {
+      eventCollection: "detail_hit",
+      groupBy: "url",
+      filters: [{"property_name":"resource","operator":"eq","property_value":"vehicle"}]
+    });
+    client.draw(query, document.getElementById("vehicles_resource_popular"), {
+      title: "Most popular vehicle resources",
+    });
+    var query = new Keen.Query("count", {
+      eventCollection: "detail_hit",
+      groupBy: "url",
+      filters: [{"property_name":"resource","operator":"eq","property_value":"film"}]
+    });
+    client.draw(query, document.getElementById("films_resource_popular"), {
+      title: "Most popular film resources",
+    });
+    var query = new Keen.Query("count", {
+      eventCollection: "detail_hit",
+      groupBy: "url",
+      filters: [{"property_name":"resource","operator":"eq","property_value":"species"}]
+    });
+    client.draw(query, document.getElementById("species_resource_popular"), {
+      title: "Most popular species resources",
+    });
+});
+</script>
+{% endblock scripts %}

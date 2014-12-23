@@ -4,6 +4,7 @@ from django.shortcuts import render_to_response, redirect
 from django.views.decorators.csrf import csrf_exempt
 from django.core.cache import cache
 from django.conf import settings
+from django.contrib.auth.decorators import login_required
 
 from keen.client import KeenClient
 import stripe
@@ -73,3 +74,14 @@ def stripe_donation(request):
 
         return redirect('/')
     return redirect('/')
+
+
+@login_required
+def stats(request):
+    data = {}
+    data['keen_project_id'] = settings.KEEN_PROJECT_ID
+    data['keen_read_key'] = settings.KEEN_READ_KEY
+    return render_to_response(
+        'stats.html',
+        data
+    )
