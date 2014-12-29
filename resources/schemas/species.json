@@ -44,18 +44,6 @@
       "type": "array",
       "description": " An array of Film URL Resources that this species has appeared in."
     },
-    "species": {
-      "type": "array",
-      "description": "The url of the species resource that this person is."
-    },
-    "vehicles": {
-      "type": "array",
-      "description": "An array of vehicle resources that this person has piloted"
-    },
-    "starships": {
-      "type": "array",
-      "description": "An array of starship resources that this person has piloted"
-    },
     "created": {
       "type": "string",
       "description": " the ISO 8601 date format of the time that this resource was created."
