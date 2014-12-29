@@ -29,7 +29,7 @@ def keen_hit(type, resource, request):
     if not settings.KEEN_DEBUG:
         ip = request.META['REMOTE_ADDR'] if 'REMOTE_ADDR' in request.META else 'none'
         if 'HTTP_USER_AGENT' in request.META:
-            if 'runscope' in req.META['HTTP_USER_AGENT']:
+            if 'runscope' in request.META['HTTP_USER_AGENT']:
                 user_agent = 'none'
             else:
                 user_agent = request.META['HTTP_USER_AGENT']
