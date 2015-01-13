@@ -635,3 +635,9 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 ##C#
 
 - [SharpTrooper](https://github.com/olcay/SharpTrooper) by [Olcay Bayram](https://github.com/olcay)
+
+
+<a name="angular"></a>
+##Angular
+
+- [xyz-angular-swapi](https://github.com/unshift-devs/xyz-angular-swapi) by [Matteo Ronchi](https://github.com/cef62)
