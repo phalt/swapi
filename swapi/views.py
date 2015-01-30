@@ -16,13 +16,17 @@ def index(request):
     hits = cache.get('keen_hit_count')
 
     if not hits:
-        keen = KeenClient(
-            project_id=settings.KEEN_PROJECT_ID,
-            write_key=settings.KEEN_WRITE_KEY,
-            read_key=settings.KEEN_READ_KEY
-        )
-        hits = keen.count("detail_hit")
-        cache.set('keen_hit_count', hits, 900)
+        try:
+            keen = KeenClient(
+                project_id=settings.KEEN_PROJECT_ID,
+                write_key=settings.KEEN_WRITE_KEY,
+                read_key=settings.KEEN_READ_KEY
+            )
+            hits = keen.count("detail_hit")
+            cache.set('keen_hit_count', hits, 900)
+        except:  # keen always goes down :/
+            # lol magic numbers
+            hits = 50000
 
     stripe_key = settings.STRIPE_KEYS['publishable']
     return render_to_response('index.html',
