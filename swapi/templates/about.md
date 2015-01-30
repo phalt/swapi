@@ -53,7 +53,7 @@ Seeing the release trailer for Episode VII also made me stupidly enthusiastic fo
 
 ## Who are you?
 
-I'm [Paul Hallett](http://phalt.co), an *"API engineer"* who is also super nerdy. I want a job building amazing APIs, [get in touch if you want to hire me.](mailto:paulandrewhallett@gmail.com)
+I'm [Paul Hallett](http://phalt.co), an *"API engineer"* who is also super nerdy. I build APIs at [Lyst.com](https://lyst.com)
 
 ## Copyright and stuff?
 
