@@ -15,10 +15,8 @@ load_data:
 	python manage.py loaddata vehicles.json
 	python manage.py loaddata films.json
 
-
 serve:
 	python manage.py runserver
-
 
 dump_data:
 	python manage.py dumpdata resources.planet > resources/fixtures/planets.json --indent 4
@@ -32,7 +30,6 @@ dump_data:
 
 drop_db:
 	python manage.py flush
-
 
 test:
 	python manage.py test
