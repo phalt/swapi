@@ -59,4 +59,6 @@ I'm [Paul Hallett](http://phalt.co), an *"API engineer"* who is also super nerdy
 
 Star Wars and all associated names are copyright Lucasfilm ltd.
 
+This project is open source and carries a BSD licence.
+
 All data has been freely collected from open sources such as [Wookiepedia](https://starwars.wikia.com).
