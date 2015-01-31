@@ -8,7 +8,8 @@ from .models import (
     Film,
     Species,
     Vehicle,
-    Starship
+    Starship,
+    Faction
 )
 
 import json
@@ -22,7 +23,8 @@ class TestAllEndpoints(TestCase):
         "starships.json",
         "vehicles.json",
         "transport.json",
-        "films.json"
+        "films.json",
+        "factions.json"
     ]
 
     def get_query(self, url):
@@ -71,6 +73,10 @@ class TestAllEndpoints(TestCase):
     def test_vehicle_schema(self):
         self.assertEqual(
             self.get_query("/api/vehicles/schema").status_code, 200)
+
+    def test_faction_schema(self):
+        self.assertEqual(
+            self.get_query("/api/factions/schema").status_code, 200)
 
     def test_species_root(self):
         self.assertEqual(
@@ -121,3 +127,10 @@ class TestAllEndpoints(TestCase):
         specie = Species.objects.get(pk=1)
         self.assertEqual(response.status_code, 200)
         self.assertEqual(specie.name, json_data["name"])
+
+    def test_factions_detail(self):
+        response = self.get_query("/api/factions/1/")
+        json_data = json.loads(response.content)
+        fac = Faction.objects.get(pk=1)
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(fac.name, json_data["name"])

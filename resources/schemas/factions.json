@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "Faction",
+  "description": "A Star Wars faction",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of this faction."
+    },
+    "members": {
+      "type": "array",
+      "description": "The People resources associated with this faction."
+    },
+  },
+  "required": [
+    "name",
+    "members"
+  ]
+}

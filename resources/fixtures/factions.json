@@ -1,0 +1,20 @@
+[
+{
+    "fields": {
+        "edited": "2015-01-31T12:03:43.153Z",
+        "name": "Jedi",
+        "created": "2015-01-31T12:03:35.977Z"
+    },
+    "model": "resources.faction",
+    "pk": 1
+},
+{
+    "fields": {
+        "edited": "2015-01-31T12:04:25.229Z",
+        "name": "Sith",
+        "created": "2015-01-31T12:04:25.229Z"
+    },
+    "model": "resources.faction",
+    "pk": 2
+}
+]

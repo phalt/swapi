@@ -14,6 +14,7 @@ load_data:
 	python manage.py loaddata starships.json
 	python manage.py loaddata vehicles.json
 	python manage.py loaddata films.json
+	python manage.py loaddata factions.json
 
 serve:
 	python manage.py runserver
@@ -26,6 +27,7 @@ dump_data:
 	python manage.py dumpdata resources.vehicle > resources/fixtures/vehicles.json --indent 4
 	python manage.py dumpdata resources.transport > resources/fixtures/transport.json --indent 4
 	python manage.py dumpdata resources.film > resources/fixtures/films.json --indent 4
+	python manage.py dumpdata resources.faction > resources/fixtures/factions.json --indent 4
 
 
 drop_db:

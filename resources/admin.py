@@ -8,11 +8,12 @@ from .models import (
     Film,
     Starship,
     Vehicle,
-    Species
+    Species,
+    Faction
 
 )
 
-classes = [People, Planet, Film, Starship, Vehicle, Species]
+classes = [People, Planet, Film, Starship, Vehicle, Species, Faction]
 
 for c in classes:
     admin.site.register(c)

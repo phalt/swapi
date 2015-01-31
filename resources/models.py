@@ -63,6 +63,13 @@ class People(DateTimeModel):
 
     homeworld = models.ForeignKey(Planet, related_name="residents")
 
+    faction = models.ForeignKey(
+        'Faction',
+        blank=True,
+        null=True,
+        related_name='members'
+    )
+
 
 class Transport(DateTimeModel):
 
@@ -193,3 +200,11 @@ class Film(DateTimeModel):
         blank=True
     )
 
+
+class Faction(DateTimeModel):
+    """ A faction such as 'Jedi' or 'Galatic Empire' """
+
+    def __unicode__(self):
+        return self.name
+
+    name = models.CharField(max_length=100)
