@@ -645,3 +645,8 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 ##Angular
 
 - [xyz-angular-swapi](https://github.com/unshift-devs/xyz-angular-swapi) by [Matteo Ronchi](https://github.com/cef62)
+
+<a name="r"></a>
+##R
+
+- [rwars](https://github.com/Ironholds/rwars) by [Oliver Keyes](https://github.com/ironholds)
