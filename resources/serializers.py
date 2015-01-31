@@ -36,6 +36,7 @@ class PeopleSerializer(serializers.HyperlinkedModelSerializer):
             "species",
             "vehicles",
             "starships",
+            "faction",
             "created",
             "edited",
             "url",
