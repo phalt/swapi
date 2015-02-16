@@ -25,7 +25,10 @@ def index(request):
             get_timeout=3
         )
         try:
-            hits = keen.count("detail_hit")
+            detail_count = keen.count('detail_hit')
+            list_count = keen.count('list_hit')
+            schema_count = keen.count('schema_hit')
+            hits = detail_count + list_count + schema_count
         except Exception:
             print('exception!')
             hits = DEFAULT_HITS
