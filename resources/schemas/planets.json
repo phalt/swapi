@@ -14,11 +14,11 @@
     },
     "rotation_period": {
       "type": "string",
-      "description": "The number of standard hours it takes for this planet to complete a single rotation on it's axis."
+      "description": "The number of standard hours it takes for this planet to complete a single rotation on its axis."
     },
     "orbital_period": {
       "type": "string",
-      "description": "The number of standard days it takes for this planet to complete a single orbit of it's local star."
+      "description": "The number of standard days it takes for this planet to complete a single orbit of its local star."
     },
     "gravity": {
       "type": "string",

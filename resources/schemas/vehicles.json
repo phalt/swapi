@@ -46,7 +46,7 @@
     },
     "consumables": {
       "type": "string",
-      "description": "The maximum length of time that this vehicle can provide consumables for it's entire crew without having to resupply."
+      "description": "The maximum length of time that this vehicle can provide consumables for its entire crew without having to resupply."
     },
     "films": {
       "type": "array",
