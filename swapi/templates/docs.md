@@ -635,19 +635,20 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 <a name="csharp"></a>
 ##C Sharp
 
-- [SharpTrooper](https://github.com/olcay/SharpTrooper) by [Olcay Bayram](https://github.com/olcay)
+- [SharpTrooper](https://github.com/olcay/SharpTrooper) by [Olcay Bayram](https://github.com/olcay).
 
 <a name="objc"></a>
 ##Objective C
 
-- [Falcon](https://github.com/njdehoog/Falcon) by [Niels de Hoog](https://github.com/njdehoog)
+- [Falcon](https://github.com/njdehoog/Falcon) by [Niels de Hoog](https://github.com/njdehoog).
 
 <a name="angular"></a>
 ##Angular
 
-- [xyz-angular-swapi](https://github.com/unshift-devs/xyz-angular-swapi) by [Matteo Ronchi](https://github.com/cef62)
+- [xyz-angular-swapi](https://github.com/unshift-devs/xyz-angular-swapi) by [Matteo Ronchi](https://github.com/cef62).
+- [ne-swapi](https://github.com/nickescallon/ne-swapi) by [Nick Escallon](https://github.com/nickescallon).
 
 <a name="r"></a>
 ##R
 
-- [rwars](https://github.com/Ironholds/rwars) by [Oliver Keyes](https://github.com/ironholds)
+- [rwars](https://github.com/Ironholds/rwars) by [Oliver Keyes](https://github.com/ironholds).
