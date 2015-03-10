@@ -345,7 +345,7 @@ A Starship resource is a single transport craft that has hyperdrive capability.
 - ```cargo_capacity``` *string*
 -- The maximum number of kilograms that this starship can transport.
 - ```consumables``` *string
-- The maximum length of time that this starship can provide consumables for it's entire crew without having to resupply.
+- The maximum length of time that this starship can provide consumables for its entire crew without having to resupply.
 - ```films``` *array*
 -- An array of Film URL Resources that this starship has appeared in.
 - ```pilots``` *array*
@@ -422,7 +422,7 @@ A Vehicle resource is a single transport craft that **does not have** hyperdrive
 - ```cargo_capacity``` *string*
 -- The maximum number of kilograms that this vehicle can transport.
 - ```consumables``` *string
-- The maximum length of time that this vehicle can provide consumables for it's entire crew without having to resupply.
+- The maximum length of time that this vehicle can provide consumables for its entire crew without having to resupply.
 - ```films``` *array*
 -- An array of Film URL Resources that this vehicle has appeared in.
 - ```pilots``` *array*
@@ -562,9 +562,9 @@ A Planet resource is a large mass, planet or planetoid in the Star Wars Universe
 - ```diameter``` *string*
 -- The diameter of this planet in kilometers.
 - ```rotation_period``` *string*
--- The number of standard hours it takes for this planet to complete a single rotation on it's axis.
+-- The number of standard hours it takes for this planet to complete a single rotation on its axis.
 - ```orbital_period``` *string*
--- The number of standard days it takes for this planet to complete a single orbit of it's local star.
+-- The number of standard days it takes for this planet to complete a single orbit of its local star.
 - ```gravity``` *string*
 -- A number denoting the gravity of this planet, where "1" is normal or 1 standard G. "2" is twice or 2 standard Gs. "0.5" is half or 0.5 standard Gs.
 - ```population``` *string*
