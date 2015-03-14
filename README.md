@@ -3,6 +3,8 @@
 
 Source code for [swapi.co](http://swapi.co)
 
+[![Circle CI](https://circleci.com/gh/phalt/swapi.svg?style=svg)](https://circleci.com/gh/phalt/swapi)
+
 ## Contributing
 
 Make sure your contribution isn't already a planned feature or has already been fixed by checking the issues first.
