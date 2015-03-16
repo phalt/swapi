@@ -16,6 +16,7 @@ router.register(r"films", views.FilmViewSet)
 router.register(r"species", views.SpeciesViewSet)
 router.register(r"vehicles", views.VehicleViewSet)
 router.register(r"starships", views.StarshipViewSet)
+router.register(r"factions", views.FactionViewSet)
 
 
 urlpatterns = patterns("",
@@ -31,5 +32,6 @@ urlpatterns = patterns("",
     url(r"^api/species/schema$", "resources.schemas.species"),
     url(r"^api/vehicles/schema$", "resources.schemas.vehicles"),
     url(r"^api/starships/schema$", "resources.schemas.starships"),
+    url(r"^api/factions/schema$", "resources.schemas.starships"),
     url(r"^api/", include(router.urls)),
 )

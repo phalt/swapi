@@ -55,3 +55,6 @@ def vehicles(request):
 
 def starships(request):
     return JSONResponse('starships').response
+
+def factions(request):
+    return JSONResponse('factions').response

@@ -10,7 +10,8 @@ from .models import (
     Film,
     Species,
     Vehicle,
-    Starship
+    Starship,
+    Faction
 )
 
 from .serializers import (
@@ -19,7 +20,8 @@ from .serializers import (
     FilmSerializer,
     SpeciesSerializer,
     VehicleSerializer,
-    StarshipSerializer
+    StarshipSerializer,
+    FactionSerializer
 )
 
 import dkeen as keen
@@ -131,3 +133,16 @@ class StarshipViewSet(viewsets.ReadOnlyModelViewSet):
     def list(self, request, *args, **kwargs):
         keen_hit("list", "starship", request)
         return super(StarshipViewSet, self).list(request, *args, **kwargs)
+
+class FactionViewSet(viewsets.ReadOnlyModelViewSet):
+
+    queryset = Faction.objects.all()
+    serializer_class = FactionSerializer
+
+    def retrieve(self, request, *args, **kwargs):
+        keen_hit("detail", "faction", request)
+        return super(FactionViewSet, self).retrieve(request, *args, **kwargs)
+
+    def list(self, request, *args, **kwargs):
+        keen_hit("list", "faction", request)
+        return super(FactionViewSet, self).list(request, *args, **kwargs)

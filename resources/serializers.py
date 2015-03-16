@@ -9,6 +9,7 @@ from .models import (
     Species,
     Vehicle,
     Starship,
+    Faction
 )
 
 
@@ -35,6 +36,7 @@ class PeopleSerializer(serializers.HyperlinkedModelSerializer):
             "species",
             "vehicles",
             "starships",
+            "faction",
             "created",
             "edited",
             "url",
@@ -173,3 +175,20 @@ class StarshipSerializer(serializers.HyperlinkedModelSerializer):
             "url"
         )
 
+class FactionSerializer(serializers.HyperlinkedModelSerializer):
+
+    members = serializers.HyperlinkedRelatedField(
+        many=True,
+        read_only=True,
+        view_name="people-detail"
+    )
+
+    class Meta:
+        model = Faction
+        fields = (
+            "name",
+            "members",
+            "created",
+            "edited",
+            "url"
+        )
