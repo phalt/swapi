@@ -121,3 +121,9 @@ class TestAllEndpoints(TestCase):
         specie = Species.objects.get(pk=1)
         self.assertEqual(response.status_code, 200)
         self.assertEqual(specie.name, json_data["name"])
+
+    def test_etag(self):
+        valid_etag = self.get_query("/api/")["ETag"]
+        self.client.defaults['HTTP_IF_NONE_MATCH'] = valid_etag
+        self.assertEqual(
+            self.get_query("/api/").status_code, 304)
