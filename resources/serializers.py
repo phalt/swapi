@@ -73,6 +73,7 @@ class FilmSerializer(serializers.HyperlinkedModelSerializer):
             "opening_crawl",
             "director",
             "producer",
+	    "release_date",
             "characters",
             "planets",
             "starships",
