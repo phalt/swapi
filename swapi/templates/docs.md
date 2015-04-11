@@ -230,6 +230,7 @@ A Film resource is an single film.
             ...
         ],
         "producer": "Gary Kurtz, Rick McCallum",
+        "release_date": "1977-05-25",
         "species": [
             "http://swapi.co/api/species/1/",
             ...
@@ -258,6 +259,8 @@ A Film resource is an single film.
 -- The name of the director of this film.
 - ```producer``` *string*
 -- The name(s) of the producer(s) of this film. Comma seperated.
+- ```release_date``` *date*
+-- The ISO 8601 date format of film release at original creator country.
 - ```species``` *array*
 -- An array of species resource URLs that are in this film.
 - ```starships``` *array*

@@ -163,6 +163,8 @@ class Film(DateTimeModel):
 
     producer = models.CharField(max_length=100)
 
+    release_date = models.DateField()
+
     characters = models.ManyToManyField(
         People,
         related_name="films",

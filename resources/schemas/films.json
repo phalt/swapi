@@ -24,6 +24,10 @@
       "type": "string",
       "description": "The producer(s) of this film."
     },
+    "release_date": {
+      "type": "date",
+      "description": "The release date at original creator country." 	
+    },
     "characters": {
       "type": "array",
       "description": "The people resources featured within this film."
@@ -55,6 +59,7 @@
     "opening_crawl",
     "director",
     "producer",
+    "release_date",
     "characters",
     "planets",
     "starships",
