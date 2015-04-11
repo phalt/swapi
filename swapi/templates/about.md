@@ -62,3 +62,12 @@ Star Wars and all associated names are copyright Lucasfilm ltd.
 This project is open source and carries a BSD licence.
 
 All data has been freely collected from open sources such as [Wookiepedia](https://starwars.wikia.com).
+
+
+## Contributors
+
+SWAPI would not be possible without contributions from the following people:
+
+- [Paul Hallett](http://phalt.co)
+- [Owen Hallett](https://github.com/Videocard)
+- [Carvilsi](https://github.com/carvilsi)
