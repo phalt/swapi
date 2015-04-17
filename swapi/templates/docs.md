@@ -41,7 +41,9 @@ Here is the response we get:
         "url": "http://swapi.co/api/planets/1/"
     }
 
-If your response looks slightly different don't panic. This is probably because more data has been added to swapi since we made this documentation.
+If your response looks slightly different don't panic. This is probably because more data has been added to swapi since we made this documentation. If you're a wookie you can also consider using an appropriate format for you just adding format parameter to the request
+
+    http swapi.co/api/planets/1/?format=wookie
 
 <a name="base"></a>
 ###Base URL
