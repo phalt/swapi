@@ -11,7 +11,7 @@ from .models import (
     Starship
 )
 
-from .renderers import WookieRenderer
+from .renderers import WookieeRenderer
 
 import json
 
@@ -131,8 +131,8 @@ class TestAllEndpoints(TestCase):
             self.get_query("/api/").status_code, 304)
 
     def test_wookie_renderer(self):
-        wookie_renderer = WookieRenderer()
-        translated_data = wookie_renderer.translate_to_wookie("swapi")
+        wookiee_renderer = WookieeRenderer()
+        translated_data = wookiee_renderer.translate_to_wookie("swapi")
         self.assertEqual(translated_data, "cohraakah")
-        translated_data = wookie_renderer.translate_to_wookie("")
+        translated_data = wookiee_renderer.translate_to_wookie("")
         self.assertEqual(translated_data, "")
