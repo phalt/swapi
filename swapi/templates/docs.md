@@ -41,9 +41,7 @@ Here is the response we get:
         "url": "http://swapi.co/api/planets/1/"
     }
 
-If your response looks slightly different don't panic. This is probably because more data has been added to swapi since we made this documentation. If you're a wookie you can also consider using an appropriate format for you just adding format parameter to the request
-
-    http swapi.co/api/planets/1/?format=wookie
+If your response looks slightly different don't panic. This is probably because more data has been added to swapi since we made this documentation.
 
 <a name="base"></a>
 ###Base URL
@@ -70,6 +68,27 @@ Swapi is a **completely open API**. No authenitcation is required to query and g
 ###JSON Schema
 
 All resources support [JSON Schema](https://jsonschema.net). Making a request to ```/api/<resource>/schema``` will give you the details of that resource. This will allow you to programmatically inspect the attributes of that resource and their types.
+
+#Encodings
+- - -
+
+SWAPI provides two encodings for you to render the data as:
+
+<a name="json"></a>
+###JSON
+
+JSON is the standard data format provided by SWAPI by default.
+
+<a name="wookiee"></a>
+###Wookiee
+
+Wookiee is for our tall hairy allies who speak Wookiee, this encoding is identical to JSON except with wookiee translations.
+
+Using the wookiee renderer is easy, just append `?format=wookiee` to your urls:
+
+```
+    http swapi.co/api/planets/1/?format=wookiee
+```
 
 #Resources
 - - -

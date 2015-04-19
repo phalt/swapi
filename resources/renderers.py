@@ -1,10 +1,10 @@
-from django.utils.encoding import smart_unicode
+from __future__ import unicode_literals
 from rest_framework import renderers
 
 
 class WookieRenderer(renderers.JSONRenderer):
     media_type = "application/json"
-    format = "wookie"
+    format = "wookiee"
     lookup = {
         "a": "ra",
         "b": "rh",
@@ -35,7 +35,8 @@ class WookieRenderer(renderers.JSONRenderer):
     }
 
     def render(self, data, media_type=None, renderer_context=None):
-        encoded_data = super(WookieRenderer, self).render(data, media_type, renderer_context)
+        encoded_data = super(WookieRenderer, self).render(
+            data, media_type, renderer_context)
         return self.translate_to_wookie(encoded_data)
 
     def translate_to_wookie(self, data):
