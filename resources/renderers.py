@@ -1,0 +1,48 @@
+from django.utils.encoding import smart_unicode
+from rest_framework import renderers
+
+
+class WookieRenderer(renderers.JSONRenderer):
+    media_type = "application/json"
+    format = "wookie"
+    lookup = {
+        "a": "ra",
+        "b": "rh",
+        "c": "oa",
+        "d": "wa",
+        "e": "wo",
+        "f": "ww",
+        "g": "rr",
+        "h": "ac",
+        "i": "ah",
+        "j": "sh",
+        "k": "or",
+        "l": "an",
+        "m": "sc",
+        "n": "wh",
+        "o": "oo",
+        "p": "ak",
+        "q": "rq",
+        "r": "rc",
+        "s": "c",
+        "t": "ao",
+        "u": "hu",
+        "v": "ho",
+        "w": "oh",
+        "x": "k",
+        "y": "ro",
+        "z": "uf",
+    }
+
+    def render(self, data, media_type=None, renderer_context=None):
+        encoded_data = super(WookieRenderer, self).render(data, media_type, renderer_context)
+        return self.translate_to_wookie(encoded_data)
+
+    def translate_to_wookie(self, data):
+        translated_data = ""
+        for char in data:
+            if char in self.lookup:
+                translated_data += self.lookup[char]
+            else:
+                translated_data += char
+        return translated_data

@@ -11,6 +11,8 @@ from .models import (
     Starship
 )
 
+from .renderers import WookieRenderer
+
 import json
 
 class TestAllEndpoints(TestCase):
@@ -127,3 +129,10 @@ class TestAllEndpoints(TestCase):
         self.client.defaults['HTTP_IF_NONE_MATCH'] = valid_etag
         self.assertEqual(
             self.get_query("/api/").status_code, 304)
+
+    def test_wookie_renderer(self):
+        wookie_renderer = WookieRenderer()
+        translated_data = wookie_renderer.translate_to_wookie("swapi")
+        self.assertEqual(translated_data, "cohraakah")
+        translated_data = wookie_renderer.translate_to_wookie("")
+        self.assertEqual(translated_data, "")

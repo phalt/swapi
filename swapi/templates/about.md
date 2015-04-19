@@ -71,3 +71,4 @@ SWAPI would not be possible without contributions from the following people:
 - [Paul Hallett](http://phalt.co)
 - [Owen Hallett](https://github.com/Videocard)
 - [Carvilsi](https://github.com/carvilsi)
+- [Andrea Stagi](https://github.com/astagi)
