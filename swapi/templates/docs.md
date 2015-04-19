@@ -72,7 +72,7 @@ All resources support [JSON Schema](https://jsonschema.net). Making a request to
 #Encodings
 - - -
 
-SWAPI provides two encodings for you to render the data as:
+SWAPI provides two encodings for you to render the data with:
 
 <a name="json"></a>
 ###JSON
@@ -87,7 +87,7 @@ Wookiee is for our tall hairy allies who speak Wookiee, this encoding is identic
 Using the wookiee renderer is easy, just append `?format=wookiee` to your urls:
 
 ```
-    http swapi.co/api/planets/1/?format=wookiee
+https://swapi.co/api/planets/1/?format=wookiee
 ```
 
 #Resources
