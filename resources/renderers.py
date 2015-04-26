@@ -4,6 +4,7 @@ from rest_framework import renderers
 
 class WookieeRenderer(renderers.JSONRenderer):
     media_type = "application/json"
+    charset = 'utf-8'
     format = "wookiee"
     lookup = {
         "a": "ra",
