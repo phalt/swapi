@@ -33,6 +33,7 @@ class WookieeRenderer(renderers.JSONRenderer):
         "x": "k",
         "y": "ro",
         "z": "uf",
+        u'\u00e9': "wo",  # Accented e
     }
 
     def render(self, data, media_type=None, renderer_context=None):
@@ -43,7 +44,7 @@ class WookieeRenderer(renderers.JSONRenderer):
 
     def translate_to_wookie(self, data):
         translated_data = ""
-        for char in data:
+        for char in data.decode(self.charset):
             if char in self.lookup:
                 translated_data += self.lookup[char]
             else:
