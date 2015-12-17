@@ -14,6 +14,14 @@ class DateTimeModel(models.Model):
     edited = models.DateTimeField(auto_now=True)
 
 
+class EditableModel(models.Model):
+    """
+    A model with a boolean that determins the read/write state of the model
+    """
+
+    editable = models.NullBooleanField()
+
+
 class Planet(DateTimeModel):
     """ A planet i.e. Tatooine """
 
