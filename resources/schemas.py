@@ -1,11 +1,8 @@
 from __future__ import unicode_literals
 
 from django.http import HttpResponse
-from django.conf import settings
 
 import json
-
-import dkeen as keen
 
 
 class JSONResponse():
@@ -14,16 +11,6 @@ class JSONResponse():
         with open('resources/schemas/{0}.json'.format(resource)) as f:
             data = json.loads(f.read())
         self.data = data
-        if not settings.KEEN_DEBUG:
-            keen.add_event(
-                "schema_hit",
-                {
-                    "url": "/api/{0}/schema".format(resource),
-                    "type": "schema",
-                    "resource": "{0}".format(resource)
-
-                }
-            )
 
     @property
     def response(self):
