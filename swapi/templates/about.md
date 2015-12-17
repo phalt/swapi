@@ -43,7 +43,7 @@ We're using [Django](https://djangoproject.com) and [Django REST Framework](http
 
 The data is all formatted in [JSON](http://json.org) and we also support [JSON Schema](http://jsonschema.net) for programmatically understanding the attributes of each resource.
 
-We're using [stripe](https://stripe.com) to process our donations and [keen.io](https://keen.io) to track our API usage.
+We're using [stripe](https://stripe.com) to process our donations.
 
 ## Why did you build this?
 
