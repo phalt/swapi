@@ -520,7 +520,7 @@ A Species resource is a type of person or character within the Star Wars Univers
 -- A comma-seperated string of common hair colors for this species, "none" if this species does not typically have hair.
 - ```skin_colors``` *string*
 -- A comma-seperated string of common skin colors for this species, "none" if this species does not typically have skin.
-- ```Language``` *string*
+- ```language``` *string*
 -- The language commonly spoken by this species.
 - ```homeworld``` *string*
 -- The URL of a planet resource, a planet that this species originates from.
