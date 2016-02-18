@@ -677,3 +677,8 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 ##R
 
 - [rwars](https://github.com/Ironholds/rwars) by [Oliver Keyes](https://github.com/ironholds).
+
+<a name="fsharp"></a>
+## F# #
+
+- [fsharp-swapi](https://github.com/evelinag/fsharp-swapi) by [Evelina Gabasova](http://evelinag.com/).
