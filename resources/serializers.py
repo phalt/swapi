@@ -44,6 +44,8 @@ class PeopleSerializer(MetaSerializer):
             "species",
             "vehicles",
             "starships",
+            "created",
+            "edited",
             "url",
             "meta"
         )
@@ -66,6 +68,8 @@ class PlanetSerializer(MetaSerializer):
             "population",
             "residents",
             "films",
+            "created",
+            "edited",
             "url",
             "meta"
         )
@@ -87,6 +91,8 @@ class FilmSerializer(MetaSerializer):
             "starships",
             "vehicles",
             "species",
+            "created",
+            "edited",
             "url",
             "meta"
         )
@@ -114,6 +120,8 @@ class SpeciesSerializer(MetaSerializer):
             "language",
             "people",
             "films",
+            "created",
+            "edited",
             "url",
             "meta"
         )
@@ -143,6 +151,8 @@ class VehicleSerializer(MetaSerializer):
             "vehicle_class",
             "pilots",
             "films",
+            "created",
+            "edited",
             "url",
             "meta"
         )
@@ -174,6 +184,8 @@ class StarshipSerializer(MetaSerializer):
             "starship_class",
             "pilots",
             "films",
+            "created",
+            "edited",
             "url",
             "meta"
         )
