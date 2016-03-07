@@ -682,3 +682,7 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 ## F# #
 
 - [fsharp-swapi](https://github.com/evelinag/fsharp-swapi) by [Evelina Gabasova](http://evelinag.com/).
+
+## Elixir
+
+- [swapi.ex](https://github.com/twhitacre/swapi.ex) by [Tim Whitacre](http://timw.co/).
