@@ -62,7 +62,7 @@ Swapi has rate limiting to prevent malicious abuse (as if anyone would abuse Sta
 <a name="auth"></a>
 ###Authentication
 
-Swapi is a **completely open API**. No authenitcation is required to query and get data. This also means that we've limited what you can do to just **GET**-ing the data. If you find a mistake in the data, then [tweet the author](https://twitter.com/phalt_) or [email him](mailto:paulandrewhallett@gmail.com).
+Swapi is a **completely open API**. No authentication is required to query and get data. This also means that we've limited what you can do to just **GET**-ing the data. If you find a mistake in the data, then [tweet the author](https://twitter.com/phalt_) or [email him](mailto:paulandrewhallett@gmail.com).
 
 <a name="schema"></a>
 ###JSON Schema
