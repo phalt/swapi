@@ -13,11 +13,11 @@ Welcome to the swapi, the Star Wars API! This documentation should help you fami
 
 Let's make our first API request to the Star Wars API!
 
-Open up a terminal and use [curl](http://curl.haxx.se) or [httpie](https://httpie.org) to make an API request for a resource. In the example below, we're trying to get the first planet, Tatooine:
+Open up a terminal and use [curl](http://curl.haxx.se) or [httpie](http://httpie.org) to make an API request for a resource. In the example below, we're trying to get the first planet, Tatooine:
 
     http swapi.co/api/planets/1/
 
-We'll use [httpie](https://httpie.org) for our examples as it displays responses nicely and gives us a whole lot more useful information. If you don't want to download httpie, just use the *curl* command instead.
+We'll use [httpie](http://httpie.org) for our examples as it displays responses nicely and gives us a whole lot more useful information. If you don't want to download httpie, just use the *curl* command instead.
 
 Here is the response we get:
 
