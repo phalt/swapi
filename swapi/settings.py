@@ -159,3 +159,6 @@ CORS_ALLOW_METHODS = (
 from memcacheify import memcacheify
 
 CACHES = memcacheify()
+
+
+APPEND_SLASH = True
