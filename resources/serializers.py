@@ -11,13 +11,22 @@ from .models import (
     Starship,
 )
 
+class MetaSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+      abstract=True
 
-class PeopleSerializer(serializers.HyperlinkedModelSerializer):
+    meta = serializers.SerializerMethodField()
+
+    def get_meta(self, obj):
+      return { "created": obj.created, "edited": obj.edited }
+
+class PeopleSerializer(MetaSerializer):
 
     homeworld = serializers.HyperlinkedRelatedField(
         read_only=True,
         view_name="planet-detail"
     )
+
 
     class Meta:
         model = People
@@ -38,10 +47,12 @@ class PeopleSerializer(serializers.HyperlinkedModelSerializer):
             "created",
             "edited",
             "url",
+            "meta"
         )
 
 
-class PlanetSerializer(serializers.HyperlinkedModelSerializer):
+
+class PlanetSerializer(MetaSerializer):
 
     class Meta:
         model = Planet
@@ -59,11 +70,12 @@ class PlanetSerializer(serializers.HyperlinkedModelSerializer):
             "films",
             "created",
             "edited",
-            "url"
+            "url",
+            "meta"
         )
 
 
-class FilmSerializer(serializers.HyperlinkedModelSerializer):
+class FilmSerializer(MetaSerializer):
 
     class Meta:
         model = Film
@@ -81,11 +93,12 @@ class FilmSerializer(serializers.HyperlinkedModelSerializer):
             "species",
             "created",
             "edited",
-            "url"
+            "url",
+            "meta"
         )
 
 
-class SpeciesSerializer(serializers.HyperlinkedModelSerializer):
+class SpeciesSerializer(MetaSerializer):
 
     homeworld = serializers.HyperlinkedRelatedField(
         read_only=True,
@@ -109,11 +122,12 @@ class SpeciesSerializer(serializers.HyperlinkedModelSerializer):
             "films",
             "created",
             "edited",
-            "url"
+            "url",
+            "meta"
         )
 
 
-class VehicleSerializer(serializers.HyperlinkedModelSerializer):
+class VehicleSerializer(MetaSerializer):
 
     pilots = serializers.HyperlinkedRelatedField(
         many=True,
@@ -139,11 +153,12 @@ class VehicleSerializer(serializers.HyperlinkedModelSerializer):
             "films",
             "created",
             "edited",
-            "url"
+            "url",
+            "meta"
         )
 
 
-class StarshipSerializer(serializers.HyperlinkedModelSerializer):
+class StarshipSerializer(MetaSerializer):
 
     pilots = serializers.HyperlinkedRelatedField(
         many=True,
@@ -171,6 +186,7 @@ class StarshipSerializer(serializers.HyperlinkedModelSerializer):
             "films",
             "created",
             "edited",
-            "url"
+            "url",
+            "meta"
         )
 
