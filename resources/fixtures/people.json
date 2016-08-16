@@ -11,6 +11,7 @@
         "eye_color": "blue",
         "mass": "77",
         "homeworld": 1,
+        "description": "Luke Skywalker was a Force-sensitive human male Jedi Master who was instrumental in defeating the Galactic Empire and the Sith during the Galactic Civil War.",
         "birth_year": "19BBY"
     },
     "model": "resources.people",
@@ -28,6 +29,7 @@
         "eye_color": "yellow",
         "mass": "75",
         "homeworld": 1,
+        "description": "C-3PO, sometimes spelled See-Threepio and often referred to as Threepio, was a bipedal, humanoid protocol droid designed to interact with organics, programmed primarily for etiquette and protocol.",
         "birth_year": "112BBY"
     },
     "model": "resources.people",
@@ -45,6 +47,7 @@
         "eye_color": "red",
         "mass": "32",
         "homeworld": 8,
+        "description": "R2-D2, pronounced Artoo-Detoo and often referred to as Artoo, was an R2 series astromech droid manufactured by Industrial Automaton with masculine programming.",
         "birth_year": "33BBY"
     },
     "model": "resources.people",
@@ -62,6 +65,7 @@
         "eye_color": "yellow",
         "mass": "136",
         "homeworld": 1,
+        "description": "Once a heroic Jedi Knight, Darth Vader was seduced by the dark side of the Force, became a Sith Lord, and led the Empire’s eradication of the Jedi Order.",
         "birth_year": "41.9BBY"
     },
     "model": "resources.people",
@@ -79,6 +83,7 @@
         "eye_color": "brown",
         "mass": "49",
         "homeworld": 2,
+        "description": "Leia Organa was a Force-sensitive human female who served as princess of Alderaan, a member of the Imperial Senate, a leader in the Alliance to Restore the Republic and New Republic, and the founding general of the Resistance.",
         "birth_year": "19BBY"
     },
     "model": "resources.people",
@@ -96,6 +101,7 @@
         "eye_color": "blue",
         "mass": "120",
         "homeworld": 1,
+        "description": "Owen Lars was a male human who lived as a moisture farmer on Tatooine.  He was the son of Aika and Cliegg Lars, and he later became the step-brother of Jedi Knight Anakin Skywalker when Cliegg remarried to Shmi Skywalker, a former slave.",
         "birth_year": "52BBY"
     },
     "model": "resources.people",
@@ -113,6 +119,7 @@
         "eye_color": "blue",
         "mass": "75",
         "homeworld": 1,
+        "description": "Beru Whitesun Lars was a human female from Tatooine. She was married to Owen Lars and raised Luke Skywalker after the fall of the Galactic Republic.",
         "birth_year": "47BBY"
     },
     "model": "resources.people",
@@ -130,6 +137,7 @@
         "eye_color": "red",
         "mass": "32",
         "homeworld": 1,
+        "description": 'R5-D4, also called "Red" by Luke Skywalker, was a red and white-striped R5 line astromech droid owned by a group of Jawas on Tatooine in the early days of the Galactic Civil War.',
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -147,6 +155,7 @@
         "eye_color": "brown",
         "mass": "84",
         "homeworld": 1,
+        "description": "Biggs Darklighter was a human male pilot who fought for the Alliance to Restore the Republic during the early days of the Galactic Civil War.",
         "birth_year": "24BBY"
     },
     "model": "resources.people",
@@ -164,6 +173,7 @@
         "eye_color": "blue-gray",
         "mass": "77",
         "homeworld": 20,
+        "description": "Obi-Wan Kenobi, later known as Ben Kenobi during his exile, was a Force-sensitive human male Jedi Master who served the Galactic Republic.",
         "birth_year": "57BBY"
     },
     "model": "resources.people",
@@ -181,6 +191,7 @@
         "eye_color": "blue",
         "mass": "84",
         "homeworld": 1,
+        "description": "Anakin Skywalker was a Force-sensitive human male who served the Galactic Republic as a Jedi Knight, and later the Galactic Empire as the Sith Lord Darth Vader.",
         "birth_year": "41.9BBY"
     },
     "model": "resources.people",
@@ -198,6 +209,7 @@
         "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 21,
+        "description": "Wilhuff Tarkin was a human male who served the Galactic Republic and later the Galactic Empire.",
         "birth_year": "64BBY"
     },
     "model": "resources.people",
@@ -215,6 +227,7 @@
         "eye_color": "blue",
         "mass": "112",
         "homeworld": 14,
+        "description": "Chewbacca, known affectionately to his friends as Chewie, was a male Wookiee warrior, smuggler, and resistance fighter who fought in the Clone Wars, the Galactic Civil War, and the conflict between the First Order and the Resistance.",
         "birth_year": "200BBY"
     },
     "model": "resources.people",
@@ -232,6 +245,7 @@
         "eye_color": "brown",
         "mass": "80",
         "homeworld": 22,
+        "description": "Han Solo was a human male smuggler who became a leader in the Alliance to Restore the Republic and an instrumental figure in the defeat of the Galactic Empire during the Galactic Civil War.",
         "birth_year": "29BBY"
     },
     "model": "resources.people",
@@ -249,6 +263,7 @@
         "eye_color": "black",
         "mass": "74",
         "homeworld": 23,
+        "description": "Greedo was a male Rodian bounty hunter who grew up on Tatooine in Mos Espa.",
         "birth_year": "44BBY"
     },
     "model": "resources.people",
@@ -266,6 +281,7 @@
         "eye_color": "orange",
         "mass": "1,358",
         "homeworld": 24,
+        "description": "Jabba Desilijic Tiure, more commonly referred to as Jabba the Hutt, was a Hutt gangster and crime lord, as well as a member of the Grand Hutt Council, who operated from his palace on the Outer Rim world of Tatooine.",
         "birth_year": "600BBY"
     },
     "model": "resources.people",
@@ -283,6 +299,7 @@
         "eye_color": "hazel",
         "mass": "77",
         "homeworld": 22,
+        "description": "Wedge Antilles, known as TIE SS25 during his time at Skystrike Academy, was a renowned human male starfighter pilot from Corellia who first served in the Imperial Navy as a TIE fighter pilot until defecting to join the Alliance to Restore the Republic and years later the New Republic during their fight against the Galactic Empire.",
         "birth_year": "21BBY"
     },
     "model": "resources.people",
@@ -300,6 +317,7 @@
         "eye_color": "blue",
         "mass": "110",
         "homeworld": 26,
+        "description": "Jek Tono Porkins was a trader and pilot from Bestine IV who, along with the other Bestines, was forced to abandon his homeworld when the Galactic Empire chose it as the site of a new military base.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -317,6 +335,7 @@
         "eye_color": "brown",
         "mass": "17",
         "homeworld": 28,
+        "description": "Yoda, a male member of a mysterious species, was a revered Jedi Master who served as the Grand Master of the Jedi Order in the waning days of the Galactic Republic.",
         "birth_year": "896BBY"
     },
     "model": "resources.people",
@@ -334,6 +353,7 @@
         "eye_color": "yellow",
         "mass": "75",
         "homeworld": 8,
+        "description": "Palpatine, also known as Darth Sidious, was a Force-sensitive Human male who served as the last Supreme Chancellor of the Galactic Republic and the first Emperor of the Galactic Empire.",
         "birth_year": "82BBY"
     },
     "model": "resources.people",
@@ -351,6 +371,7 @@
         "eye_color": "brown",
         "mass": "78.2",
         "homeworld": 10,
+        "description": "Boba Fett was a male human bounty hunter, and the genetic clone of infamous bounty hunter Jango Fett.",
         "birth_year": "31.5BBY"
     },
     "model": "resources.people",
@@ -368,6 +389,7 @@
         "eye_color": "red",
         "mass": "140",
         "homeworld": 28,
+        "description": 'IG-88, also called a "Phlutdroid," was a rogue masculine IG-series Assassin droid who worked as a bounty hunter.',
         "birth_year": "15BBY"
     },
     "model": "resources.people",
@@ -385,6 +407,7 @@
         "eye_color": "red",
         "mass": "113",
         "homeworld": 29,
+        "description": "Bossk was a male Trandoshan bounty hunter and the son of Cradossk who was known for hunting Wookiees.",
         "birth_year": "53BBY"
     },
     "model": "resources.people",
@@ -402,6 +425,7 @@
         "eye_color": "brown",
         "mass": "79",
         "homeworld": 30,
+        "description": "Lando Calrissian was a human male smuggler, gambler, and card player who became Baron Administrator of Cloud City and, later, a general in the Rebel Alliance.",
         "birth_year": "31BBY"
     },
     "model": "resources.people",
@@ -419,6 +443,7 @@
         "eye_color": "blue",
         "mass": "79",
         "homeworld": 6,
+        "description": "Lobot, also known by the nickname Lo, was a male human from the planet Bespin who, with the assistance of his AJ^6 cyborg construct, was paid to run battlefield calculations for the Galactic Empire.",
         "birth_year": "37BBY"
     },
     "model": "resources.people",
@@ -436,6 +461,7 @@
         "eye_color": "orange",
         "mass": "83",
         "homeworld": 31,
+        "description": "Gial Ackbar was a veteran male Mon Calamari soldier and revolutionary leader during the Clone Wars, the Galactic Civil War, and the conflict between the Resistance and the First Order. Throughout his sixty years of service, Ackbar was regarded as a brilliant tactician.",
         "birth_year": "41BBY"
     },
     "model": "resources.people",
@@ -453,6 +479,7 @@
         "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 32,
+        "description": "Mon Mothma was a human female politician and revolutionary leader who served in the Galactic Senate and Imperial Senate as the representative of Chandrila, the leader of the Alliance to Restore the Republic, and the first chancellor of the New Republic.",
         "birth_year": "48BBY"
     },
     "model": "resources.people",
@@ -470,6 +497,7 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 28,
+        "description": "Arvel Crynyd was a human male starfighter pilot that flew for the Alliance to Restore the Republic during the Galactic Civil War.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -487,6 +515,7 @@
         "eye_color": "brown",
         "mass": "20",
         "homeworld": 7,
+        "description": "Wicket Wystri Warrick was a male Ewok scout, warrior and later Chief of Bright Tree Village on the forest moon of Endor.",
         "birth_year": "8BBY"
     },
     "model": "resources.people",
@@ -504,6 +533,7 @@
         "eye_color": "black",
         "mass": "68",
         "homeworld": 33,
+        "description": "Nien Nunb was a Sullustan male arms dealer and smuggler who joined the Alliance to Restore the Republic during the Galactic Civil War.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -521,6 +551,7 @@
         "eye_color": "blue",
         "mass": "89",
         "homeworld": 28,
+        "description": "Qui-Gon Jinn was a male human Jedi Master born on Coruscant during the declining days of the Galactic Republic.",
         "birth_year": "92BBY"
     },
     "model": "resources.people",
@@ -538,6 +569,7 @@
         "eye_color": "red",
         "mass": "90",
         "homeworld": 18,
+        "description": "Nute Gunray was a Neimoidian male who served as the Viceroy of the Trade Federation and a high-ranking member of the Separatist Confederacy of Independent Systems.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -555,6 +587,7 @@
         "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 9,
+        "description": "Finis Valorum was a Human male who served as the Chancellor of the Galactic Republic, holding office from 40 BBY until Queen Padmé Amidala introduced a Vote of No Confidence against him in the Galactic Senate in 32 BBY (after being tricked into doing this by Senator Palpatine).",
         "birth_year": "91BBY"
     },
     "model": "resources.people",
@@ -572,6 +605,7 @@
         "eye_color": "brown",
         "mass": "45",
         "homeworld": 8,
+        "description": "Padmé Naberrie of Naboo (publicly known by her regal name, Padmé Amidala, and also known as Her Royal Highness, Queen Amidala of Naboo from 33 BBY to 25 BBY and as Her Excellency, Senator Padmé Amidala of Naboo from 25 BBY until her death) was the younger daughter of Ruwee and Jobal Naberrie, and the sister of Sola Naberrie.",
         "birth_year": "46BBY"
     },
     "model": "resources.people",
@@ -589,6 +623,7 @@
         "eye_color": "orange",
         "mass": "66",
         "homeworld": 8,
+        "description": "Jar Jar Binks was a Gungan military officer and politician during the waning days of the Galactic Republic.",
         "birth_year": "52BBY"
     },
     "model": "resources.people",
@@ -606,6 +641,7 @@
         "eye_color": "orange",
         "mass": "82",
         "homeworld": 8,
+        "description": "Roos Tarpals was a Gungan male who served in the Gungan Grand Army during the Invasion of Naboo and the Clone Wars.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -623,6 +659,7 @@
         "eye_color": "orange",
         "mass": "unknown",
         "homeworld": 8,
+        "description": "Rugor Nass, also known as Boss Nass, was a male Ankura Gungan. He was the Boss of all the Otolla Gungans, of Otoh Gunga, and of the Gungan High Council at the time of the Invasion of Naboo.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -640,6 +677,7 @@
         "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 8,
+        "description": "Ric Olié was a human male starfighter and starship pilot who served in the Royal Naboo Security Forces. He was the commander of the Naboo Royal Space Fighter Corps, and the leader of Bravo Flight.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -657,6 +695,7 @@
         "eye_color": "yellow",
         "mass": "unknown",
         "homeworld": 34,
+        "description": "Watto was a male Toydarian junk dealer/human trafficker, who owned a shop in Mos Espa, Tatooine. He was the owner of Shmi Skywalker Lars as well as her son, Anakin Skywalker",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -674,6 +713,7 @@
         "eye_color": "orange",
         "mass": "40",
         "homeworld": 35,
+        "description": "Sebulba was a male Dug who hailed from the planet of Malastare. A vicious Podracer pilot who flew a massive orange Podracer with a split-x configuration, Sebulba would often bump and smash his way through the competition.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -691,6 +731,7 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 8,
+        "description": "Quarsh Panaka was a Human male who served as the head of the Royal Naboo Security Forces before, during, and after the Invasion of Naboo, and later was the Moff for the Chommell sector during the Galactic Civil War."
         "birth_year": "62BBY"
     },
     "model": "resources.people",
@@ -708,6 +749,7 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 1,
+        "description": "Shmi Skywalker Lars was the human mother of the Jedi Knight Anakin Skywalker, as well step-mother to Owen Lars and the paternal grandmother of Luke Skywalker and Leia Organa.",
         "birth_year": "72BBY"
     },
     "model": "resources.people",
@@ -725,6 +767,7 @@
         "eye_color": "yellow",
         "mass": "80",
         "homeworld": 36,
+        "description": "Darth Maul was a male Dathomirian Zabrak Dark Lord of the Sith who lived during the waning years of the Galactic Republic.",
         "birth_year": "54BBY"
     },
     "model": "resources.people",
@@ -742,6 +785,7 @@
         "eye_color": "pink",
         "mass": "unknown",
         "homeworld": 37,
+        "description": "Bib Fortuna was a male Twi'lek who lived on the desert planet Tatooine. He served as Jabba the Hutt's majordomo and chief of staff for decades, handling all of the day-to-day operations at his master's palace.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -750,7 +794,7 @@
 {
     "fields": {
         "edited": "2014-12-20T21:17:50.409Z",
-        "name": "Ayla Secura",
+        "name": "Aayla Secura",
         "created": "2014-12-20T09:48:01.172Z",
         "gender": "female",
         "skin_color": "blue",
@@ -759,6 +803,7 @@
         "eye_color": "hazel",
         "mass": "55",
         "homeworld": 37,
+        "description": "Aayla Secura, born Aaylas'ecura, was a female Rutian Twi'lek Jedi Master in the later days of the Republic, who served with distinction as a General during the Clone Wars.",
         "birth_year": "48BBY"
     },
     "model": "resources.people",
@@ -767,7 +812,7 @@
 {
     "fields": {
         "edited": "2014-12-20T21:17:50.410Z",
-        "name": "Ratts Tyerel",
+        "name": "Ratts Tyerell",
         "created": "2014-12-20T09:53:15.086Z",
         "gender": "male",
         "skin_color": "grey, blue",
@@ -776,6 +821,7 @@
         "eye_color": "unknown",
         "mass": "15",
         "homeworld": 38,
+        "description": "A male Aleena from the planet of Aleen, the diminutive Ratts Tyerell took on the role of a professional Podracer pilot, making up for his small stature with a Podracer with large, oversized engines.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -793,6 +839,7 @@
         "eye_color": "yellow",
         "mass": "45",
         "homeworld": 39,
+        "description": "A short, shovel-nosed Podracer pilot, Dud Bolt piloted a Vulptereen 327 Podracer. Sometime before the Invasion of Naboo, Bolt participated in the Boonta Eve Classic, an annual race held on the Outer Rim  planet Tatooine.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -810,6 +857,7 @@
         "eye_color": "black",
         "mass": "unknown",
         "homeworld": 40,
+        "description": "A Xexto male, Gasgano performed as a professional Podracer pilot, flying a green Ord Pedrovia Podracer. Gasgano raced for high-speed thrills, and his four spindly arms made him perfectly suited for racing, able to use all of his arms at once to pilot his pod.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -827,6 +875,7 @@
         "eye_color": "orange",
         "mass": "65",
         "homeworld": 41,
+        "description": "A timid Toong, Ben Quadinaros was a Podracer pilot from Tund, a hidden world located in the mysterious Tund system.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -844,6 +893,7 @@
         "eye_color": "brown",
         "mass": "84",
         "homeworld": 42,
+        "description": "Mace Windu, a human male, was a Jedi Master and member of the Jedi High Council during the waning days of the Galactic Republic. Born on the planet Haruun Kal, Windu was trained in the Jedi arts as a result of his strong connection to the Force.",
         "birth_year": "72BBY"
     },
     "model": "resources.people",
@@ -861,6 +911,7 @@
         "eye_color": "yellow",
         "mass": "82",
         "homeworld": 43,
+        "description": "Ki-Adi-Mundi was a male Cerean Jedi Master, who served on the Jedi High Council during the last years of the Galactic Republic."
         "birth_year": "92BBY"
     },
     "model": "resources.people",
@@ -878,6 +929,7 @@
         "eye_color": "black",
         "mass": "87",
         "homeworld": 44,
+        "description": "Kit Fisto was a Nautolan Jedi Master during the last years of the Galactic Republic. He was among the Jedi who fought in the Battle of Geonosis and was one of the few survivors out of the 200 Jedi who traveled there.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -895,6 +947,7 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 45,
+        "description": "Eeth Koth was a male Iridonian Zabrak Jedi Master who fought during the Clone Wars in battles such as the Battle of Geonosis."
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -912,6 +965,7 @@
         "eye_color": "blue",
         "mass": "50",
         "homeworld": 9,
+        "description": "Adi Gallia was a female Tholothian Jedi Master who sat on the Jedi High Council during the Clone Wars. She fought in a number of engagements during the war, serving as a General in the Grand Army of the Republic.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -929,6 +983,7 @@
         "eye_color": "orange",
         "mass": "unknown",
         "homeworld": 47,
+        "description": "Saesee Tiin was a male Iktotchi, and a member of the Jedi Order during the waning days of the Galactic Republic. A noted starfighter pilot and accomplished Jedi Master, he was one of twelve such masters sitting on the Jedi Council in the final days of the Clone Wars.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -946,6 +1001,7 @@
         "eye_color": "yellow",
         "mass": "unknown",
         "homeworld": 48,
+        "description": "Yarael Poof was a male Quermian Jedi Master who served on the Jedi High Council during the final years of the Galactic Republic."
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -963,6 +1019,7 @@
         "eye_color": "black",
         "mass": "80",
         "homeworld": 49,
+        "description": "Plo Koon was a Kel Dor Jedi Master serving as a member of the Jedi High Council during the last years of the Galactic Republic. He frequently undertook dangerous missions."
         "birth_year": "22BBY"
     },
     "model": "resources.people",
@@ -980,6 +1037,7 @@
         "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 50,
+        "description": "Mas Amedda was a male Chagrian who served as Vice Chair of the Galactic Republic's Senate under Supreme Chancellor Finis Valorum during the Invasion of Naboo, and Supreme Chancellor Sheev Palpatine during the Secessionist Movement and the Clone Wars."
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -997,6 +1055,7 @@
         "eye_color": "brown",
         "mass": "85",
         "homeworld": 8,
+        "description": "Gregar Typho was a human male and a captain of the Royal Naboo Security Forces during the Separatist Crisis and the Clone Wars. He served as Senator Padmé Amidala's head of security, ensuring her safety at all costs.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1014,6 +1073,7 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 8,
+        "description": "Cordé was a Human female handmaiden and decoy for Senator Padmé Amidala of Naboo during the end of the Separatist Crisis.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1031,6 +1091,7 @@
         "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 1,
+        "description": "Cliegg Lars was a human male moisture farmer from Tatooine. He had one son, Owen Lars, from his first marriage. In the years prior to the Clone Wars, he met Shmi Skywalker and freed her from slavery before marrying her.",
         "birth_year": "82BBY"
     },
     "model": "resources.people",
@@ -1048,6 +1109,7 @@
         "eye_color": "yellow",
         "mass": "80",
         "homeworld": 11,
+        "description": "Archduke Poggle the Lesser was the public leader of the Geonosians during the Clone Wars, though he was subservient to Queen Karina the Great. He controlled the Geonosian battle droid factories, and was a powerful figure within the Confederacy of Independent Systems."
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1065,6 +1127,7 @@
         "eye_color": "blue",
         "mass": "56.2",
         "homeworld": 51,
+        "description": "Luminara Unduli was a Mirialan female Jedi Master during the final days of the Jedi Order. She commanded the 41st Elite Corps of the Grand Army of the Republic, and was the master of Padawan Barriss Offee.",
         "birth_year": "58BBY"
     },
     "model": "resources.people",
@@ -1082,6 +1145,7 @@
         "eye_color": "blue",
         "mass": "50",
         "homeworld": 51,
+        "description": "Barriss Offee was a female Mirialan who trained as a Jedi Padawan during the Clone Wars. She carried a blue lightsaber and trained under Jedi Master Luminara Unduli.",
         "birth_year": "40BBY"
     },
     "model": "resources.people",
@@ -1099,6 +1163,7 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 8,
+        "description": "Dormé was a human female handmaiden in the service of Senator Padmé Amidala during the Separatist Crisis.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1133,6 +1198,7 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 2,
+        "description": "Bail Prestor Organa was a Human male who served as the First Chairman and Viceroy of Alderaan, and served in the Galactic Senate as the Senator of the Alderaan sector from 32 BBY to 19 BBY."
         "birth_year": "67BBY"
     },
     "model": "resources.people",
@@ -1150,6 +1216,7 @@
         "eye_color": "brown",
         "mass": "79",
         "homeworld": 53,
+        "description": "Jango Fett was a male human bounty hunter, widely regarded to be the best in the galaxy during the last years of the Galactic Republic. Fett wore a set of Mandalorian armor as a bounty hunter, though he was considered a pretender by the New Mandalorian government of Mandalore.",
         "birth_year": "66BBY"
     },
     "model": "resources.people",
@@ -1167,6 +1234,7 @@
         "eye_color": "yellow",
         "mass": "55",
         "homeworld": 54,
+        "description": "Zam Wesell was a shapeshifting Clawdite bounty hunter from the planet Zolan. In her true form, Wesell was a reptilian-like humanoid, although she often appeared as a Human woman with short blonde or bronze-colored hair. ",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1184,6 +1252,7 @@
         "eye_color": "yellow",
         "mass": "102",
         "homeworld": 55,
+        "description": 'Dexter "Dex" Jettster was a male Besalisk with a colorful background who lived on the planet Coruscant and was the owner of Dex\'s Diner.',
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1201,6 +1270,7 @@
         "eye_color": "black",
         "mass": "88",
         "homeworld": 10,
+        "description": "Lama Su was a male Kaminoan who served as Prime Minister of Kamino, his home planet, both before and during the Clone Wars. He oversaw the creation of the Grand Army of the Republic.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1218,6 +1288,7 @@
         "eye_color": "black",
         "mass": "unknown",
         "homeworld": 10,
+        "description": "Taun We was a female Kaminoan and administrative aide to Lama Su, Prime Minister of the planet Kamino during the Clone Wars. She greeted Jedi Master Obi-Wan Kenobi, believing he was Sifo-Dyas, when he arrived on Kamino to investigate Jango Fett.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1235,6 +1306,7 @@
         "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 9,
+        "description": "Jocasta Nu was a female human Jedi Master who served as the Chief librarian of the Jedi Archives during the Clone Wars. In this role, Nu would assist fellow Jedi in finding information they needed from the Jedi Archives, and controlled access to the restricted Holocron Vault."
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1252,6 +1324,7 @@
         "eye_color": "red, blue",
         "mass": "unknown",
         "homeworld": 28,
+        "description": "R4-P17, nicknamed Arfour, was an astromech droid that belonged to Jedi Master Obi-Wan Kenobi prior to and throughout the Clone Wars.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1269,6 +1342,7 @@
         "eye_color": "unknown",
         "mass": "48",
         "homeworld": 56,
+        "description": "Wat Tambor was a male Skakoan from the planet Skako and the foreman of the Techno Union. He pledged its resources to the Confederacy of Independent Systems, earning himself a seat on the Separatist Council during the Clone Wars.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1286,6 +1360,7 @@
         "eye_color": "gold",
         "mass": "unknown",
         "homeworld": 57,
+        "description": "San Hill was a male Muun and Chairman of the InterGalactic Banking Clan during the Clone Wars.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1303,6 +1378,7 @@
         "eye_color": "black",
         "mass": "57",
         "homeworld": 58,
+        "description": "Shaak Ti was a female Togruta Jedi Master and member of the Jedi Council who served the Jedi Order in the waning years of the Galactic Republic.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1320,6 +1396,7 @@
         "eye_color": "green, yellow",
         "mass": "159",
         "homeworld": 59,
+        "description": "Grievous was the Kaleesh cyborg Supreme Commander of the Droid Army of the Confederacy of Independent Systems for most of the Clone Wars. Originally a Kaleesh warrior from the planet Kalee, he chose to receive cybernetic implants to increase his combat prowess.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1337,6 +1414,7 @@
         "eye_color": "blue",
         "mass": "136",
         "homeworld": 14,
+        "description": "Tarfful was a male Wookiee chieftain and general who helped defend his native planet Kashyyyk during the Clone Wars.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1354,6 +1432,7 @@
         "eye_color": "brown",
         "mass": "79",
         "homeworld": 2,
+        "description": "Raymus Antilles was a human male from Alderaan. During his time in the service of the House of Organa, he captained the CR90 corvettes Sundered Heart and Tantive IV.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1371,6 +1450,7 @@
         "eye_color": "white",
         "mass": "48",
         "homeworld": 60,
+        "description": "Sly Moore was a female Umbaran who served as the senior administrative aide to Supreme Chancellor Palpatine during the final days of the Galactic Republic.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1388,6 +1468,7 @@
         "eye_color": "black",
         "mass": "80",
         "homeworld": 12,
+        "description": "Tion Medon was a male Pau'an and the Port Administrator of Pau City on Utapau during the Clone Wars.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
