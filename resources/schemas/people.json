@@ -40,6 +40,10 @@
       "type": "string",
       "description": "The url of the planet resource that this person was born on."
     },
+    "description": {
+      "type": "string",
+      "description": "A one sentence description of this person."
+    },  
     "films": {
       "type": "array",
       "description": "An array of urls of film resources that this person has been in."
@@ -71,6 +75,7 @@
     "birth_year",
     "gender",
     "homeworld",
+    "description",
     "films",
     "species",
     "vehicles",
