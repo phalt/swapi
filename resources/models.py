@@ -54,6 +54,8 @@ class People(DateTimeModel):
         return self.name
 
     name = models.CharField(max_length=100)
+    
+    description = models.CharField(max_length=400)
 
     height = models.CharField(max_length=10, blank=True)
 
