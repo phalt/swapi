@@ -137,7 +137,7 @@
         "eye_color": "red",
         "mass": "32",
         "homeworld": 1,
-        "description": 'R5-D4, also called "Red" by Luke Skywalker, was a red and white-striped R5 line astromech droid owned by a group of Jawas on Tatooine in the early days of the Galactic Civil War.',
+        "description": "R5-D4, also called \"Red\" by Luke Skywalker, was a red and white-striped R5 line astromech droid owned by a group of Jawas on Tatooine in the early days of the Galactic Civil War.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -389,7 +389,7 @@
         "eye_color": "red",
         "mass": "140",
         "homeworld": 28,
-        "description": 'IG-88, also called a "Phlutdroid," was a rogue masculine IG-series Assassin droid who worked as a bounty hunter.',
+        "description": "IG-88, also called a \"Phlutdroid,\" was a rogue masculine IG-series Assassin droid who worked as a bounty hunter.",
         "birth_year": "15BBY"
     },
     "model": "resources.people",
@@ -731,7 +731,7 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 8,
-        "description": "Quarsh Panaka was a Human male who served as the head of the Royal Naboo Security Forces before, during, and after the Invasion of Naboo, and later was the Moff for the Chommell sector during the Galactic Civil War."
+        "description": "Quarsh Panaka was a Human male who served as the head of the Royal Naboo Security Forces before, during, and after the Invasion of Naboo, and later was the Moff for the Chommell sector during the Galactic Civil War.",
         "birth_year": "62BBY"
     },
     "model": "resources.people",
@@ -911,7 +911,7 @@
         "eye_color": "yellow",
         "mass": "82",
         "homeworld": 43,
-        "description": "Ki-Adi-Mundi was a male Cerean Jedi Master, who served on the Jedi High Council during the last years of the Galactic Republic."
+        "description": "Ki-Adi-Mundi was a male Cerean Jedi Master, who served on the Jedi High Council during the last years of the Galactic Republic.",
         "birth_year": "92BBY"
     },
     "model": "resources.people",
@@ -947,7 +947,7 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 45,
-        "description": "Eeth Koth was a male Iridonian Zabrak Jedi Master who fought during the Clone Wars in battles such as the Battle of Geonosis."
+        "description": "Eeth Koth was a male Iridonian Zabrak Jedi Master who fought during the Clone Wars in battles such as the Battle of Geonosis.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1001,7 +1001,7 @@
         "eye_color": "yellow",
         "mass": "unknown",
         "homeworld": 48,
-        "description": "Yarael Poof was a male Quermian Jedi Master who served on the Jedi High Council during the final years of the Galactic Republic."
+        "description": "Yarael Poof was a male Quermian Jedi Master who served on the Jedi High Council during the final years of the Galactic Republic.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1019,7 +1019,7 @@
         "eye_color": "black",
         "mass": "80",
         "homeworld": 49,
-        "description": "Plo Koon was a Kel Dor Jedi Master serving as a member of the Jedi High Council during the last years of the Galactic Republic. He frequently undertook dangerous missions."
+        "description": "Plo Koon was a Kel Dor Jedi Master serving as a member of the Jedi High Council during the last years of the Galactic Republic. He frequently undertook dangerous missions.",
         "birth_year": "22BBY"
     },
     "model": "resources.people",
@@ -1037,7 +1037,7 @@
         "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 50,
-        "description": "Mas Amedda was a male Chagrian who served as Vice Chair of the Galactic Republic's Senate under Supreme Chancellor Finis Valorum during the Invasion of Naboo, and Supreme Chancellor Sheev Palpatine during the Secessionist Movement and the Clone Wars."
+        "description": "Mas Amedda was a male Chagrian who served as Vice Chair of the Galactic Republic's Senate under Supreme Chancellor Finis Valorum during the Invasion of Naboo, and Supreme Chancellor Sheev Palpatine during the Secessionist Movement and the Clone Wars.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1109,7 +1109,7 @@
         "eye_color": "yellow",
         "mass": "80",
         "homeworld": 11,
-        "description": "Archduke Poggle the Lesser was the public leader of the Geonosians during the Clone Wars, though he was subservient to Queen Karina the Great. He controlled the Geonosian battle droid factories, and was a powerful figure within the Confederacy of Independent Systems."
+        "description": "Archduke Poggle the Lesser was the public leader of the Geonosians during the Clone Wars, though he was subservient to Queen Karina the Great. He controlled the Geonosian battle droid factories, and was a powerful figure within the Confederacy of Independent Systems.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1198,7 +1198,7 @@
         "eye_color": "brown",
         "mass": "unknown",
         "homeworld": 2,
-        "description": "Bail Prestor Organa was a Human male who served as the First Chairman and Viceroy of Alderaan, and served in the Galactic Senate as the Senator of the Alderaan sector from 32 BBY to 19 BBY."
+        "description": "Bail Prestor Organa was a Human male who served as the First Chairman and Viceroy of Alderaan, and served in the Galactic Senate as the Senator of the Alderaan sector from 32 BBY to 19 BBY.",
         "birth_year": "67BBY"
     },
     "model": "resources.people",
@@ -1252,7 +1252,7 @@
         "eye_color": "yellow",
         "mass": "102",
         "homeworld": 55,
-        "description": 'Dexter "Dex" Jettster was a male Besalisk with a colorful background who lived on the planet Coruscant and was the owner of Dex\'s Diner.',
+        "description": "Dexter \"Dex\" Jettster was a male Besalisk with a colorful background who lived on the planet Coruscant and was the owner of Dex\'s Diner.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
@@ -1306,7 +1306,7 @@
         "eye_color": "blue",
         "mass": "unknown",
         "homeworld": 9,
-        "description": "Jocasta Nu was a female human Jedi Master who served as the Chief librarian of the Jedi Archives during the Clone Wars. In this role, Nu would assist fellow Jedi in finding information they needed from the Jedi Archives, and controlled access to the restricted Holocron Vault."
+        "description": "Jocasta Nu was a female human Jedi Master who served as the Chief librarian of the Jedi Archives during the Clone Wars. In this role, Nu would assist fellow Jedi in finding information they needed from the Jedi Archives, and controlled access to the restricted Holocron Vault.",
         "birth_year": "unknown"
     },
     "model": "resources.people",
