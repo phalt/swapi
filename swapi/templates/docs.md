@@ -673,6 +673,11 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 - [xyz-angular-swapi](https://github.com/unshift-devs/xyz-angular-swapi) by [Matteo Ronchi](https://github.com/cef62).
 - [ne-swapi](https://github.com/nickescallon/ne-swapi) by [Nick Escallon](https://github.com/nickescallon).
 
+<a name="angular2"></a>
+##Angular 2
+
+- [ng2-swapi](https://github.com/giammaleoni/ng2-swapi) by [Gianmaria Leoni](https://github.com/giammaleoni).
+
 <a name="r"></a>
 ##R
 
