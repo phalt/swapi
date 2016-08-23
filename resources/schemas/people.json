@@ -8,6 +8,10 @@
       "type": "string",
       "description": "The name of this person."
     },
+    "description": {
+     "type": "string",
+      "description": "A short description of this person."
+    },
     "height": {
       "type": "string",
       "description": "The height of this person in meters."
