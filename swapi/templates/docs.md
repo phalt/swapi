@@ -69,6 +69,17 @@ Swapi is a **completely open API**. No authentication is required to query and g
 
 All resources support [JSON Schema](https://jsonschema.net). Making a request to ```/api/<resource>/schema``` will give you the details of that resource. This will allow you to programmatically inspect the attributes of that resource and their types.
 
+<a name="search"></a>
+###Searching
+
+All resources support a `search` parameter that filters the set of resources returned.  This allows you to make queries like:
+
+```
+https://swapi.co/api/people/?search=r2
+```
+
+ All searches will use case-insensitive partial matches on the set of search fields. To see the set of search fields for each resource, check out the individual resource documentation. For more information on advanced search terms see [here](http://www.django-rest-framework.org/api-guide/filtering/#searchfilter).
+
 #Encodings
 - - -
 
@@ -216,6 +227,10 @@ A People resource is an individual person or character within the Star Wars univ
 - ```edited``` *string*
 -- the ISO 8601 date format of the time that this resource was edited.
 
+**Search Fields:**
+
+- ```name```
+
 - - -
 <a name="films"></a>
 ###Films
@@ -299,6 +314,10 @@ A Film resource is an single film.
 - ```edited``` *string*
 -- the ISO 8601 date format of the time that this resource was edited.
 
+**Search Fields:**
+
+- ```title```
+
 - - -
 <a name="starships"></a>
 ###Starships
@@ -381,6 +400,11 @@ A Starship resource is a single transport craft that has hyperdrive capability.
 - ```edited``` *string*
 -- the ISO 8601 date format of the time that this resource was edited.
 
+**Search Fields:**
+
+- ```name```
+- ```model```
+
 - - -
 <a name="vehicles"></a>
 ###Vehicles
@@ -457,6 +481,11 @@ A Vehicle resource is a single transport craft that **does not have** hyperdrive
 -- the ISO 8601 date format of the time that this resource was created.
 - ```edited``` *string*
 -- the ISO 8601 date format of the time that this resource was edited.
+
+**Search Fields:**
+
+- ```name```
+- ```model```
 
 - - -
 <a name="species"></a>
@@ -535,6 +564,10 @@ A Species resource is a type of person or character within the Star Wars Univers
 - ```edited``` *string*
 -- the ISO 8601 date format of the time that this resource was edited.
 
+**Search Fields:**
+
+- ```name```
+
 - - -
 <a name="planets"></a>
 ###Planets
@@ -609,6 +642,10 @@ A Planet resource is a large mass, planet or planetoid in the Star Wars Universe
 -- the ISO 8601 date format of the time that this resource was created.
 - ```edited``` *string*
 -- the ISO 8601 date format of the time that this resource was edited.
+
+**Search Fields:**
+
+- ```name```
 
 #Helper libraries
 - - -
