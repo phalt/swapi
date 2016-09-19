@@ -107,7 +107,7 @@ https://swapi.co/api/planets/1/?format=wookiee
 <a name="root"></a>
 ###Root
 
-The Root resource provides information on all avaiable resources within the API.
+The Root resource provides information on all available resources within the API.
 
 **Example request:**
 
@@ -215,7 +215,7 @@ A People resource is an individual person or character within the Star Wars univ
 - ```films``` *array*
 -- An array of film resource URLs that this person has been in.
 - ```species``` *array*
--- An array of species resource URLs that this person belonds to.
+-- An array of species resource URLs that this person belongs to.
 - ```starships``` *array*
 -- An array of starship resource URLs that this person has piloted.
 - ```vehicles``` *array*
@@ -235,7 +235,7 @@ A People resource is an individual person or character within the Star Wars univ
 <a name="films"></a>
 ###Films
 
-A Film resource is an single film.
+A Film resource is a single film.
 
 **Endpoints**
 
@@ -294,7 +294,7 @@ A Film resource is an single film.
 - ```director``` *string*
 -- The name of the director of this film.
 - ```producer``` *string*
--- The name(s) of the producer(s) of this film. Comma seperated.
+-- The name(s) of the producer(s) of this film. Comma separated.
 - ```release_date``` *date*
 -- The ISO 8601 date format of film release at original creator country.
 - ```species``` *array*
@@ -370,7 +370,7 @@ A Starship resource is a single transport craft that has hyperdrive capability.
 - ```starship_class``` *string*
 -- The class of this starship, such as "Starfighter" or "Deep Space Mobile Battlestation"
 - ```manufacturer``` *string*
--- The manufacturer of this starship. Comma seperated if more than one.
+-- The manufacturer of this starship. Comma separated if more than one.
 - ```cost_in_credits``` *string*
 -- The cost of this starship new, in galactic credits.
 - ```length``` *string*
@@ -380,7 +380,7 @@ A Starship resource is a single transport craft that has hyperdrive capability.
 - ```passengers``` *string*
 -- The number of non-essential people this starship can transport.
 - ```max_atmosphering_speed``` *string*
--- The maximum speed of this starship in atmosphere. "N/A" if this starship is incapable of atmosphering flight.
+-- The maximum speed of this starship in the atmosphere. "N/A" if this starship is incapable of atmospheric flight.
 - ```hyperdrive_rating``` *string*
 -- The class of this starships hyperdrive.
 - ```MGLT``` *string*
@@ -456,7 +456,7 @@ A Vehicle resource is a single transport craft that **does not have** hyperdrive
 - ```vehicle_class``` *string*
 -- The class of this vehicle, such as "Wheeled" or "Repulsorcraft".
 - ```manufacturer``` *string*
--- The manufacturer of this vehicle. Comma-seperated if more than one.
+-- The manufacturer of this vehicle. Comma separated if more than one.
 - ```length``` *string*
 -- The length of this vehicle in meters.
 - ```cost_in_credits``` *string*
@@ -466,7 +466,7 @@ A Vehicle resource is a single transport craft that **does not have** hyperdrive
 - ```passengers``` *string*
 -- The number of non-essential people this vehicle can transport.
 - ```max_atmosphering_speed``` *string*
--- The maximum speed of this vehicle in atmosphere.
+-- The maximum speed of this vehicle in the atmosphere.
 - ```cargo_capacity``` *string*
 -- The maximum number of kilograms that this vehicle can transport.
 - ```consumables``` *string
@@ -544,11 +544,11 @@ A Species resource is a type of person or character within the Star Wars Univers
 - ```average_lifespan``` *string*
 -- The average lifespan of this species in years.
 - ```eye_colors``` *string*
--- A comma-seperated string of common eye colors for this species, "none" if this species does not typically have eyes.
+-- A comma-separated string of common eye colors for this species, "none" if this species does not typically have eyes.
 - ```hair_colors``` *string*
--- A comma-seperated string of common hair colors for this species, "none" if this species does not typically have hair.
+-- A comma-separated string of common hair colors for this species, "none" if this species does not typically have hair.
 - ```skin_colors``` *string*
--- A comma-seperated string of common skin colors for this species, "none" if this species does not typically have skin.
+-- A comma-separated string of common skin colors for this species, "none" if this species does not typically have skin.
 - ```language``` *string*
 -- The language commonly spoken by this species.
 - ```homeworld``` *string*
@@ -627,11 +627,11 @@ A Planet resource is a large mass, planet or planetoid in the Star Wars Universe
 - ```population``` *string*
 -- The average population of sentient beings inhabiting this planet.
 - ```climate``` *string*
--- The climate of this planet. Comma-seperated if diverse.
+-- The climate of this planet. Comma separated if diverse.
 - ```terrain``` *string*
--- The terrain of this planet. Comma-seperated if diverse.
+-- The terrain of this planet. Comma separated if diverse.
 - ```surface_water``` *string*
--- The percentage of the planet surface that is naturally occuring water or bodies of water.
+-- The percentage of the planet surface that is naturally occurring water or bodies of water.
 - ```residents``` *array*
 -- An array of People URL Resources that live on this planet.
 - ```films``` *array*
