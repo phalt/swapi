@@ -56,7 +56,8 @@
             3,
             4,
             5
-        ]
+        ],
+        "poster": "http://vignette2.wikia.nocookie.net/starwars/images/2/21/Star_wars_old.jpg/revision/latest?cb=20100708051712"
     },
     "model": "resources.film",
     "pk": 1
@@ -120,7 +121,8 @@
             3,
             6,
             7
-        ]
+        ],
+        "poster": "http://vignette3.wikia.nocookie.net/starwars/images/e/e4/Empire_strikes_back_old.jpg/revision/latest?cb=20161114072554"
     },
     "model": "resources.film",
     "pk": 2
@@ -198,7 +200,8 @@
             9,
             10,
             15
-        ]
+        ],
+        "poster": "http://vignette2.wikia.nocookie.net/starwars/images/b/b2/ReturnOfTheJediPoster1983.jpg/revision/latest?cb=20080819092048"
     },
     "model": "resources.film",
     "pk": 3
@@ -291,7 +294,8 @@
             25,
             26,
             27
-        ]
+        ],
+        "poster": "http://vignette2.wikia.nocookie.net/starwars/images/7/75/EPI_TPM_poster.png/revision/latest/scale-to-width-down/1000?cb=20130822171446"
     },
     "model": "resources.film",
     "pk": 4
@@ -394,7 +398,8 @@
             33,
             34,
             35
-        ]
+        ],
+        "poster": "http://vignette4.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg/revision/latest?cb=20160411165436"
     },
     "model": "resources.film",
     "pk": 5
@@ -510,7 +515,8 @@
             35,
             36,
             37
-        ]
+        ],
+        "poster": "http://vignette2.wikia.nocookie.net/starwars/images/e/e7/EPIII_RotS_poster.png/revision/latest/scale-to-width-down/1000?cb=20130822174232"
     },
     "model": "resources.film",
     "pk": 6
@@ -531,14 +537,14 @@
         "episode_id": 7,
         "director": "J.J. Abrams",
 	"release_date": "2015-12-18",
-        "opening_crawl": "Luke Skywalker has vanished.\r\nIn his absence, the sinister\r\nFIRST ORDER has risen from\r\nthe ashes of the Empire\r\nand will not rest until
-\r\nSkywalker, the last Jedi,\r\nhas been destroyed.\r\n\r\nWith the support of the\r\nREPUBLIC, General Leia Organa\r\nleads a brave RESISTANCE.\r\nShe is desperate to find her\r\nbrother Luke and gain his\r\nhelp in restoring peace\r\nand justice to the galaxy.\r\n\r\nLeia has sent her most daring\r\npilot on a secret mission\r\nto Jakku, where an old ally\r\nhas discovered a clue to\r\nLuke's whereabouts....",
+        "opening_crawl": "Luke Skywalker has vanished.\r\nIn his absence, the sinister\r\nFIRST ORDER has risen from\r\nthe ashes of the Empire\r\nand will not rest until\r\nSkywalker, the last Jedi,\r\nhas been destroyed.\r\n\r\nWith the support of the\r\nREPUBLIC, General Leia Organa\r\nleads a brave RESISTANCE.\r\nShe is desperate to find her\r\nbrother Luke and gain his\r\nhelp in restoring peace\r\nand justice to the galaxy.\r\n\r\nLeia has sent her most daring\r\npilot on a secret mission\r\nto Jakku, where an old ally\r\nhas discovered a clue to\r\nLuke's whereabouts....",
         "characters": [
             84,
             1
         ],
         "species": [
-        ]
+        ],
+        "poster": "http://vignette2.wikia.nocookie.net/starwars/images/f/fd/Star_Wars_Episode_VII_The_Force_Awakens.jpg/revision/latest/scale-to-width-down/1000?cb=20151018162823"
     },
     "model": "resources.film",
     "pk": 7
