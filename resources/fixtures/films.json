@@ -514,5 +514,33 @@
     },
     "model": "resources.film",
     "pk": 6
+},
+{
+    "fields": {
+        "starships": [
+        ],
+        "edited": "",
+        "vehicles": [
+        ],
+        "planets": [
+            61
+        ],
+        "producer": "J.J. Abrams",
+        "title": "The Force Awakens",
+        "created": "",
+        "episode_id": 7,
+        "director": "J.J. Abrams",
+	"release_date": "2015-12-18",
+        "opening_crawl": "Luke Skywalker has vanished.\r\nIn his absence, the sinister\r\nFIRST ORDER has risen from\r\nthe ashes of the Empire\r\nand will not rest until
+\r\nSkywalker, the last Jedi,\r\nhas been destroyed.\r\n\r\nWith the support of the\r\nREPUBLIC, General Leia Organa\r\nleads a brave RESISTANCE.\r\nShe is desperate to find her\r\nbrother Luke and gain his\r\nhelp in restoring peace\r\nand justice to the galaxy.\r\n\r\nLeia has sent her most daring\r\npilot on a secret mission\r\nto Jakku, where an old ally\r\nhas discovered a clue to\r\nLuke's whereabouts....",
+        "characters": [
+            84,
+            1
+        ],
+        "species": [
+        ]
+    },
+    "model": "resources.film",
+    "pk": 7
 }
 ]

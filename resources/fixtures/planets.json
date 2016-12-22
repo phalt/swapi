@@ -1018,5 +1018,22 @@
     },
     "model": "resources.planet",
     "pk": 60
+},
+{
+    "fields": {
+        "edited": "",
+        "climate": "cold",
+        "surface_water": "arid",
+        "name": "Jakku",
+        "diameter": "unknown",
+        "rotation_period": "26.8",
+        "created": "",
+        "terrain": "buttes, desert",
+        "gravity": "unknown",
+        "orbital_period": "352",
+        "population": "unknown <25,000"
+    },
+    "model": "resources.planet",
+    "pk": 61
 }
 ]
