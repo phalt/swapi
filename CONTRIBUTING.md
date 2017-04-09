@@ -4,7 +4,7 @@ Make sure your contribution isn't already a planned feature or has already been 
 
 1. Fork this project.
 
-2. Find an issue to fix or create a new issue if you want to propose a feature. Generally speaking, everyone wants features. I'm only going to merge features that have 2 or more +1, otherwise this project will fill up with lots of randomly stuff.
+2. Find an issue to fix or create a new issue if you want to propose a feature. Generally speaking, everyone wants features. I'm only going to merge features that have 2 or more +1, otherwise this project will fill up with lots of random stuff.
 
 3. Write your codez, make sure you add tests. Check out the "development" section below.
 
