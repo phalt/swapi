@@ -25,8 +25,9 @@
       "description": "The producer(s) of this film."
     },
     "release_date": {
-      "type": "date",
-      "description": "The release date at original creator country." 	
+      "type": "string",
+      "format": "date",
+      "description": "The release date at original creator country."
     },
     "characters": {
       "type": "array",
