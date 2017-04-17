@@ -52,17 +52,20 @@
       "type": "array",
       "description": " An array of Film URL Resources that this species has appeared in."
     },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "The hypermedia URL of this resource."
+    },
     "created": {
       "type": "string",
-      "description": " the ISO 8601 date format of the time that this resource was created."
+      "format": "date-time",
+      "description": "The ISO 8601 date format of the time that this resource was created."
     },
     "edited": {
       "type": "string",
-      "description": "the ISO 8601 date format of the time that this resource was edited."
-    },
-    "url": {
-      "type": "string",
-      "description": "The hypermedia URL of this resource."
+      "format": "date-time",
+      "description": "The ISO 8601 date format of the time that this resource was edited."
     }
   },
   "required": [
@@ -79,6 +82,8 @@
     "species",
     "vehicles",
     "starships",
-    "url"
+    "url",
+    "created",
+    "edited"
   ]
 }
