@@ -25,8 +25,9 @@
       "description": "The producer(s) of this film."
     },
     "release_date": {
-      "type": "date",
-      "description": "The release date at original creator country." 	
+      "type": "string",
+      "format": "date",
+      "description": "The release date at original creator country."
     },
     "characters": {
       "type": "array",
@@ -50,7 +51,18 @@
     },
     "url": {
       "type": "string",
+      "format": "uri",
       "description": "The url of this resource"
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The ISO 8601 date format of the time that this resource was created."
+    },
+    "edited": {
+      "type": "string",
+      "format": "date-time",
+      "description": "the ISO 8601 date format of the time that this resource was edited."
     }
   },
   "required": [
@@ -65,6 +77,8 @@
     "starships",
     "vehicles",
     "species",
-    "url"
+    "url",
+    "created",
+    "edited"
   ]
 }

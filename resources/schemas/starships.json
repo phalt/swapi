@@ -66,14 +66,17 @@
     },
     "url": {
       "type": "string",
+      "format": "uri",
       "description": "The hypermedia URL of this resource."
     },
     "created": {
       "type": "string",
+      "format": "date-time",
       "description": "The ISO 8601 date format of the time that this resource was created."
     },
     "edited": {
       "type": "string",
+      "format": "date-time",
       "description": "the ISO 8601 date format of the time that this resource was edited."
     }
   },
