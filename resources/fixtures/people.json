@@ -1392,5 +1392,22 @@
     },
     "model": "resources.people",
     "pk": 83
+},
+{
+    "fields": {
+        "edited": "",
+        "name": "Rey",
+        "created": "",
+        "gender": "Female",
+        "skin_color": "light",
+        "hair_color": "brown",
+        "height": "170",
+        "eye_color": "hazel",
+        "mass": "75",
+        "homeworld": 61,
+        "birth_year": "15ABY"
+    },
+    "model": "resources.people",
+    "pk": 84
 }
 ]

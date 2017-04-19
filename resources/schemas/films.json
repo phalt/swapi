@@ -51,6 +51,10 @@
     "url": {
       "type": "string",
       "description": "The url of this resource"
+    },
+    "poster": {
+      "type": "string",
+      "description": "Image URL to the film poster."
     }
   },
   "required": [
