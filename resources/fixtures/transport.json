@@ -240,10 +240,10 @@
         "name": "Executor",
         "created": "2014-12-15T12:31:42.547Z",
         "cargo_capacity": "250000000",
-        "passengers": "38,000",
+        "passengers": "38000",
         "max_atmosphering_speed": "n/a",
         "crew": "279,144",
-        "length": "19,000",
+        "length": "19000",
         "model": "Executor-class star dreadnought",
         "cost_in_credits": "1143350000",
         "manufacturer": "Kuat Drive Yards, Fondor Shipyards"
