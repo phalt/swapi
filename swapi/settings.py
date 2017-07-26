@@ -34,6 +34,8 @@ INSTALLED_APPS = (
 ) + CUSTOM_APPS
 
 MIDDLEWARE_CLASSES = (
+    'swapi.middleware.RemoveEtagGzipPostfix',
+    'django.middleware.gzip.GZipMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
