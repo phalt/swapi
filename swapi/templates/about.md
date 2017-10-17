@@ -47,13 +47,13 @@ We're using [stripe](https://stripe.com) to process our donations.
 
 ## Why did you build this?
 
-I built the [Pokémon API](http://pokeapi.co) before I built this. I realised that *if you provide data easily, someone will consume it*. I got bored around Christmas 2014 and decided that I'd take what I learned from PokéAPI and build an API for Star Wars data.
+I built the [Pokémon API](https://pokeapi.co) before I built this. I realised that *if you provide data easily, someone will consume it*. I got bored around Christmas 2014 and decided that I'd take what I learned from PokéAPI and build an API for Star Wars data.
 
 Seeing the release trailer for Episode VII also made me stupidly enthusiastic for Star Wars again.
 
 ## Who are you?
 
-I'm [Paul Hallett](http://phalt.co), an *"API engineer"* who is also super nerdy. I build APIs at [Lyst.com](https://lyst.com)
+I am [Paul Hallett](http://phalt.co), a senior software engineer and an infinitely protean machine.
 
 ## Copyright and stuff?
 
@@ -68,7 +68,7 @@ All data has been freely collected from open sources such as [Wookiepedia](https
 
 SWAPI would not be possible without contributions from the following people:
 
-- [Paul Hallett](http://phalt.co)
+- [Paul Hallett](https://phalt.co)
 - [Owen Hallett](https://github.com/Videocard)
 - [Carvilsi](https://github.com/carvilsi)
 - [Andrea Stagi](https://github.com/astagi)
