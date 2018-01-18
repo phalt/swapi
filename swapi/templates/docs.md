@@ -673,6 +673,7 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 <a name="java"></a>
 ##Java
 
+- [swapi4j-client](https://github.com/swapi4j/swapi4j-client) by [Marcel Overdijk](https://github.com/marceloverdijk).
 - [swapi-java](https://github.com/TheNightPhoenix/SWAPI-JAVA) by [Abdallah Hodieb](https://github.com/TheNightPhoenix).
 
 <a name="golang"></a>
