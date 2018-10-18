@@ -698,6 +698,7 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 ##C Sharp
 
 - [SharpTrooper](https://github.com/olcay/SharpTrooper) by [Olcay Bayram](https://github.com/olcay).
+- [SWapiCSharp](https://github.com/M-Yankov/SWapi-CSharp) by [M-Yankov](https://github.com/M-Yankov/)
 
 <a name="objc"></a>
 ##Objective C
