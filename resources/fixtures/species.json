@@ -72,9 +72,9 @@
 {
     "fields": {
         "edited": "2014-12-20T21:36:42.144Z",
-        "classification": "sentient",
+        "classification": "reptilian",
         "name": "Rodian",
-        "designation": "reptilian",
+        "designation": "sentient",
         "created": "2014-12-10T17:05:26.471Z",
         "eye_colors": "black",
         "people": [
@@ -220,7 +220,7 @@
     "fields": {
         "edited": "2014-12-20T21:36:42.160Z",
         "classification": "unknown",
-        "name": "Neimodian",
+        "name": "Neimoidian",
         "designation": "sentient",
         "created": "2014-12-19T17:07:31.319Z",
         "eye_colors": "red, pink",
