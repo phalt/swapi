@@ -729,3 +729,4 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 
 - [swapi.ex](https://github.com/twhitacre/swapi.ex) by [Tim Whitacre](http://timw.co/).
 - [ex_swapi](https://github.com/mrkjlchvz/ex_swapi) by [Mark Chavez](http://markjoelchavez.com).
+- [elixir-swapi](https://github.com/kylesurowiec/swapi-elixir) by [Kyle Surowiec](https://github.com/kylesurowiec).
