@@ -16,7 +16,7 @@ load_data:
 	python manage.py loaddata films.json
 
 serve:
-	python manage.py runserver
+	python manage.py runserver 0.0.0.0:8080
 
 dump_data:
 	python manage.py dumpdata resources.planet > resources/fixtures/planets.json --indent 4
