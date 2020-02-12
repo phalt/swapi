@@ -1,4 +1,4 @@
-Django==1.7.4
+Django==1.11.28
 Padding==0.4
 SQLAlchemy==0.9.8
 dj-database-url==0.3.0
