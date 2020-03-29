@@ -669,6 +669,7 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 ##Android
 
 - [SWAPI-Android-SDK](https://github.com/Oleur/SWAPI-Android-SDK) by [Julien Salvi](https://github.com/Oleur).
+- [swapi-android (with Kotlin Coroutines)](https://github.com/gotev/swapi-android) by [Alex Gotev](https://github.com/gotev)
 
 <a name="java"></a>
 ##Java
