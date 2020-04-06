@@ -10,7 +10,7 @@
     },
     "height": {
       "type": "string",
-      "description": "The height of this person in meters."
+      "description": "The height of this person in centrimeters."
     },
     "mass": {
       "type": "string",
