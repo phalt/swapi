@@ -196,6 +196,16 @@ class TestAllEndpoints(TestCase):
         self.assertEqual(
             self.get_query("/api/").status_code, 304)
 
+    def test_etag_gzip(self):
+        response = self.client.get("/api/", HTTP_ACCEPT_ENCODING="gzip")
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response["Content-Encoding"], "gzip")
+        etag = response["ETag"]
+        self.assertNotRegexpMatches(etag, ";gzip$")
+        self.client.defaults["HTTP_IF_NONE_MATCH"] = etag
+        self.assertEqual(
+            self.get_query("/api/").status_code, 304)
+
     def test_wookie_renderer(self):
         wookiee_renderer = WookieeRenderer()
         translated_data = wookiee_renderer.translate_to_wookie("swapi")
