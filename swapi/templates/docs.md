@@ -201,7 +201,7 @@ A People resource is an individual person or character within the Star Wars univ
 - ```eye_color``` *string*
 -- The eye color of this person. Will be "unknown" if not known or "n/a" if the person does not have an eye.
 - ```gender``` *string*
--- The gender of this person. Either "Male", "Female" or "unknown", "n/a" if the person does not have a gender.
+-- The gender of this person. Either "male", "female" or "hermaphrodite". Will be "unknown" if not known or "n/a" if the person does not have a gender.
 - ```hair_color``` *string*
 -- The hair color of this person. Will be "unknown" if not known or "n/a" if the person does not have hair.
 - ```height``` *string*
