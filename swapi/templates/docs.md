@@ -15,7 +15,7 @@ Let's make our first API request to the Star Wars API!
 
 Open up a terminal and use [curl](http://curl.haxx.se) or [httpie](http://httpie.org) to make an API request for a resource. In the example below, we're trying to get the first planet, Tatooine:
 
-    http swapi.co/api/planets/1/
+    http swapi.dev/api/planets/1/
 
 We'll use [httpie](http://httpie.org) for our examples as it displays responses nicely and gives us a whole lot more useful information. If you don't want to download httpie, just use the *curl* command instead.
 
@@ -31,14 +31,14 @@ Here is the response we get:
         "orbital_period": "304",
         "population": "200000",
         "residents": [
-            "https://swapi.co/api/people/1/",
-            "https://swapi.co/api/people/2/",
+            "https://swapi.dev/api/people/1/",
+            "https://swapi.dev/api/people/2/",
             ...
         ],
         "rotation_period": "23",
         "surface_water": "1",
         "terrain": "Dessert",
-        "url": "https://swapi.co/api/planets/1/"
+        "url": "https://swapi.dev/api/planets/1/"
     }
 
 If your response looks slightly different don't panic. This is probably because more data has been added to swapi since we made this documentation.
@@ -50,7 +50,7 @@ The **Base URL** is the root URL for all of the API, if you ever make a request 
 
 The Base URL for swapi is:
 
-    https://swapi.co/api/
+    https://swapi.dev/api/
 
 The documentation below assumes you are prepending the Base URL to the endpoints in order to make requests.
 
@@ -75,7 +75,7 @@ All resources support [JSON Schema](https://jsonschema.net). Making a request to
 All resources support a `search` parameter that filters the set of resources returned.  This allows you to make queries like:
 
 ```
-https://swapi.co/api/people/?search=r2
+https://swapi.dev/api/people/?search=r2
 ```
 
  All searches will use case-insensitive partial matches on the set of search fields. To see the set of search fields for each resource, check out the individual resource documentation. For more information on advanced search terms see [here](http://www.django-rest-framework.org/api-guide/filtering/#searchfilter).
@@ -98,7 +98,7 @@ Wookiee is for our tall hairy allies who speak Wookiee, this encoding is identic
 Using the wookiee renderer is easy, just append `?format=wookiee` to your urls:
 
 ```
-https://swapi.co/api/planets/1/?format=wookiee
+https://swapi.dev/api/planets/1/?format=wookiee
 ```
 
 #Resources
@@ -111,19 +111,19 @@ The Root resource provides information on all available resources within the API
 
 **Example request:**
 
-    http https://swapi.co/api/
+    http https://swapi.dev/api/
 
 **Example response:**
 
     HTTP/1.0 200 OK
     Content-Type: application/json
     {
-        "films": "https://swapi.co/api/films/",
-        "people": "https://swapi.co/api/people/",
-        "planets": "https://swapi.co/api/planets/",
-        "species": "https://swapi.co/api/species/",
-        "starships": "https://swapi.co/api/starships/",
-        "vehicles": "https://swapi.co/api/vehicles/"
+        "films": "https://swapi.dev/api/films/",
+        "people": "https://swapi.dev/api/people/",
+        "planets": "https://swapi.dev/api/planets/",
+        "species": "https://swapi.dev/api/species/",
+        "starships": "https://swapi.dev/api/starships/",
+        "vehicles": "https://swapi.dev/api/vehicles/"
     }
 
 **Attributes:**
@@ -156,7 +156,7 @@ A People resource is an individual person or character within the Star Wars univ
 
 **Example request:**
 
-    http https://swapi.co/api/people/1/
+    http https://swapi.dev/api/people/1/
 
 **Example response:**
 
@@ -166,28 +166,28 @@ A People resource is an individual person or character within the Star Wars univ
         "birth_year": "19 BBY",
         "eye_color": "Blue",
         "films": [
-            "https://swapi.co/api/films/1/",
+            "https://swapi.dev/api/films/1/",
             ...
         ],
         "gender": "Male",
         "hair_color": "Blond",
         "height": "172",
-        "homeworld": "https://swapi.co/api/planets/1/",
+        "homeworld": "https://swapi.dev/api/planets/1/",
         "mass": "77",
         "name": "Luke Skywalker",
         "skin_color": "Fair",
         "created": "2014-12-09T13:50:51.644000Z",
         "edited": "2014-12-10T13:52:43.172000Z",
         "species": [
-            "https://swapi.co/api/species/1/"
+            "https://swapi.dev/api/species/1/"
         ],
         "starships": [
-            "https://swapi.co/api/starships/12/",
+            "https://swapi.dev/api/starships/12/",
             ...
         ],
-        "url": "https://swapi.co/api/people/1/",
+        "url": "https://swapi.dev/api/people/1/",
         "vehicles": [
-            "https://swapi.co/api/vehicles/14/"
+            "https://swapi.dev/api/vehicles/14/"
             ...
         ]
     }
@@ -245,7 +245,7 @@ A Film resource is a single film.
 
 **Example request:**
 
-    http https://swapi.co/api/films/1/
+    http https://swapi.dev/api/films/1/
 
 **Example response:**
 
@@ -253,7 +253,7 @@ A Film resource is a single film.
     Content-Type: application/json
     {
         "characters": [
-            "https://swapi.co/api/people/1/",
+            "https://swapi.dev/api/people/1/",
             ...
         ],
         "created": "2014-12-10T14:23:31.880000Z",
@@ -262,23 +262,23 @@ A Film resource is a single film.
         "episode_id": 4,
         "opening_crawl": "It is a period of civil war.\n\nRebel spaceships, striking\n\nfrom a hidden base, have won\n\ntheir first victory against\n\nthe evil Galactic Empire.\n\n\n\nDuring the battle, Rebel\n\nspies managed to steal secret\r\nplans to the Empire's\n\nultimate weapon, the DEATH\n\nSTAR, an armored space\n\nstation with enough power\n\nto destroy an entire planet.\n\n\n\nPursued by the Empire's\n\nsinister agents, Princess\n\nLeia races home aboard her\n\nstarship, custodian of the\n\nstolen plans that can save her\n\npeople and restore\n\nfreedom to the galaxy....",
         "planets": [
-            "https://swapi.co/api/planets/1/",
+            "https://swapi.dev/api/planets/1/",
             ...
         ],
         "producer": "Gary Kurtz, Rick McCallum",
         "release_date": "1977-05-25",
         "species": [
-            "https://swapi.co/api/species/1/",
+            "https://swapi.dev/api/species/1/",
             ...
         ],
         "starships": [
-            "https://swapi.co/api/starships/2/",
+            "https://swapi.dev/api/starships/2/",
             ...
         ],
         "title": "A New Hope",
-        "url": "https://swapi.co/api/films/1/",
+        "url": "https://swapi.dev/api/films/1/",
         "vehicles": [
-            "https://swapi.co/api/vehicles/4/",
+            "https://swapi.dev/api/vehicles/4/",
             ...
         ]
     }
@@ -332,7 +332,7 @@ A Starship resource is a single transport craft that has hyperdrive capability.
 
 **Example request:**
 
-    http https://swapi.co/api/starships/9/
+    http https://swapi.dev/api/starships/9/
 
 **Example response:**
 
@@ -354,11 +354,11 @@ A Starship resource is a single transport craft that has hyperdrive capability.
         "name": "Death Star",
         "passengers": "843342",
         "films": [
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/1/"
         ],
         "pilots": [],
         "starship_class": "Deep Space Mobile Battlestation",
-        "url": "https://swapi.co/api/starships/9/"
+        "url": "https://swapi.dev/api/starships/9/"
     }
 
 **Attributes:**
@@ -419,7 +419,7 @@ A Vehicle resource is a single transport craft that **does not have** hyperdrive
 
 **Example request:**
 
-    http https://swapi.co/api/vehicles/4/
+    http https://swapi.dev/api/vehicles/4/
 
 **Example response:**
 
@@ -441,9 +441,9 @@ A Vehicle resource is a single transport craft that **does not have** hyperdrive
         "passengers": "30",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/1/"
         ],
-        "url": "https://swapi.co/api/vehicles/4/",
+        "url": "https://swapi.dev/api/vehicles/4/",
         "vehicle_class": "wheeled"
     }
 
@@ -501,7 +501,7 @@ A Species resource is a type of person or character within the Star Wars Univers
 
 **Example request:**
 
-    http https://swapi.co/api/species/3/
+    http https://swapi.dev/api/species/3/
 
 **Example response:**
 
@@ -517,18 +517,18 @@ A Species resource is a type of person or character within the Star Wars Univers
         "edited": "2014-12-10T16:44:31.486000Z",
         "eye_colors": "blue, green, yellow, brown, golden, red",
         "hair_colors": "black, brown",
-        "homeworld": "https://swapi.co/api/planets/14/",
+        "homeworld": "https://swapi.dev/api/planets/14/",
         "language": "Shyriiwook",
         "name": "Wookie",
         "people": [
-            "https://swapi.co/api/people/13/"
+            "https://swapi.dev/api/people/13/"
         ],
         "films": [
-            "https://swapi.co/api/films/1/",
-            "https://swapi.co/api/films/2/"
+            "https://swapi.dev/api/films/1/",
+            "https://swapi.dev/api/films/2/"
         ],
         "skin_colors": "gray",
-        "url": "https://swapi.co/api/species/3/"
+        "url": "https://swapi.dev/api/species/3/"
     }
 
 **Attributes:**
@@ -582,7 +582,7 @@ A Planet resource is a large mass, planet or planetoid in the Star Wars Universe
 
 **Example request:**
 
-    http https://swapi.co/api/planets/1/
+    http https://swapi.dev/api/planets/1/
 
 **Example response:**
 
@@ -595,7 +595,7 @@ A Planet resource is a large mass, planet or planetoid in the Star Wars Universe
         "diameter": "10465",
         "edited": "2014-12-15T13:48:16.167217Z",
         "films": [
-            "https://swapi.co/api/films/1/",
+            "https://swapi.dev/api/films/1/",
             ...
         ],
         "gravity": "1",
@@ -603,13 +603,13 @@ A Planet resource is a large mass, planet or planetoid in the Star Wars Universe
         "orbital_period": "304",
         "population": "120000",
         "residents": [
-            "https://swapi.co/api/people/1/",
+            "https://swapi.dev/api/people/1/",
             ...
         ],
         "rotation_period": "23",
         "surface_water": "1",
         "terrain": "Dessert",
-        "url": "https://swapi.co/api/planets/1/"
+        "url": "https://swapi.dev/api/planets/1/"
     }
 
 **Attributes:**
