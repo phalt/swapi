@@ -1,5 +1,6 @@
 
 install:
+	apt install postgresql postgresql-server-dev-all gcc python-dev libmemcached-dev zlib1g-dev
 	pip install -r requirements.txt
 
 build:

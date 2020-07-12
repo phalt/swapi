@@ -18,7 +18,7 @@ drf-json-api==0.1.0
 gunicorn==19.1.1
 keen==0.3.7
 markdown2==2.3.0
-psycopg2==2.5.4
+psycopg2-binary
 pycrypto==2.6.1
 pylibmc==1.4.1
 requests==2.5.1
