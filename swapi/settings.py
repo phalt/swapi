@@ -1,7 +1,6 @@
 import os
-import dj_database_url
 
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = os.environ.get(
     'SECRET_KEY',
@@ -14,35 +13,35 @@ KEEN_DEBUG = bool(os.environ.get('DEBUG', True))
 
 TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = []
-
-CUSTOM_APPS = (
+CUSTOM_APPS = [
     'resources',
     'rest_framework',
     'markdown_deux',
     'corsheaders',
     'clear_cache',
-)
+]
 
-INSTALLED_APPS = (
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.humanize',
-    'django.contrib.staticfiles',
-) + CUSTOM_APPS
+INSTALLED_APPS = [
+     'django.contrib.admin',
+     'django.contrib.auth',
+     'django.contrib.contenttypes',
+     'django.contrib.sessions',
+     'django.contrib.messages',
+     'django.contrib.staticfiles',
+     'django.contrib.humanize',
+ ] + CUSTOM_APPS
 
-MIDDLEWARE_CLASSES = (
+MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-)
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.security.SecurityMiddleware',
+]
 
 ROOT_URLCONF = 'swapi.urls'
 
@@ -62,36 +61,49 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
-if not DEBUG:
-    DATABASES['default'] =  dj_database_url.config()
-
-    DATABASES['default']['ENGINE'] = 'django_postgrespool'
+# if not DEBUG:
+#     DATABASES['default'] = dj_database_url.config()
+#
+#     DATABASES['default']['ENGINE'] = 'django_postgrespool'
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 ALLOWED_HOSTS = ['*']
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-STATIC_ROOT = 'staticfiles'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'templates'),
-)
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates')
+        ],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
 
-CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.memcached.PyLibMCCache',
-        'TIMEOUT': 60
-    }
-}
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django.core.cache.backends.memcached.PyLibMCCache',
+#         'TIMEOUT': 60
+#     }
+# }
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Markdown
 
@@ -140,12 +152,12 @@ STRIPE_TEST_PUBLISHABLE_KEY = os.environ.get('STRIPE_TEST_PUBLISHABLE_KEY', '')
 
 if DEBUG:
     STRIPE_KEYS = {
-        "secret" :STRIPE_TEST_SECRET_KEY,
+        "secret": STRIPE_TEST_SECRET_KEY,
         "publishable": STRIPE_TEST_PUBLISHABLE_KEY
     }
 else:
     STRIPE_KEYS = {
-        "secret" :STRIPE_SECRET_KEY,
+        "secret": STRIPE_SECRET_KEY,
         "publishable": STRIPE_PUBLISHABLE_KEY
     }
 
@@ -154,14 +166,5 @@ else:
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_URLS_REGEX = r'^/api/.*$'
 CORS_ALLOW_METHODS = (
-        'GET',
-    )
-
-# Memcache
-
-from memcacheify import memcacheify
-
-CACHES = memcacheify()
-
-
-APPEND_SLASH = True
+    'GET',
+)
