@@ -1,13 +1,11 @@
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.urls import path
-
-from .views import index, documentation, about, stats, stripe_donation
-from resources import schemas
-
 from rest_framework import routers
 
+from resources import schemas
 from resources import views
+from .views import index, documentation, about, stats, stripe_donation
 
 router = routers.DefaultRouter()
 
