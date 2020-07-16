@@ -5,8 +5,6 @@ from django.urls import path
 from .views import index, documentation, about, stats, stripe_donation
 from resources import schemas
 
-admin.autodiscover()
-
 from rest_framework import routers
 
 from resources import views
