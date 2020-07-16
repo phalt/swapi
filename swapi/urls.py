@@ -1,4 +1,4 @@
-from django.conf.urls import url, include
+from django.conf.urls import include
 from django.contrib import admin
 from django.urls import path
 from rest_framework import routers
@@ -29,5 +29,5 @@ urlpatterns = [
     path("api/species/schema", schemas.species),
     path("api/vehicles/schema", schemas.vehicles),
     path("api/starships/schema", schemas.starships),
-    url(r"^api/", include(router.urls)),
+    path("api/", include(router.urls)),
 ]
