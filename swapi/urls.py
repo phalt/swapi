@@ -21,6 +21,7 @@ router.register(r"vehicles", views.VehicleViewSet)
 router.register(r"starships", views.StarshipViewSet)
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
     path("", index),
     path("documentation", documentation),
     path("about", about),
