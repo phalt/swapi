@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 
-from django.shortcuts import render_to_response, redirect
+from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_exempt
 from django.core.cache import cache
 from django.conf import settings
@@ -14,18 +14,12 @@ DEFAULT_HITS = 50000
 
 
 def index(request):
-
     stripe_key = settings.STRIPE_KEYS['publishable']
-    return render_to_response(
-        'index.html',
-        {
-            "stripe_key": stripe_key
-        }
-    )
+    return render(request, 'index.html', {"stripe_key": stripe_key})
 
 
 def documentation(request):
-    return render_to_response("documentation.html")
+    return render(request, "documentation.html")
 
 
 def about(request):
@@ -35,7 +29,7 @@ def about(request):
         data = get_resource_stats()
         cache.set('resource_data', data, 10000)
     data['stripe_key'] = stripe_key
-    return render_to_response(
+    return render(request,
         "about.html",
         data
     )
@@ -73,7 +67,7 @@ def stats(request):
     data = {}
     data['keen_project_id'] = settings.KEEN_PROJECT_ID
     data['keen_read_key'] = settings.KEEN_READ_KEY
-    return render_to_response(
+    return render(request,
         'stats.html',
         data
     )
