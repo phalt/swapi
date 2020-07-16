@@ -5,6 +5,7 @@ from django.contrib import admin
 from django.urls import path
 
 from .views import index, documentation, about, stats, stripe_donation
+from resources import schemas
 
 admin.autodiscover()
 
@@ -27,11 +28,11 @@ urlpatterns = [
     path("about", about),
     path("stats", stats),
     path("stripe/donation", stripe_donation),
-    # url(r"^api/people/schema$", "resources.schemas.people"),
-    # url(r"^api/planets/schema$", "resources.schemas.planets"),
-    # url(r"^api/films/schema$", "resources.schemas.films"),
-    # url(r"^api/species/schema$", "resources.schemas.species"),
-    # url(r"^api/vehicles/schema$", "resources.schemas.vehicles"),
-    # url(r"^api/starships/schema$", "resources.schemas.starships"),
-    path("api/", include(router.urls)),
+    path("api/people/schema", schemas.people),
+    path("api/planets/schema", schemas.planets),
+    path("api/films/schema", schemas.films),
+    path("api/species/schema", schemas.species),
+    path("api/vehicles/schema", schemas.vehicles),
+    path("api/starships/schema", schemas.starships),
+    url(r"^api/", include(router.urls)),
 ]
