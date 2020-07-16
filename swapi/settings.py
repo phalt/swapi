@@ -40,6 +40,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.http.ConditionalGetMiddleware',
     'django.middleware.security.SecurityMiddleware',
 ]
 
@@ -96,12 +97,13 @@ TEMPLATES = [
     },
 ]
 
-# CACHES = {
-#     'default': {
-#         'BACKEND': 'django.core.cache.backends.memcached.PyLibMCCache',
-#         'TIMEOUT': 60
-#     }
-# }
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+        'TIMEOUT': 60
+    }
+}
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
@@ -133,7 +135,9 @@ REST_FRAMEWORK = {
     },
     'DEFAULT_FILTER_BACKENDS': (
         'rest_framework.filters.SearchFilter',
-    )
+    ),
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 10,
 }
 
 # Keen.io
