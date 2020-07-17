@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
+from django.views.decorators.cache import cache_page
 from django.views.decorators.csrf import csrf_exempt
-from django.core.cache import cache
 from django.conf import settings
 from django.contrib.auth.decorators import login_required
 
@@ -11,14 +11,17 @@ from resources.utils import get_resource_stats
 DEFAULT_HITS = 50000
 
 
+@cache_page(60 * 60)
 def index(request):
     return render(request, 'index.html')
 
 
+@cache_page(120 * 60)
 def documentation(request):
     return render(request, "documentation.html")
 
 
+@cache_page(120 * 60)
 def about(request):
     data = get_resource_stats()
     return render(request, "about.html", data)
