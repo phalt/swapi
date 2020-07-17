@@ -19,10 +19,10 @@ router.register(r"starships", views.StarshipViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", index),
-    path("documentation", documentation),
-    path("about", about),
-    path("stats", stats),
+    path("", index, name="homepage"),
+    path("documentation", documentation, name="documentation"),
+    path("about", about, name="about"),
+    path("stats", stats, name="statistics"),
     path("stripe/donation", stripe_donation, name="donation"),
     path("api/people/schema", schemas.people),
     path("api/planets/schema", schemas.planets),
@@ -30,7 +30,7 @@ urlpatterns = [
     path("api/species/schema", schemas.species),
     path("api/vehicles/schema", schemas.vehicles),
     path("api/starships/schema", schemas.starships),
-    path("api/", include(router.urls)),
+    path("api/", include(router.urls), name="api"),
 ]
 
 if settings.DEBUG:
