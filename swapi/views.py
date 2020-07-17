@@ -20,10 +20,7 @@ def documentation(request):
 
 
 def about(request):
-    data = cache.get('resource_data')
-    if not data:
-        data = get_resource_stats()
-        cache.set('resource_data', data, 10000)
+    data = get_resource_stats()
     return render(request, "about.html", data)
 
 
