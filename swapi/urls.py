@@ -23,7 +23,7 @@ urlpatterns = [
     path("documentation", documentation),
     path("about", about),
     path("stats", stats),
-    path("stripe/donation", stripe_donation),
+    path("stripe/donation", stripe_donation, name="donation"),
     path("api/people/schema", schemas.people),
     path("api/planets/schema", schemas.planets),
     path("api/films/schema", schemas.films),
