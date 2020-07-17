@@ -1,5 +1,3 @@
-from __future__ import unicode_literals
-
 from .models import (
     People,
     Planet,
@@ -8,6 +6,7 @@ from .models import (
     Vehicle,
     Starship,
 )
+
 
 def get_resource_stats():
     return {
