@@ -17,6 +17,7 @@ CUSTOM_APPS = [
     'markdown_deux',
     'corsheaders',
     'clear_cache',
+    'debug_toolbar',
 ]
 
 INSTALLED_APPS = [
@@ -30,6 +31,7 @@ INSTALLED_APPS = [
  ] + CUSTOM_APPS
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -165,3 +167,9 @@ CORS_URLS_REGEX = r'^/api/.*$'
 CORS_ALLOW_METHODS = (
     'GET',
 )
+
+# Django Debug Toolbar
+INTERNAL_IPS = [
+    '127.0.0.1',
+    'localhost',
+]
