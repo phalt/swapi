@@ -12,8 +12,7 @@ DEFAULT_HITS = 50000
 
 
 def index(request):
-    stripe_key = settings.STRIPE_KEYS['publishable']
-    return render(request, 'index.html', {"stripe_key": stripe_key})
+    return render(request, 'index.html')
 
 
 def documentation(request):
