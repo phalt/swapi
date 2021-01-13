@@ -665,6 +665,11 @@ There are a bunch of helper libraries available for consuming the Star Wars API 
 - [SWAPI-Wrapper](https://github.com/cfjedimaster/SWAPI-Wrapper) By [Raymond Camden](https://github.com/cfjedimaster).
 - [swapi-node](https://www.npmjs.com/package/swapi-node) by [Lucas Holmquist](https://github.com/lholmquist).
 
+<a name="typescript"></a>
+##Typescript
+
+- [swapi-ts](https://github.com/amitmtrn/swapi-ts) by [Amit Choukroun](https://github.com/amitmtrn)
+
 <a name="android"></a>
 ##Android
 
