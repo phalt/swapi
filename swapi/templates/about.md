@@ -9,7 +9,7 @@ We've formatted this data in [**JSON**](https://json.org) and exposed it to you 
 [Check out the documentation to get started consuming swapi data](/documentation)
 
 ## What happened to swapi.co?
-Unfortulately swapi.co is not maintained anymore, and the service is currently down. This is an branch of SWAPI that will be supported going forward.
+Unfortulately swapi.co is not maintained anymore, and the service is currently down. This is a branch of SWAPI that will be supported going forward.
 
 
 ## What can you use this for?
