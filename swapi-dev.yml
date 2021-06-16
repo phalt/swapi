@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+
+  # Database
+  db:
+    image: postgres:9.6
+    restart: always
+    networks:
+      - db_net
+    ports:
+      - target: 5432
+        published: 5432
+        protocol: tcp
+        mode: host
+    environment:
+      POSTGRES_USER: myswapiuser
+      POSTGRES_PASSWORD: myswapipass
+      POSTGRES_DB: myswapi
+
+  adminer:
+    image: adminer
+    restart: always
+    networks:
+      - db_net
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+        mode: host
+    environment:
+      ADMINER_DESIGN: mvt
+      ADMINER_DEFAULT_SERVER: db
+
+  swapi-server:
+    image: swapi-test
+    restart: always
+    networks:
+      - db_net
+    ports:
+      - target: 8000
+        published: 9090
+        protocol: tcp
+        mode: host
+    environment:
+      DEBUG: ""
+      DATABASE_URL: postgres://myswapiuser:myswapipass@db/myswapi
+    depends_on:
+      - db
+
+networks:
+  db_net:
+    name: db_net
+    driver: overlay
+    ipam:
+      config:
+        - subnet: 172.74.3.0/24
