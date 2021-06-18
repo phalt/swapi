@@ -8,10 +8,11 @@
         "created": "2014-12-10T13:52:11.567Z",
         "eye_colors": "brown, blue, green, hazel, grey, amber",
         "people": [
-            66,
-            67,
-            68,
-            74
+            1, 4, 5, 6, 7, 9, 10, 11, 12,
+            14, 18, 19, 21, 22, 25, 26, 28,
+            29, 32, 34, 35, 39, 42, 43, 51,
+            60, 61, 62, 66, 67, 68, 69, 74,
+            81, 82
         ],
         "skin_colors": "caucasian, black, asian, hispanic",
         "language": "Galactic Basic",

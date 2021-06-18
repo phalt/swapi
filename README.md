@@ -1,8 +1,16 @@
 # SWAPI
-## The Star Wars API
+## The Star Wars API 
 
-## NO LONGER MAINTAINED!
+Source code for [swapi.dev](https://swapi.dev)
 
-If you rely on this project for your own tools - then please fork and spin up your own instance. It's a pretty simple project, and the Makefile will take you a long way.
 
-If you are looking for an API to play with to learn about APIs, then I recommend [https://pokeapi.co](https://pokeapi.co).
+## What happened to swapi.co? 
+Unfortunately swapi.co is not maintained anymore. 
+
+## What is swapi.dev? 
+An "unofficial" branch of "swapi", supported by @juriy
+
+
+## Will it be updated?
+Original swapi project is built on Python/Django stack that is quite outdated by now. It would be a great exercise to rewrite it in cloud-native manner, but this requires time and effort. I'm looking into doing that. There's no timelines yet, since "swapi" stopped its existence quite suddenly. Suggestions and help are always welcome!
+

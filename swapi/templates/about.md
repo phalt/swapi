@@ -8,6 +8,10 @@ We've formatted this data in [**JSON**](https://json.org) and exposed it to you 
 
 [Check out the documentation to get started consuming swapi data](/documentation)
 
+## What happened to swapi.co?
+Unfortulately swapi.co is not maintained anymore, and the service is currently down. This is a branch of SWAPI that will be supported going forward.
+
+
 ## What can you use this for?
 
 Comparing the data from Star Wars has never been easier. Here are some examples using the [Python helper library](/documentation#python)
@@ -40,20 +44,17 @@ Comparing the data from Star Wars has never been easier. Here are some examples 
 ## What are the features?
 
 We're using [Django](https://djangoproject.com) and [Django REST Framework](https://django-rest-framework.org) to serve a [RESTish](https://en.wikipedia.org/wiki/REST) API to you.
-
 The data is all formatted in [JSON](http://json.org) and we also support [JSON Schema](http://jsonschema.net) for programmatically understanding the attributes of each resource.
-
-We're using [stripe](https://stripe.com) to process our donations.
-
-## Why did you build this?
-
-I built the [Pokémon API](https://pokeapi.co) before I built this. I realised that *if you provide data easily, someone will consume it*. I got bored around Christmas 2014 and decided that I'd take what I learned from PokéAPI and build an API for Star Wars data.
 
 Seeing the release trailer for Episode VII also made me stupidly enthusiastic for Star Wars again.
 
 ## Who are you?
 
-I am [Paul Hallett](http://phalt.co), a senior software engineer and an infinitely protean machine.
+I am [Juriy Bura](https://github.com/juriy), Solution Architect and author of JavaScript game development book and online React courses.
+
+## Original author?
+
+This project was originally built and maintained by [Paul Hallett](http://phalt.co).
 
 ## Copyright and stuff?
 
@@ -72,3 +73,4 @@ SWAPI would not be possible without contributions from the following people:
 - [Owen Hallett](https://github.com/Videocard)
 - [Carvilsi](https://github.com/carvilsi)
 - [Andrea Stagi](https://github.com/astagi)
+- [Juriy Bura](https://github.com/juriy)
